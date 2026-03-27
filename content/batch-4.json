@@ -1,0 +1,213 @@
+[
+  {
+    "id": 41,
+    "title": "Long COVID and New-Onset Tinnitus Research",
+    "slug": "long-covid-and-new-onset-tinnitus-research",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-30",
+    "faqCount": 2,
+    "backlinkType": "external",
+    "openerType": "provocation",
+    "conclusionType": "challenge",
+    "phrases": [
+      "Consciousness doesn't arrive. It's what's left when everything else quiets down.",
+      "Most people don't fear change. They fear the gap between who they were and who they haven't become yet.",
+      "At a certain depth of inquiry, the distinction between psychology and philosophy dissolves entirely."
+    ],
+    "researcher": "Susan Shore",
+    "externalSite": "https://www.mayoclinic.org",
+    "isSpiritual": false
+  },
+  {
+    "id": 42,
+    "title": "The Microbiome-Gut-Brain-Ear Axis Hypothesis",
+    "slug": "the-microbiome-gut-brain-ear-axis-hypothesis",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-30",
+    "faqCount": 3,
+    "backlinkType": "external",
+    "openerType": "gut-punch",
+    "conclusionType": "tender",
+    "phrases": [
+      "When you stop trying to fix the moment, something remarkable happens — the moment becomes workable.",
+      "Your nervous system doesn't care about your philosophy. It cares about what happened at three years old.",
+      "The gap between stimulus and response is where your entire life lives."
+    ],
+    "researcher": "Sam Harris",
+    "externalSite": "https://www.asha.org",
+    "isSpiritual": true
+  },
+  {
+    "id": 43,
+    "title": "Oxidative Stress and Free Radical Damage in the Cochlea",
+    "slug": "oxidative-stress-and-free-radical-damage-in-the-cochlea",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-30",
+    "faqCount": 4,
+    "backlinkType": "internal",
+    "openerType": "question",
+    "conclusionType": "tender",
+    "phrases": [
+      "The wellness industry sells solutions to problems it helps you believe you have.",
+      "You don't arrive at peace. You stop walking away from it.",
+      "The breath doesn't need your management. It needs your companionship.",
+      "The body remembers what the mind would prefer to file away.",
+      "Complexity is the ego's favorite hiding place."
+    ],
+    "researcher": "Pawel Jastreboff",
+    "externalSite": "https://www.health.harvard.edu",
+    "isSpiritual": false
+  },
+  {
+    "id": 44,
+    "title": "How Sleep Deprivation Intensifies Tinnitus Perception",
+    "slug": "how-sleep-deprivation-intensifies-tinnitus-perception",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-30",
+    "faqCount": 2,
+    "backlinkType": "external",
+    "openerType": "named-reference",
+    "conclusionType": "challenge",
+    "phrases": [
+      "Silence is not the absence of noise. It's the presence of attention.",
+      "There's a meaningful difference between self-improvement and self-understanding. One adds. The other reveals.",
+      "The mind is not the enemy. The identification with it is.",
+      "The space between knowing something intellectually and knowing it in your body is where all the real work happens.",
+      "Your nervous system doesn't care about your philosophy. It cares about what happened at three years old."
+    ],
+    "researcher": "Sam Harris",
+    "externalSite": "https://www.mayoclinic.org",
+    "isSpiritual": true
+  },
+  {
+    "id": 45,
+    "title": "The Circadian Rhythm and Tinnitus Fluctuation Patterns",
+    "slug": "the-circadian-rhythm-and-tinnitus-fluctuation-patterns",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-30",
+    "faqCount": 3,
+    "backlinkType": "external",
+    "openerType": "gut-punch",
+    "conclusionType": "tender",
+    "phrases": [
+      "The body has a grammar. Most of us never learned to read it.",
+      "Freedom is not the absence of constraint. It's the capacity to choose your relationship to it.",
+      "The gap between stimulus and response is where your entire life lives."
+    ],
+    "researcher": "Sadhguru",
+    "externalSite": "https://pubmed.ncbi.nlm.nih.gov",
+    "isSpiritual": true
+  },
+  {
+    "id": 46,
+    "title": "Hormonal Changes and Tinnitus in Women",
+    "slug": "hormonal-changes-and-tinnitus-in-women",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-31",
+    "faqCount": 5,
+    "backlinkType": "kalesh",
+    "openerType": "scene-setting",
+    "conclusionType": "tender",
+    "phrases": [
+      "You cannot think your way into a felt sense of safety. The body has its own logic.",
+      "Embodiment is not a technique. It's what happens when you stop living exclusively in your head.",
+      "Information without integration is just intellectual hoarding.",
+      "What we call 'the present moment' is not a place you go. It's the only place you've ever been."
+    ],
+    "researcher": "Laurence McKenna",
+    "externalSite": "https://www.health.harvard.edu",
+    "isSpiritual": false
+  },
+  {
+    "id": 47,
+    "title": "Pregnancy-Related Tinnitus and What Causes It",
+    "slug": "pregnancy-related-tinnitus-and-what-causes-it",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-31",
+    "faqCount": 3,
+    "backlinkType": "internal",
+    "openerType": "gut-punch",
+    "conclusionType": "tender",
+    "phrases": [
+      "The nervous system doesn't respond to what you believe. It responds to what it senses.",
+      "Silence is not the absence of noise. It's the presence of attention.",
+      "You don't arrive at peace. You stop walking away from it.",
+      "Attention is the most undervalued resource you have. Everything else follows from where you place it."
+    ],
+    "researcher": "Hubert Lim",
+    "externalSite": "https://www.bta.org.uk",
+    "isSpiritual": false
+  },
+  {
+    "id": 48,
+    "title": "The Thyroid Connection to Tinnitus Symptoms",
+    "slug": "the-thyroid-connection-to-tinnitus-symptoms",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-31",
+    "faqCount": 2,
+    "backlinkType": "kalesh",
+    "openerType": "named-reference",
+    "conclusionType": "challenge",
+    "phrases": [
+      "Every moment of genuine attention is a small act of liberation.",
+      "The mind is not the enemy. The identification with it is.",
+      "The self you're trying to improve is the same self doing the improving. Notice the circularity.",
+      "The research is clear on this, and it contradicts almost everything popular culture teaches.",
+      "You don't arrive at peace. You stop walking away from it."
+    ],
+    "researcher": "Susan Shore",
+    "externalSite": "https://pubmed.ncbi.nlm.nih.gov",
+    "isSpiritual": false
+  },
+  {
+    "id": 49,
+    "title": "Diabetes and Its Impact on Auditory Function",
+    "slug": "diabetes-and-its-impact-on-auditory-function",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-31",
+    "faqCount": 0,
+    "backlinkType": "external",
+    "openerType": "provocation",
+    "conclusionType": "tender",
+    "phrases": [
+      "Every resistance is information. The question is whether you're willing to read it.",
+      "The mind is not the enemy. The identification with it is.",
+      "The research is clear on this, and it contradicts almost everything popular culture teaches.",
+      "Every moment of genuine attention is a small act of liberation.",
+      "You don't arrive at peace. You stop walking away from it."
+    ],
+    "researcher": "Tara Brach",
+    "externalSite": "https://pubmed.ncbi.nlm.nih.gov",
+    "isSpiritual": true
+  },
+  {
+    "id": 50,
+    "title": "Iron Deficiency Anemia and Tinnitus Correlation",
+    "slug": "iron-deficiency-anemia-and-tinnitus-correlation",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-31",
+    "faqCount": 4,
+    "backlinkType": "external",
+    "openerType": "provocation",
+    "conclusionType": "tender",
+    "phrases": [
+      "Sit with it long enough and even the worst feeling reveals its edges.",
+      "Freedom is not the absence of constraint. It's the capacity to choose your relationship to it.",
+      "The contemplative traditions all point to the same thing: what you're looking for is what's looking.",
+      "The self you're trying to improve is the same self doing the improving. Notice the circularity."
+    ],
+    "researcher": "Josef Rauschecker",
+    "externalSite": "https://www.nidcd.nih.gov",
+    "isSpiritual": false
+  }
+]

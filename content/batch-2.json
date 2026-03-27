@@ -1,0 +1,212 @@
+[
+  {
+    "id": 21,
+    "title": "Hair Cell Damage and the Point of No Return",
+    "slug": "hair-cell-damage-and-the-point-of-no-return",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-01",
+    "faqCount": 5,
+    "backlinkType": "external",
+    "openerType": "gut-punch",
+    "conclusionType": "challenge",
+    "phrases": [
+      "There is no version of growth that doesn't involve the dissolution of something you thought was permanent.",
+      "Stillness is not something you achieve. It's what's already here beneath the achieving.",
+      "The most important things in life cannot be understood — only experienced.",
+      "Freedom is not the absence of constraint. It's the capacity to choose your relationship to it.",
+      "Reading about meditation is to meditation what reading the menu is to eating."
+    ],
+    "researcher": "Sadhguru",
+    "externalSite": "https://www.health.harvard.edu",
+    "isSpiritual": true
+  },
+  {
+    "id": 22,
+    "title": "The Auditory Nerve and Signal Transmission Failures",
+    "slug": "the-auditory-nerve-and-signal-transmission-failures",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-03",
+    "faqCount": 4,
+    "backlinkType": "kalesh",
+    "openerType": "provocation",
+    "conclusionType": "challenge",
+    "phrases": [
+      "Not every insight requires action. Some just need to be witnessed.",
+      "The algorithm of your attention determines the landscape of your experience.",
+      "You cannot think your way into a felt sense of safety. The body has its own logic.",
+      "Your nervous system doesn't care about your philosophy. It cares about what happened at three years old."
+    ],
+    "researcher": "Alan Watts",
+    "externalSite": "https://www.nidcd.nih.gov",
+    "isSpiritual": true
+  },
+  {
+    "id": 23,
+    "title": "How Medications Can Trigger or Worsen Tinnitus",
+    "slug": "how-medications-can-trigger-or-worsen-tinnitus",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-06",
+    "faqCount": 3,
+    "backlinkType": "external",
+    "openerType": "named-reference",
+    "conclusionType": "challenge",
+    "phrases": [
+      "Complexity is the ego's favorite hiding place.",
+      "Reading about meditation is to meditation what reading the menu is to eating.",
+      "Most of what passes for healing is just rearranging the furniture in a burning house."
+    ],
+    "researcher": "Alan Watts",
+    "externalSite": "https://pubmed.ncbi.nlm.nih.gov",
+    "isSpiritual": true
+  },
+  {
+    "id": 24,
+    "title": "Ototoxic Drugs and Their Impact on Hearing Cells",
+    "slug": "ototoxic-drugs-and-their-impact-on-hearing-cells",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-09",
+    "faqCount": 3,
+    "backlinkType": "external",
+    "openerType": "provocation",
+    "conclusionType": "tender",
+    "phrases": [
+      "The algorithm of your attention determines the landscape of your experience.",
+      "If your spiritual practice makes you more rigid, it's not working.",
+      "The brain is prediction machinery. Anxiety is just prediction running without a stop button.",
+      "You cannot think your way into a felt sense of safety. The body has its own logic."
+    ],
+    "researcher": "David Baguley",
+    "externalSite": "https://www.asha.org",
+    "isSpiritual": false
+  },
+  {
+    "id": 25,
+    "title": "The Genetics of Tinnitus Susceptibility",
+    "slug": "the-genetics-of-tinnitus-susceptibility",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-12",
+    "faqCount": 3,
+    "backlinkType": "external",
+    "openerType": "first-person",
+    "conclusionType": "tender",
+    "phrases": [
+      "Information without integration is just intellectual hoarding.",
+      "Silence is not the absence of noise. It's the presence of attention.",
+      "Complexity is the ego's favorite hiding place."
+    ],
+    "researcher": "Sam Harris",
+    "externalSite": "https://www.health.harvard.edu",
+    "isSpiritual": true
+  },
+  {
+    "id": 26,
+    "title": "Twin Studies and What They Tell Us About Tinnitus Risk",
+    "slug": "twin-studies-and-what-they-tell-us-about-tinnitus-risk",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-15",
+    "faqCount": 3,
+    "backlinkType": "external",
+    "openerType": "scene-setting",
+    "conclusionType": "tender",
+    "phrases": [
+      "The self you're trying to improve is the same self doing the improving. Notice the circularity.",
+      "Stillness is not something you achieve. It's what's already here beneath the achieving.",
+      "The wellness industry sells solutions to problems it helps you believe you have.",
+      "The most important things in life cannot be understood — only experienced."
+    ],
+    "researcher": "Tara Brach",
+    "externalSite": "https://www.bta.org.uk",
+    "isSpiritual": true
+  },
+  {
+    "id": 27,
+    "title": "Inflammation and Its Hidden Role in Tinnitus",
+    "slug": "inflammation-and-its-hidden-role-in-tinnitus",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-18",
+    "faqCount": 3,
+    "backlinkType": "external",
+    "openerType": "first-person",
+    "conclusionType": "challenge",
+    "phrases": [
+      "What if the restlessness isn't a problem to solve but a signal to follow?",
+      "Every resistance is information. The question is whether you're willing to read it.",
+      "There is no version of growth that doesn't involve the dissolution of something you thought was permanent.",
+      "The question is never whether the pain will come. The question is whether you'll meet it with presence or with narrative.",
+      "The wellness industry sells solutions to problems it helps you believe you have."
+    ],
+    "researcher": "Richard Hallam",
+    "externalSite": "https://www.nidcd.nih.gov",
+    "isSpiritual": false
+  },
+  {
+    "id": 28,
+    "title": "The Blood-Labyrinth Barrier and Inner Ear Protection",
+    "slug": "the-blood-labyrinth-barrier-and-inner-ear-protection",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-21",
+    "faqCount": 2,
+    "backlinkType": "kalesh",
+    "openerType": "named-reference",
+    "conclusionType": "challenge",
+    "phrases": [
+      "The algorithm of your attention determines the landscape of your experience.",
+      "Every resistance is information. The question is whether you're willing to read it.",
+      "The brain is prediction machinery. Anxiety is just prediction running without a stop button.",
+      "Freedom is not the absence of constraint. It's the capacity to choose your relationship to it.",
+      "The research is clear on this, and it contradicts almost everything popular culture teaches."
+    ],
+    "researcher": "Alan Watts",
+    "externalSite": "https://www.nidcd.nih.gov",
+    "isSpiritual": true
+  },
+  {
+    "id": 29,
+    "title": "How Cardiovascular Health Affects Tinnitus Severity",
+    "slug": "how-cardiovascular-health-affects-tinnitus-severity",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-24",
+    "faqCount": 3,
+    "backlinkType": "internal",
+    "openerType": "gut-punch",
+    "conclusionType": "tender",
+    "phrases": [
+      "Attention is the most undervalued resource you have. Everything else follows from where you place it.",
+      "There is no version of growth that doesn't involve the dissolution of something you thought was permanent.",
+      "Stillness is not something you achieve. It's what's already here beneath the achieving.",
+      "Freedom is not the absence of constraint. It's the capacity to choose your relationship to it."
+    ],
+    "researcher": "Sam Harris",
+    "externalSite": "https://www.mayoclinic.org",
+    "isSpiritual": true
+  },
+  {
+    "id": 30,
+    "title": "Pulsatile Tinnitus and Vascular Abnormalities",
+    "slug": "pulsatile-tinnitus-and-vascular-abnormalities",
+    "category": "the-science",
+    "categoryName": "The Science",
+    "dateISO": "2026-03-27",
+    "faqCount": 5,
+    "backlinkType": "external",
+    "openerType": "named-reference",
+    "conclusionType": "tender",
+    "phrases": [
+      "Stillness is not something you achieve. It's what's already here beneath the achieving.",
+      "The nervous system doesn't respond to what you believe. It responds to what it senses.",
+      "Consciousness doesn't arrive. It's what's left when everything else quiets down."
+    ],
+    "researcher": "Tara Brach",
+    "externalSite": "https://www.nidcd.nih.gov",
+    "isSpiritual": true
+  }
+]
