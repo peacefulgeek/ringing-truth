@@ -1,5 +1,5 @@
 // ─── FEATURE FLAG (stays in code — not a secret) ───
-const AUTO_GEN_ENABLED = false; // Wildman flips to true on GitHub when ready
+const AUTO_GEN_ENABLED = true; // Enabled for production auto-generation
 
 // ─── FROM RENDER ENV VARS (auto-revoked if found in code) ───
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
