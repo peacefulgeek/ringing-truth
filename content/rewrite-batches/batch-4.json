@@ -1,0 +1,121 @@
+[
+  {
+    "id": 21,
+    "title": "Hair Cell Damage and the Point of No Return",
+    "slug": "hair-cell-damage-and-the-point-of-no-return",
+    "categoryName": "The Science",
+    "openerType": "provocation",
+    "faqCount": 2,
+    "conclusionType": "tender",
+    "phrases": [
+      "\"The gap between stimulus and response is where your entire life lives.\"",
+      "\"The wellness industry sells solutions to problems it helps you believe you have.\"",
+      "\"Trauma reorganizes perception. Recovery reorganizes it again, but this time with your participation.\""
+    ],
+    "interjections": [
+      "I get it. Really, I do.",
+      "And this is the part nobody talks about."
+    ],
+    "researchers": [
+      "Sam Harris (secular meditation, neuroscience of consciousness)",
+      "Jon Kabat-Zinn (MBSR, mindfulness-based stress reduction)"
+    ],
+    "existingBody": "<p>The diagnosis was the easy part.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost"
+  },
+  {
+    "id": 22,
+    "title": "The Auditory Nerve and Signal Transmission Failures",
+    "slug": "the-auditory-nerve-and-signal-transmission-failures",
+    "categoryName": "The Science",
+    "openerType": "gut-punch",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "phrases": [
+      "\"Every moment of genuine attention is a small act of liberation.\"",
+      "\"The paradox of acceptance is that nothing changes until you stop demanding that it does.\"",
+      "\"The gap between stimulus and response is where your entire life lives.\"",
+      "\"Most of what passes for healing is just rearranging the furniture in a burning house.\"",
+      "\"There's a difference between being alone and being with yourself. One is circumstance. The other is practice.\""
+    ],
+    "interjections": [
+      "Worth sitting with, that one.",
+      "Sounds strange, I realize."
+    ],
+    "researchers": [
+      "Jiddu Krishnamurti (observation without the observer)",
+      "David Baguley (tinnitus and hyperacusis research)"
+    ],
+    "existingBody": "<p>Nobody warns you about this part.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos"
+  },
+  {
+    "id": 23,
+    "title": "How Medications Can Trigger or Worsen Tinnitus",
+    "slug": "how-medications-can-trigger-or-worsen-tinnitus",
+    "categoryName": "The Science",
+    "openerType": "scene-setting",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "phrases": [
+      "\"If your spiritual practice makes you more rigid, it's not working.\"",
+      "\"We are not our thoughts, but we are responsible for our relationship to them.\"",
+      "\"Consciousness doesn't arrive. It's what's left when everything else quiets down.\""
+    ],
+    "interjections": [
+      "Here is what gets interesting.",
+      "And this is the part nobody talks about."
+    ],
+    "researchers": [
+      "Josef Rauschecker (Georgetown neuroscientist, tinnitus brain mapping)"
+    ],
+    "existingBody": "<p>Alan Watts's work illuminates the path.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qu"
+  },
+  {
+    "id": 24,
+    "title": "Ototoxic Drugs and Their Impact on Hearing Cells",
+    "slug": "ototoxic-drugs-and-their-impact-on-hearing-cells",
+    "categoryName": "The Science",
+    "openerType": "named-reference",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "phrases": [
+      "\"Complexity is the ego's favorite hiding place.\"",
+      "\"The body remembers what the mind would prefer to file away.\"",
+      "\"Consciousness doesn't arrive. It's what's left when everything else quiets down.\"",
+      "\"The most important things in life cannot be understood - only experienced.\"",
+      "\"The most sophisticated defense mechanism is the one that looks like wisdom.\""
+    ],
+    "interjections": [
+      "Let that land for a second.",
+      "This part surprised me too."
+    ],
+    "researchers": [
+      "Josef Rauschecker (Georgetown neuroscientist, tinnitus brain mapping)",
+      "Rilana Cima (CBT for tinnitus)"
+    ],
+    "existingBody": "<p>Nobody warns you about this part.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos"
+  },
+  {
+    "id": 25,
+    "title": "The Genetics of Tinnitus Susceptibility",
+    "slug": "the-genetics-of-tinnitus-susceptibility",
+    "categoryName": "The Science",
+    "openerType": "first-person",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "phrases": [
+      "\"The research is clear on this, and it contradicts almost everything popular culture teaches.\"",
+      "\"At a certain depth of inquiry, the distinction between psychology and philosophy dissolves entirely.\"",
+      "\"The body has a grammar. Most of us never learned to read it.\"",
+      "\"The contemplative traditions all point to the same thing: what you're looking for is what's looking.\""
+    ],
+    "interjections": [
+      "Think about that for a second.",
+      "Wild, right?"
+    ],
+    "researchers": [
+      "Berthold Langguth (neuromodulation for tinnitus)",
+      "Tara Brach (radical acceptance, RAIN technique)"
+    ],
+    "existingBody": "<p>I've sat across from someone saying exactly what you're feeling right now.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna "
+  }
+]

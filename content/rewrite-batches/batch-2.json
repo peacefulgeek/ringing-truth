@@ -1,0 +1,117 @@
+[
+  {
+    "id": 11,
+    "title": "The Dorsal Cochlear Nucleus and Signal Amplification",
+    "slug": "the-dorsal-cochlear-nucleus-and-signal-amplification",
+    "categoryName": "The Science",
+    "openerType": "provocation",
+    "faqCount": 2,
+    "conclusionType": "tender",
+    "phrases": [
+      "\"The gap between stimulus and response is where your entire life lives.\"",
+      "\"The brain is prediction machinery. Anxiety is just prediction running without a stop button.\"",
+      "\"Information without integration is just intellectual hoarding.\""
+    ],
+    "interjections": [
+      "Stay with me here.",
+      "Stick with this for a moment."
+    ],
+    "researchers": [
+      "Rilana Cima (CBT for tinnitus)",
+      "Richard Davidson (neuroscience of meditation, emotional styles)"
+    ],
+    "existingBody": "```html\n<p>There was a moment, sitting quietly in a dimly lit room, when I realized that silence is not the absence of noise. It’s the presence of attention—an active engagement of consciousness that "
+  },
+  {
+    "id": 12,
+    "title": "How Stress Hormones Amplify Tinnitus Perception",
+    "slug": "how-stress-hormones-amplify-tinnitus-perception",
+    "categoryName": "The Science",
+    "openerType": "question",
+    "faqCount": 0,
+    "conclusionType": "challenge",
+    "phrases": [
+      "\"What we call 'the present moment' is not a place you go. It's the only place you've ever been.\"",
+      "\"Embodiment is not a technique. It's what happens when you stop living exclusively in your head.\"",
+      "\"The most important things in life cannot be understood - only experienced.\""
+    ],
+    "interjections": [
+      "Let that land for a second.",
+      "I get it. Really, I do."
+    ],
+    "researchers": [
+      "Bessel van der Kolk (body keeps the score, trauma and the body)",
+      "David Baguley (tinnitus and hyperacusis research)"
+    ],
+    "existingBody": "```html\n<p>In the quiet room where evening light filters through sheer curtains, there is a subtle, unyielding hum—a sound not born of the world outside, but arising from within. It is a persistent wh"
+  },
+  {
+    "id": 13,
+    "title": "The Default Mode Network and Tinnitus Awareness",
+    "slug": "the-default-mode-network-and-tinnitus-awareness",
+    "categoryName": "The Science",
+    "openerType": "gut-punch",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "phrases": [
+      "\"The algorithm of your attention determines the landscape of your experience.\"",
+      "\"You are not a problem to be solved. You are a process to be witnessed.\"",
+      "\"When you stop trying to fix the moment, something remarkable happens - the moment becomes workable.\"",
+      "\"Information without integration is just intellectual hoarding.\""
+    ],
+    "interjections": [
+      "I get it. Really, I do.",
+      "Now here is the thing."
+    ],
+    "researchers": [
+      "Aage Moller (tinnitus neurophysiology)",
+      "Bessel van der Kolk (body keeps the score, trauma and the body)"
+    ],
+    "existingBody": "```html\n<h2>The Noise Within: When Silence Feels Impossible</h2>\n\n<p>What if the incessant ringing in one’s ears—the relentless tinnitus—is not a malfunction to be fixed, nor a nuisance to be drowned "
+  },
+  {
+    "id": 14,
+    "title": "Glutamate Excitotoxicity in Tinnitus Development",
+    "slug": "glutamate-excitotoxicity-in-tinnitus-development",
+    "categoryName": "The Science",
+    "openerType": "provocation",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "phrases": [
+      "\"Silence is not the absence of noise. It's the presence of attention.\"",
+      "\"Your nervous system doesn't care about your philosophy. It cares about what happened at three years old.\"",
+      "\"There is no version of growth that doesn't involve the dissolution of something you thought was permanent.\""
+    ],
+    "interjections": [
+      "This part surprised me too.",
+      "Worth sitting with, that one."
+    ],
+    "researchers": [
+      "Rilana Cima (CBT for tinnitus)"
+    ],
+    "existingBody": "```html\n<p>What if the persistent ringing in one’s ears—tinnitus—is not merely a benign nuisance but a profound testament to the brain’s relentless dance with glutamate, a chemical messenger whose exc"
+  },
+  {
+    "id": 15,
+    "title": "GABA Deficiency and Its Role in Persistent Ringing",
+    "slug": "gaba-deficiency-and-its-role-in-persistent-ringing",
+    "categoryName": "The Science",
+    "openerType": "named-reference",
+    "faqCount": 0,
+    "conclusionType": "challenge",
+    "phrases": [
+      "\"What if the restlessness isn't a problem to solve but a signal to follow?\"",
+      "\"Trauma reorganizes perception. Recovery reorganizes it again, but this time with your participation.\"",
+      "\"Freedom is not the absence of constraint. It's the capacity to choose your relationship to it.\""
+    ],
+    "interjections": [
+      "Let that land for a second.",
+      "Bear with me on this one."
+    ],
+    "researchers": [
+      "Jiddu Krishnamurti (observation without the observer)",
+      "Pawel Jastreboff (TRT creator, neurophysiological model of tinnitus)"
+    ],
+    "existingBody": "```html\n<p>For many years, I found myself caught in a persistent hum—a ringing that seemed to echo endlessly within the corridors of my own awareness, an unyielding companion that neither sleep nor di"
+  }
+]

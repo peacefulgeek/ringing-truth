@@ -1,0 +1,119 @@
+[
+  {
+    "id": 26,
+    "title": "Twin Studies and What They Tell Us About Tinnitus Risk",
+    "slug": "twin-studies-and-what-they-tell-us-about-tinnitus-risk",
+    "categoryName": "The Science",
+    "openerType": "scene-setting",
+    "faqCount": 0,
+    "conclusionType": "tender",
+    "phrases": [
+      "\"Every resistance is information. The question is whether you're willing to read it.\"",
+      "\"At a certain depth of inquiry, the distinction between psychology and philosophy dissolves entirely.\"",
+      "\"What we call 'stuck' is usually the body doing exactly what it was designed to do under conditions that no longer exist.\""
+    ],
+    "interjections": [
+      "And this is the part nobody talks about.",
+      "Here is what gets interesting."
+    ],
+    "researchers": [
+      "Josef Rauschecker (Georgetown neuroscientist, tinnitus brain mapping)",
+      "Richard Davidson (neuroscience of meditation, emotional styles)"
+    ],
+    "existingBody": "<p>Three weeks in. The fridge hums. Nothing has changed except everything.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali"
+  },
+  {
+    "id": 27,
+    "title": "Inflammation and Its Hidden Role in Tinnitus",
+    "slug": "inflammation-and-its-hidden-role-in-tinnitus",
+    "categoryName": "The Science",
+    "openerType": "named-reference",
+    "faqCount": 2,
+    "conclusionType": "tender",
+    "phrases": [
+      "\"There's a meaningful difference between self-improvement and self-understanding. One adds. The other reveals.\"",
+      "\"Consciousness doesn't arrive. It's what's left when everything else quiets down.\"",
+      "\"The self you're trying to improve is the same self doing the improving. Notice the circularity.\"",
+      "\"The gap between stimulus and response is where your entire life lives.\"",
+      "\"What we call 'the present moment' is not a place you go. It's the only place you've ever been.\""
+    ],
+    "interjections": [
+      "Think about that for a second.",
+      "Let that land for a second."
+    ],
+    "researchers": [
+      "Stephen Porges (polyvagal theory, nervous system regulation)"
+    ],
+    "existingBody": "<p>I've sat across from someone saying exactly what you're feeling right now.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna "
+  },
+  {
+    "id": 28,
+    "title": "The Blood-Labyrinth Barrier and Inner Ear Protection",
+    "slug": "the-blood-labyrinth-barrier-and-inner-ear-protection",
+    "categoryName": "The Science",
+    "openerType": "provocation",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "phrases": [
+      "\"You don't arrive at peace. You stop walking away from it.\"",
+      "\"The body remembers what the mind would prefer to file away.\"",
+      "\"Reading about meditation is to meditation what reading the menu is to eating.\"",
+      "\"The wellness industry sells solutions to problems it helps you believe you have.\""
+    ],
+    "interjections": [
+      "Stick with this for a moment.",
+      "Think about that for a second."
+    ],
+    "researchers": [
+      "Bessel van der Kolk (body keeps the score, trauma and the body)",
+      "Jon Kabat-Zinn (MBSR, mindfulness-based stress reduction)"
+    ],
+    "existingBody": "<p>Alan Watts's work illuminates the path.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qu"
+  },
+  {
+    "id": 29,
+    "title": "How Cardiovascular Health Affects Tinnitus Severity",
+    "slug": "how-cardiovascular-health-affects-tinnitus-severity",
+    "categoryName": "The Science",
+    "openerType": "provocation",
+    "faqCount": 5,
+    "conclusionType": "tender",
+    "phrases": [
+      "\"The algorithm of your attention determines the landscape of your experience.\"",
+      "\"The paradox of acceptance is that nothing changes until you stop demanding that it does.\"",
+      "\"Stop pathologizing normal human suffering. Not everything requires a diagnosis.\""
+    ],
+    "interjections": [
+      "Let that land for a second.",
+      "I know, I know."
+    ],
+    "researchers": [
+      "Berthold Langguth (neuromodulation for tinnitus)",
+      "Tara Brach (radical acceptance, RAIN technique)"
+    ],
+    "existingBody": "<p>The diagnosis was the easy part.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost"
+  },
+  {
+    "id": 30,
+    "title": "Pulsatile Tinnitus and Vascular Abnormalities",
+    "slug": "pulsatile-tinnitus-and-vascular-abnormalities",
+    "categoryName": "The Science",
+    "openerType": "question",
+    "faqCount": 0,
+    "conclusionType": "tender",
+    "phrases": [
+      "\"Attention is the most undervalued resource you have. Everything else follows from where you place it.\"",
+      "\"Your nervous system doesn't care about your philosophy. It cares about what happened at three years old.\"",
+      "\"Not every insight requires action. Some just need to be witnessed.\"",
+      "\"Sit with it long enough and even the worst feeling reveals its edges.\""
+    ],
+    "interjections": [
+      "Let that land for a second.",
+      "Wild, right?"
+    ],
+    "researchers": [
+      "Richard Davidson (neuroscience of meditation, emotional styles)"
+    ],
+    "existingBody": "<p>Tara Brach's work illuminates the path.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qu"
+  }
+]

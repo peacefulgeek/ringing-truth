@@ -1,0 +1,119 @@
+[
+  {
+    "id": 41,
+    "title": "Long COVID and New-Onset Tinnitus Research",
+    "slug": "long-covid-and-new-onset-tinnitus-research",
+    "categoryName": "The Science",
+    "openerType": "gut-punch",
+    "faqCount": 3,
+    "conclusionType": "challenge",
+    "phrases": [
+      "\"There's a difference between being alone and being with yourself. One is circumstance. The other is practice.\"",
+      "\"The paradox of acceptance is that nothing changes until you stop demanding that it does.\"",
+      "\"The wellness industry sells solutions to problems it helps you believe you have.\"",
+      "\"At a certain depth of inquiry, the distinction between psychology and philosophy dissolves entirely.\""
+    ],
+    "interjections": [
+      "I know, I know.",
+      "Let that land for a second."
+    ],
+    "researchers": [
+      "Berthold Langguth (neuromodulation for tinnitus)",
+      "Pawel Jastreboff (TRT creator, neurophysiological model of tinnitus)"
+    ],
+    "existingBody": "<h2>Long COVID: The Uninvited Guest that Whispers in Silence</h2>\n<p>One might assume that viruses come and go—like storms that disrupt and then disperse—but Long COVID, with its tapestry of lingering"
+  },
+  {
+    "id": 42,
+    "title": "The Microbiome-Gut-Brain-Ear Axis Hypothesis",
+    "slug": "the-microbiome-gut-brain-ear-axis-hypothesis",
+    "categoryName": "The Science",
+    "openerType": "question",
+    "faqCount": 0,
+    "conclusionType": "tender",
+    "phrases": [
+      "\"The research is clear on this, and it contradicts almost everything popular culture teaches.\"",
+      "\"Every resistance is information. The question is whether you're willing to read it.\"",
+      "\"Your nervous system doesn't care about your philosophy. It cares about what happened at three years old.\"",
+      "\"The question is never whether the pain will come. The question is whether you'll meet it with presence or with narrative.\""
+    ],
+    "interjections": [
+      "Sounds strange, I realize.",
+      "This part surprised me too."
+    ],
+    "researchers": [
+      "Bessel van der Kolk (body keeps the score, trauma and the body)"
+    ],
+    "existingBody": "<h2>When the Body Whispers, Does the Ear Listen?</h2>\n<p>It might come as a gut punch to realize that our moment-to-moment experience is often governed by forces far subtler — and stranger — than we d"
+  },
+  {
+    "id": 43,
+    "title": "Oxidative Stress and Free Radical Damage in the Cochlea",
+    "slug": "oxidative-stress-and-free-radical-damage-in-the-cochlea",
+    "categoryName": "The Science",
+    "openerType": "gut-punch",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "phrases": [
+      "\"The most important things in life cannot be understood - only experienced.\"",
+      "\"Your nervous system doesn't care about your philosophy. It cares about what happened at three years old.\"",
+      "\"The body has a grammar. Most of us never learned to read it.\"",
+      "\"Complexity is the ego's favorite hiding place.\"",
+      "\"You cannot think your way into a felt sense of safety. The body has its own logic.\""
+    ],
+    "interjections": [
+      "Bear with me on this one.",
+      "Hang on, because this matters."
+    ],
+    "researchers": [
+      "Sam Harris (secular meditation, neuroscience of consciousness)",
+      "Jon Kabat-Zinn (MBSR, mindfulness-based stress reduction)"
+    ],
+    "existingBody": "<article>\n<h2>Can the fragile cells of our inner ear teach us about the delicate balance of life itself?</h2>\n<p>One often wonders, in moments when sound fades or distorts, what invisible forces might"
+  },
+  {
+    "id": 44,
+    "title": "How Sleep Deprivation Intensifies Tinnitus Perception",
+    "slug": "how-sleep-deprivation-intensifies-tinnitus-perception",
+    "categoryName": "The Science",
+    "openerType": "named-reference",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "phrases": [
+      "\"The research is clear on this, and it contradicts almost everything popular culture teaches.\"",
+      "\"Reading about meditation is to meditation what reading the menu is to eating.\"",
+      "\"Most of what passes for healing is just rearranging the furniture in a burning house.\""
+    ],
+    "interjections": [
+      "Wild, right?",
+      "Stick with this for a moment."
+    ],
+    "researchers": [
+      "Berthold Langguth (neuromodulation for tinnitus)",
+      "David Baguley (tinnitus and hyperacusis research)"
+    ],
+    "existingBody": "<h2>Sleep Deprivation and the Hidden Amplifier of Tinnitus</h2>\n<p>Sam Harris once remarked on the curious interplay between consciousness and perception, hinting at how our internal states shape the "
+  },
+  {
+    "id": 45,
+    "title": "The Circadian Rhythm and Tinnitus Fluctuation Patterns",
+    "slug": "the-circadian-rhythm-and-tinnitus-fluctuation-patterns",
+    "categoryName": "The Science",
+    "openerType": "first-person",
+    "faqCount": 2,
+    "conclusionType": "tender",
+    "phrases": [
+      "\"The most sophisticated defense mechanism is the one that looks like wisdom.\"",
+      "\"Every moment of genuine attention is a small act of liberation.\"",
+      "\"Reading about meditation is to meditation what reading the menu is to eating.\""
+    ],
+    "interjections": [
+      "Hang on, because this matters.",
+      "Wild, right?"
+    ],
+    "researchers": [
+      "Pawel Jastreboff (TRT creator, neurophysiological model of tinnitus)"
+    ],
+    "existingBody": "<h2>When the Whisper Turns to Roar: Understanding Tinnitus Beyond the Noise</h2>\n<p>There is a moment when the persistent, invisible hum inside the ear—tinnitus—threatens to overwhelm the silence we s"
+  }
+]
