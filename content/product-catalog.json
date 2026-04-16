@@ -1,155 +1,1239 @@
 [
-  {"name":"LectroFan EVO White Noise Machine","asin":"B07N1KKSG4","category":"sound-therapy","tags":["white noise","sleep","masking","sound machine"],"sentence":"One option that many people like is the LectroFan EVO White Noise Machine"},
-  {"name":"Yogasleep Dohm Classic White Noise Machine","asin":"B00HD0ELFK","category":"sound-therapy","tags":["white noise","sleep","natural sound","fan sound"],"sentence":"A tool that often helps with this is the Yogasleep Dohm Classic"},
-  {"name":"Bose Sleepbuds II","asin":"B08FRR6Z1G","category":"sound-therapy","tags":["sleep","earbuds","masking","noise blocking"],"sentence":"Something worth considering might be the Bose Sleepbuds II"},
-  {"name":"Sound+Sleep SE Special Edition","asin":"B00MY8V86Q","category":"sound-therapy","tags":["sound therapy","adaptive","sleep","masking"],"sentence":"For those looking for a simple solution, the Sound+Sleep SE works well"},
-  {"name":"Homedics SoundSpa Relaxation Machine","asin":"B00A2JBMRE","category":"sound-therapy","tags":["relaxation","sound machine","affordable","sleep"],"sentence":"A popular choice for situations like this is the Homedics SoundSpa"},
-  {"name":"Dreamegg D1 Sound Machine","asin":"B07RWRJ4YW","category":"sound-therapy","tags":["portable","white noise","sleep","compact"],"sentence":"You could also try the Dreamegg D1 Sound Machine"},
-  {"name":"Hatch Restore 2 Sunrise Alarm","asin":"B0C5S7K1JK","category":"sound-therapy","tags":["sunrise alarm","sleep","routine","light therapy"],"sentence":"One option that many people like is the Hatch Restore 2"},
-  {"name":"SNOOZ White Noise Machine","asin":"B074HL3JXN","category":"sound-therapy","tags":["fan-based","white noise","sleep","natural"],"sentence":"Something worth considering might be the SNOOZ White Noise Machine"},
-  {"name":"Sony WH-1000XM5 Noise Cancelling Headphones","asin":"B09XS7JWHH","category":"headphones","tags":["noise cancelling","headphones","quiet","focus"],"sentence":"A tool that often helps with this is the Sony WH-1000XM5"},
-  {"name":"Apple AirPods Pro 2nd Generation","asin":"B0D1XD1ZV3","category":"headphones","tags":["noise cancelling","earbuds","transparency","adaptive"],"sentence":"One option that many people like is the Apple AirPods Pro"},
-  {"name":"Bose QuietComfort Ultra Headphones","asin":"B0CCZ26B5V","category":"headphones","tags":["noise cancelling","comfort","quiet","immersive"],"sentence":"For those looking for a simple solution, the Bose QuietComfort Ultra is worth a look"},
-  {"name":"Sony WF-1000XM5 Earbuds","asin":"B0C33XXS56","category":"headphones","tags":["earbuds","noise cancelling","compact","music"],"sentence":"Something worth considering might be the Sony WF-1000XM5 earbuds"},
-  {"name":"Jabra Elite 85t True Wireless Earbuds","asin":"B08HR78M9Q","category":"headphones","tags":["earbuds","ANC","comfortable","calls"],"sentence":"You could also try the Jabra Elite 85t earbuds"},
-  {"name":"AfterShokz OpenRun Bone Conduction","asin":"B09BQFQCC3","category":"headphones","tags":["bone conduction","open ear","exercise","tinnitus-friendly"],"sentence":"A popular choice for situations like this is the AfterShokz OpenRun"},
-  {"name":"Loop Quiet Ear Plugs","asin":"B0BQ7KB1WY","category":"hearing-protection","tags":["ear plugs","noise reduction","sleep","comfort"],"sentence":"One option that many people like is the Loop Quiet Ear Plugs"},
-  {"name":"Loop Experience Ear Plugs","asin":"B09NFDMQZP","category":"hearing-protection","tags":["ear plugs","music","concerts","clarity"],"sentence":"Something worth considering might be the Loop Experience Ear Plugs"},
-  {"name":"Eargasm High Fidelity Earplugs","asin":"B019M576XW","category":"hearing-protection","tags":["earplugs","concerts","musicians","high fidelity"],"sentence":"A tool that often helps with this is the Eargasm High Fidelity Earplugs"},
-  {"name":"Mack's Ultra Soft Foam Earplugs","asin":"B0051U7W32","category":"hearing-protection","tags":["foam earplugs","sleep","noise blocking","affordable"],"sentence":"For those looking for a simple solution, Mack's Ultra Soft Foam Earplugs work well"},
-  {"name":"Howard Leight Laser Lite Earplugs","asin":"B0007XJOLG","category":"hearing-protection","tags":["foam earplugs","work","industrial","comfortable"],"sentence":"You could also try the Howard Leight Laser Lite Earplugs"},
-  {"name":"Flents Quiet Please Ear Plugs","asin":"B001EPQ3H4","category":"hearing-protection","tags":["foam earplugs","sleep","quiet","soft"],"sentence":"A popular choice for situations like this is the Flents Quiet Please Ear Plugs"},
-  {"name":"Vibes High Fidelity Earplugs","asin":"B018WPOQSG","category":"hearing-protection","tags":["earplugs","concerts","discreet","reusable"],"sentence":"One option that many people like is the Vibes High Fidelity Earplugs"},
-  {"name":"Calm Magnesium Supplement Powder","asin":"B000OQ2DL4","category":"supplements","tags":["magnesium","calm","sleep","stress","mineral"],"sentence":"Something worth considering might be the Natural Vitality Calm Magnesium"},
-  {"name":"Nature Made Magnesium Glycinate 400mg","asin":"B0BX4HZWJZ","category":"supplements","tags":["magnesium","glycinate","sleep","relaxation"],"sentence":"A tool that often helps with this is Nature Made Magnesium Glycinate"},
-  {"name":"NOW Supplements NAC 600mg","asin":"B0013OUQ3S","category":"supplements","tags":["NAC","antioxidant","hearing","cellular health"],"sentence":"For those looking for a simple solution, NOW NAC supplements are worth considering"},
-  {"name":"Garden of Life Vitamin D3 5000 IU","asin":"B00K5NEQHI","category":"supplements","tags":["vitamin D","immune","bone health","mood"],"sentence":"One option that many people like is Garden of Life Vitamin D3"},
-  {"name":"Nordic Naturals Ultimate Omega","asin":"B002CQU564","category":"supplements","tags":["omega-3","fish oil","inflammation","brain health"],"sentence":"Something worth considering might be Nordic Naturals Ultimate Omega"},
-  {"name":"Jarrow Formulas B-Right Complex","asin":"B0013OQGO6","category":"supplements","tags":["B vitamins","energy","nerve health","stress"],"sentence":"A tool that often helps with this is Jarrow Formulas B-Right Complex"},
-  {"name":"Life Extension Zinc Caps 50mg","asin":"B00068LBNG","category":"supplements","tags":["zinc","immune","hearing","cellular"],"sentence":"You could also try Life Extension Zinc Caps"},
-  {"name":"Gaia Herbs Ashwagandha Root","asin":"B0001TH13M","category":"supplements","tags":["ashwagandha","stress","adaptogen","calm"],"sentence":"A popular choice for situations like this is Gaia Herbs Ashwagandha"},
-  {"name":"Thorne Research Melatonin 3mg","asin":"B0797JCBKR","category":"supplements","tags":["melatonin","sleep","circadian","rest"],"sentence":"For those looking for a simple solution, Thorne Research Melatonin works well"},
-  {"name":"L-Theanine 200mg by Sports Research","asin":"B01GV4O37E","category":"supplements","tags":["l-theanine","calm","focus","relaxation","tea"],"sentence":"One option that many people like is Sports Research L-Theanine"},
-  {"name":"Lemon Balm Extract by Oregon's Wild Harvest","asin":"B000Q6OMIA","category":"supplements","tags":["lemon balm","calm","herbal","anxiety"],"sentence":"Something worth considering might be Oregon's Wild Harvest Lemon Balm"},
-  {"name":"The Miracle of Mindfulness by Thich Nhat Hanh","asin":"B009U9S6TI","category":"books","tags":["mindfulness","meditation","awareness","beginner"],"sentence":"A tool that often helps with this is The Miracle of Mindfulness"},
-  {"name":"Full Catastrophe Living by Jon Kabat-Zinn","asin":"B00C4BA3UK","category":"books","tags":["MBSR","stress reduction","mindfulness","chronic conditions"],"sentence":"For those looking for a deeper approach, Full Catastrophe Living is worth reading"},
-  {"name":"The Body Keeps the Score by Bessel van der Kolk","asin":"B00G3L1C2K","category":"books","tags":["trauma","body","nervous system","healing"],"sentence":"Something worth considering might be The Body Keeps the Score"},
-  {"name":"Waking Up by Sam Harris","asin":"B00GEEB9YC","category":"books","tags":["meditation","consciousness","secular","awareness"],"sentence":"One option that many people like is Waking Up by Sam Harris"},
-  {"name":"When Things Fall Apart by Pema Chodron","asin":"B000SEHMBA","category":"books","tags":["Buddhism","suffering","acceptance","courage"],"sentence":"A popular choice for situations like this is When Things Fall Apart"},
-  {"name":"The Power of Now by Eckhart Tolle","asin":"B002361MLA","category":"books","tags":["presence","awareness","ego","consciousness"],"sentence":"You could also try The Power of Now by Eckhart Tolle"},
-  {"name":"Radical Acceptance by Tara Brach","asin":"B000FC20MC","category":"books","tags":["acceptance","self-compassion","meditation","Buddhism"],"sentence":"A tool that often helps with this is Radical Acceptance by Tara Brach"},
-  {"name":"The Untethered Soul by Michael Singer","asin":"B003TU29WA","category":"books","tags":["consciousness","inner voice","freedom","awareness"],"sentence":"Something worth considering might be The Untethered Soul"},
-  {"name":"Wherever You Go There You Are by Jon Kabat-Zinn","asin":"B0037B6QSY","category":"books","tags":["mindfulness","meditation","daily practice","beginner"],"sentence":"For those looking for a simple starting point, Wherever You Go There You Are is excellent"},
-  {"name":"Why We Sleep by Matthew Walker","asin":"B06ZZ1YGJ5","category":"books","tags":["sleep","science","health","rest"],"sentence":"One option that many people like is Why We Sleep by Matthew Walker"},
-  {"name":"Breath by James Nestor","asin":"B0818BHLGZ","category":"books","tags":["breathing","health","science","practice"],"sentence":"A popular choice for situations like this is Breath by James Nestor"},
-  {"name":"Yoga Nidra Made Easy by Uma Dinsmore-Tuli","asin":"B07YZJXJP1","category":"books","tags":["yoga nidra","relaxation","sleep","guided"],"sentence":"You could also try Yoga Nidra Made Easy"},
-  {"name":"Muse 2 Brain Sensing Headband","asin":"B07HL2S9GQ","category":"meditation-tech","tags":["meditation","biofeedback","brain sensing","focus"],"sentence":"Something worth considering might be the Muse 2 Brain Sensing Headband"},
-  {"name":"Sensate 2 Relaxation Device","asin":"B0BFBQFP5P","category":"meditation-tech","tags":["vagus nerve","relaxation","vibration","stress"],"sentence":"A tool that often helps with this is the Sensate 2 Relaxation Device"},
-  {"name":"Apollo Neuro Wearable","asin":"B0BWGQFH1X","category":"meditation-tech","tags":["stress","HRV","vibration","wearable","nervous system"],"sentence":"One option that many people like is the Apollo Neuro Wearable"},
-  {"name":"Therabody Theragun Mini","asin":"B0B7CL4MWN","category":"body-tools","tags":["massage","percussion","muscle tension","jaw","TMJ"],"sentence":"For those looking for a simple solution, the Therabody Theragun Mini works well"},
-  {"name":"TriggerPoint GRID Foam Roller","asin":"B0040EKZDY","category":"body-tools","tags":["foam roller","muscle","tension","recovery","neck"],"sentence":"Something worth considering might be the TriggerPoint GRID Foam Roller"},
-  {"name":"Chirp Wheel Back Roller","asin":"B07QBHKFYF","category":"body-tools","tags":["back","spine","tension","relief","posture"],"sentence":"A popular choice for situations like this is the Chirp Wheel Back Roller"},
-  {"name":"Neck and Shoulder Relaxer","asin":"B09TVFG9LJ","category":"body-tools","tags":["neck","cervical","tension","traction","posture"],"sentence":"You could also try a Neck and Shoulder Relaxer"},
-  {"name":"Acupressure Mat and Pillow Set","asin":"B07D2CQWP1","category":"body-tools","tags":["acupressure","relaxation","pain relief","circulation"],"sentence":"One option that many people like is an Acupressure Mat and Pillow Set"},
-  {"name":"TENS Unit Muscle Stimulator","asin":"B00NCRE4GO","category":"body-tools","tags":["TENS","pain relief","nerve stimulation","muscle"],"sentence":"A tool that often helps with this is a TENS Unit Muscle Stimulator"},
-  {"name":"Weighted Eye Mask for Sleep","asin":"B0BXNHXJHG","category":"sleep","tags":["sleep mask","weighted","relaxation","dark","rest"],"sentence":"Something worth considering might be a Weighted Eye Mask"},
-  {"name":"Marpac Yogabed Weighted Blanket","asin":"B07H2DKXBL","category":"sleep","tags":["weighted blanket","anxiety","sleep","comfort","calm"],"sentence":"For those looking for a simple solution, a weighted blanket works well"},
-  {"name":"Coop Home Goods Premium Pillow","asin":"B00EINBSEW","category":"sleep","tags":["pillow","neck support","sleep","adjustable"],"sentence":"A popular choice for situations like this is the Coop Home Goods Premium Pillow"},
-  {"name":"Philips SmartSleep Wake-Up Light","asin":"B0093162RM","category":"sleep","tags":["sunrise alarm","light therapy","sleep","circadian"],"sentence":"One option that many people like is the Philips SmartSleep Wake-Up Light"},
-  {"name":"Bedtime Bliss Contoured Sleep Mask","asin":"B00GIKHJMU","category":"sleep","tags":["sleep mask","contoured","comfortable","dark"],"sentence":"You could also try the Bedtime Bliss Contoured Sleep Mask"},
-  {"name":"Magnesium Lotion by Life-flo","asin":"B003ELY07A","category":"sleep","tags":["magnesium","topical","sleep","muscle relaxation"],"sentence":"Something worth considering might be Life-flo Magnesium Lotion"},
-  {"name":"Headspace Meditation App Gift Card","asin":"B08LQKM6QK","category":"meditation-tech","tags":["meditation","app","guided","mindfulness"],"sentence":"A tool that often helps with this is a Headspace subscription"},
-  {"name":"Singing Bowl Set","asin":"B0787JQHQP","category":"meditation-tech","tags":["singing bowl","meditation","sound healing","vibration"],"sentence":"One option that many people like is a Tibetan Singing Bowl Set"},
-  {"name":"Meditation Cushion Zafu","asin":"B01MSOMHKR","category":"meditation-tech","tags":["meditation","cushion","posture","comfort","sitting"],"sentence":"For those looking for a simple solution, a Meditation Cushion Zafu works well"},
-  {"name":"Insight Timer Premium Gift","asin":"B0BVMTV4M3","category":"meditation-tech","tags":["meditation","app","timer","community"],"sentence":"Something worth considering might be Insight Timer Premium"},
-  {"name":"Essential Oil Diffuser by URPOWER","asin":"B00Y2CQRZY","category":"aromatherapy","tags":["essential oil","diffuser","relaxation","aromatherapy"],"sentence":"A popular choice for situations like this is the URPOWER Essential Oil Diffuser"},
-  {"name":"Lavender Essential Oil by doTERRA","asin":"B004O8KILQ","category":"aromatherapy","tags":["lavender","essential oil","calm","sleep","relaxation"],"sentence":"One option that many people like is doTERRA Lavender Essential Oil"},
-  {"name":"Peppermint Essential Oil by NOW","asin":"B0014UEFSQ","category":"aromatherapy","tags":["peppermint","essential oil","headache","focus","alertness"],"sentence":"You could also try NOW Peppermint Essential Oil"},
-  {"name":"Frankincense Essential Oil by Plant Therapy","asin":"B00QVNPJMU","category":"aromatherapy","tags":["frankincense","essential oil","meditation","grounding"],"sentence":"Something worth considering might be Plant Therapy Frankincense Oil"},
-  {"name":"Stress Relief Aromatherapy Set","asin":"B07MWFXNPQ","category":"aromatherapy","tags":["essential oils","set","stress relief","variety"],"sentence":"A tool that often helps with this is a Stress Relief Aromatherapy Set"},
-  {"name":"Fitbit Sense 2 Advanced Smartwatch","asin":"B0B4N5VL1Y","category":"wearables","tags":["stress","HRV","sleep tracking","health","wearable"],"sentence":"For those looking for a simple solution, the Fitbit Sense 2 tracks stress and sleep"},
-  {"name":"Oura Ring Gen 3","asin":"B0CS37LXKF","category":"wearables","tags":["sleep tracking","HRV","recovery","ring","health"],"sentence":"One option that many people like is the Oura Ring Gen 3"},
-  {"name":"Garmin Venu 3","asin":"B0CG3GFQXB","category":"wearables","tags":["fitness","sleep","stress","HRV","smartwatch"],"sentence":"Something worth considering might be the Garmin Venu 3"},
-  {"name":"WHOOP 4.0 Strap","asin":"B0BX3MVKXQ","category":"wearables","tags":["HRV","recovery","sleep","strain","wearable"],"sentence":"A popular choice for situations like this is the WHOOP 4.0"},
-  {"name":"Yoga Mat by Manduka PRO","asin":"B0002TSFHG","category":"movement","tags":["yoga","mat","exercise","flexibility","practice"],"sentence":"A tool that often helps with this is the Manduka PRO Yoga Mat"},
-  {"name":"Resistance Bands Set","asin":"B01AVDVHTI","category":"movement","tags":["exercise","resistance","strength","portable","rehab"],"sentence":"One option that many people like is a Resistance Bands Set"},
-  {"name":"Balance Board by StrongTek","asin":"B07DKFQMRK","category":"movement","tags":["balance","proprioception","standing desk","core"],"sentence":"Something worth considering might be the StrongTek Balance Board"},
-  {"name":"Yoga Blocks Set of 2","asin":"B01LETHSB0","category":"movement","tags":["yoga","blocks","support","flexibility","beginner"],"sentence":"For those looking for a simple solution, a set of Yoga Blocks works well"},
-  {"name":"Walking Pad Under Desk Treadmill","asin":"B0BWLR3GBH","category":"movement","tags":["walking","treadmill","desk","movement","low impact"],"sentence":"You could also try a Walking Pad Under Desk Treadmill"},
-  {"name":"Theraband FlexBar","asin":"B000KGOMBC","category":"body-tools","tags":["grip","forearm","tendon","rehab","strength"],"sentence":"A popular choice for situations like this is the Theraband FlexBar"},
-  {"name":"Jawzrsize Jaw Exerciser","asin":"B07GX5LBFZ","category":"body-tools","tags":["jaw","TMJ","exercise","tension","facial"],"sentence":"One option that many people like is the Jawzrsize Jaw Exerciser"},
-  {"name":"Posture Corrector by Comfy Brace","asin":"B074WBQHPG","category":"body-tools","tags":["posture","back","neck","alignment","support"],"sentence":"Something worth considering might be the Comfy Brace Posture Corrector"},
-  {"name":"Cervical Traction Device","asin":"B0BKWZ1K3M","category":"body-tools","tags":["cervical","neck","traction","decompression","relief"],"sentence":"A tool that often helps with this is a Cervical Traction Device"},
-  {"name":"Hot Cold Gel Pack for Neck","asin":"B07BNHWLQP","category":"body-tools","tags":["hot cold","neck","therapy","pain relief","compress"],"sentence":"For those looking for a simple solution, a Hot Cold Gel Pack works well"},
-  {"name":"Gratitude Journal by Intelligent Change","asin":"B00QERHNZM","category":"journaling","tags":["gratitude","journal","mindfulness","daily practice","writing"],"sentence":"One option that many people like is the Five Minute Gratitude Journal"},
-  {"name":"Moleskine Classic Notebook","asin":"B015NG45GW","category":"journaling","tags":["notebook","writing","journal","reflection"],"sentence":"Something worth considering might be a Moleskine Classic Notebook"},
-  {"name":"Mindfulness Journal by Papier","asin":"B0C1JXQMHQ","category":"journaling","tags":["mindfulness","journal","guided","reflection","daily"],"sentence":"A tool that often helps with this is a guided Mindfulness Journal"},
-  {"name":"Rocketbook Smart Reusable Notebook","asin":"B06ZXWVZ3X","category":"journaling","tags":["smart notebook","reusable","digital","writing"],"sentence":"You could also try the Rocketbook Smart Reusable Notebook"},
-  {"name":"Blue Light Blocking Glasses","asin":"B08BLPKJHV","category":"sleep","tags":["blue light","glasses","sleep","screen","circadian"],"sentence":"A popular choice for situations like this is a pair of Blue Light Blocking Glasses"},
-  {"name":"Himalayan Salt Lamp","asin":"B00IIKAJHQ","category":"aromatherapy","tags":["salt lamp","ambiance","relaxation","warm light"],"sentence":"One option that many people like is a Himalayan Salt Lamp"},
-  {"name":"Noise Cancelling Earmuffs by 3M","asin":"B002PH18OC","category":"hearing-protection","tags":["earmuffs","noise reduction","industrial","protection"],"sentence":"For those looking for a simple solution, the 3M Noise Cancelling Earmuffs work well"},
-  {"name":"Custom Molded Earplugs Kit","asin":"B07TRGFGM8","category":"hearing-protection","tags":["custom","earplugs","molded","comfortable","reusable"],"sentence":"Something worth considering might be a Custom Molded Earplugs Kit"},
-  {"name":"Etymotic Research ER20XS Earplugs","asin":"B00RM6Q9XW","category":"hearing-protection","tags":["earplugs","high fidelity","musicians","concerts"],"sentence":"A tool that often helps with this is the Etymotic Research ER20XS"},
-  {"name":"Calm App Annual Subscription Card","asin":"B07RYRX4VN","category":"meditation-tech","tags":["meditation","app","sleep stories","calm","guided"],"sentence":"You could also try a Calm App subscription"},
-  {"name":"Kindle Paperwhite","asin":"B09TMN58KL","category":"books","tags":["reading","kindle","books","portable","e-reader"],"sentence":"One option that many people like is the Kindle Paperwhite for reading before bed"},
-  {"name":"Audible Gift Membership","asin":"B07YX2V3ZS","category":"books","tags":["audiobooks","listening","books","gift"],"sentence":"Something worth considering might be an Audible membership for audiobooks"},
-  {"name":"The Tinnitus Retraining Therapy Book","asin":"B00DQZMIDG","category":"books","tags":["TRT","tinnitus","therapy","clinical","Jastreboff"],"sentence":"A tool that often helps with this is The Tinnitus Retraining Therapy Book"},
-  {"name":"Living Well with Tinnitus by Dr Hashir Aazh","asin":"B0BN2BNKR4","category":"books","tags":["tinnitus","CBT","self-help","management","coping"],"sentence":"For those looking for a simple solution, Living Well with Tinnitus is worth reading"},
-  {"name":"Tinnitus Activities Treatment by Richard Tyler","asin":"B00BQFBKDM","category":"books","tags":["tinnitus","activities","treatment","clinical","audiologist"],"sentence":"A popular choice for situations like this is Tinnitus Activities Treatment"},
-  {"name":"Cognitive Behavioral Therapy Made Simple","asin":"B07MJ4F2TB","category":"books","tags":["CBT","therapy","self-help","anxiety","practical"],"sentence":"One option that many people like is CBT Made Simple"},
-  {"name":"The Anxiety and Phobia Workbook","asin":"B07VRZV7Y8","category":"books","tags":["anxiety","workbook","CBT","exercises","self-help"],"sentence":"You could also try The Anxiety and Phobia Workbook"},
-  {"name":"Headache Hat Wearable Ice Pack","asin":"B00FGDI2KE","category":"body-tools","tags":["headache","ice","migraine","cooling","relief"],"sentence":"Something worth considering might be the Headache Hat Wearable Ice Pack"},
-  {"name":"Ear Wax Removal Kit by Debrox","asin":"B00F3B5MRO","category":"hearing-protection","tags":["ear wax","removal","cleaning","hearing","maintenance"],"sentence":"A tool that often helps with this is the Debrox Ear Wax Removal Kit"},
-  {"name":"Tinnitus Sound Therapy System by Widex","asin":"B07WVXFKJQ","category":"sound-therapy","tags":["tinnitus","sound therapy","clinical","professional"],"sentence":"For those looking for a clinical approach, the Widex Sound Therapy System is worth considering"},
-  {"name":"Pillow Speaker by Sangean","asin":"B003MQHINY","category":"sound-therapy","tags":["pillow speaker","sleep","sound therapy","bedside"],"sentence":"One option that many people like is the Sangean Pillow Speaker"},
-  {"name":"Under Pillow Speaker by iMusic","asin":"B07BQXJT3K","category":"sound-therapy","tags":["pillow speaker","sleep","discreet","sound"],"sentence":"A popular choice for situations like this is an Under Pillow Speaker"},
-  {"name":"Bone Conduction Pillow Speaker","asin":"B0BTJJQQ9Q","category":"sound-therapy","tags":["bone conduction","pillow","sleep","partner-friendly"],"sentence":"Something worth considering might be a Bone Conduction Pillow Speaker"},
-  {"name":"Herbal Tea Sampler - Relaxation","asin":"B00INIFRZ2","category":"supplements","tags":["herbal tea","relaxation","chamomile","sleep","calm"],"sentence":"You could also try a Relaxation Herbal Tea Sampler"},
-  {"name":"Chamomile Tea by Traditional Medicinals","asin":"B0009F3PM6","category":"supplements","tags":["chamomile","tea","sleep","calm","herbal"],"sentence":"A tool that often helps with this is Traditional Medicinals Chamomile Tea"},
-  {"name":"Valerian Root by Nature's Way","asin":"B00068TJXK","category":"supplements","tags":["valerian","sleep","herbal","calm","root"],"sentence":"For those looking for a simple solution, Nature's Way Valerian Root works well"},
-  {"name":"Passionflower Extract by Nature's Answer","asin":"B0001TH0EK","category":"supplements","tags":["passionflower","calm","herbal","anxiety","sleep"],"sentence":"One option that many people like is Nature's Answer Passionflower Extract"},
-  {"name":"GABA Supplement by NOW","asin":"B0013OUQF0","category":"supplements","tags":["GABA","calm","neurotransmitter","relaxation","anxiety"],"sentence":"Something worth considering might be NOW GABA supplements"},
-  {"name":"CoQ10 by Doctor's Best","asin":"B0019GW3G8","category":"supplements","tags":["CoQ10","energy","cellular","antioxidant","heart"],"sentence":"A popular choice for situations like this is Doctor's Best CoQ10"},
-  {"name":"Turmeric Curcumin by NatureWise","asin":"B01BMDAVIY","category":"supplements","tags":["turmeric","inflammation","curcumin","joint","antioxidant"],"sentence":"You could also try NatureWise Turmeric Curcumin"},
-  {"name":"Probiotics by Culturelle","asin":"B000FKDB3A","category":"supplements","tags":["probiotics","gut health","immune","digestion","microbiome"],"sentence":"A tool that often helps with this is Culturelle Probiotics"},
-  {"name":"Vitamin B12 by Jarrow Formulas","asin":"B0013OQBPE","category":"supplements","tags":["B12","energy","nerve health","methylcobalamin"],"sentence":"For those looking for a simple solution, Jarrow Formulas B12 works well"},
-  {"name":"Alpha-Lipoic Acid by Doctor's Best","asin":"B000I4C19K","category":"supplements","tags":["ALA","antioxidant","nerve","neuropathy","cellular"],"sentence":"One option that many people like is Doctor's Best Alpha-Lipoic Acid"},
-  {"name":"Ginkgo Biloba by Nature's Bounty","asin":"B002Y27JCG","category":"supplements","tags":["ginkgo","circulation","brain","memory","tinnitus"],"sentence":"Something worth considering might be Nature's Bounty Ginkgo Biloba"},
-  {"name":"Stress Ball Set","asin":"B07BQCZ5YD","category":"body-tools","tags":["stress","fidget","hand exercise","anxiety","grip"],"sentence":"A popular choice for situations like this is a Stress Ball Set"},
-  {"name":"Fidget Cube","asin":"B01MAYBR2D","category":"body-tools","tags":["fidget","anxiety","focus","sensory","desk"],"sentence":"You could also try a Fidget Cube for anxious moments"},
-  {"name":"Therapy Putty Set","asin":"B01BSZX5OO","category":"body-tools","tags":["therapy","hand","grip","rehab","sensory"],"sentence":"One option that many people like is a Therapy Putty Set"},
-  {"name":"Lacrosse Massage Ball Set","asin":"B00KADR28K","category":"body-tools","tags":["massage","trigger point","muscle","neck","back"],"sentence":"A tool that often helps with this is a Lacrosse Massage Ball Set"},
-  {"name":"Shiatsu Neck and Back Massager","asin":"B07B2LNKMP","category":"body-tools","tags":["shiatsu","massage","neck","back","heat"],"sentence":"For those looking for a simple solution, a Shiatsu Neck and Back Massager works well"},
-  {"name":"Theracane Massager","asin":"B000PRMCJU","category":"body-tools","tags":["self-massage","trigger point","back","neck","deep tissue"],"sentence":"Something worth considering might be the Theracane Massager"},
-  {"name":"Gaiam Balance Ball Chair","asin":"B0007VB4NE","category":"movement","tags":["balance","chair","posture","core","sitting"],"sentence":"A popular choice for situations like this is the Gaiam Balance Ball Chair"},
-  {"name":"Stretching Strap by Tumaz","asin":"B01N5OPMHX","category":"movement","tags":["stretching","flexibility","strap","yoga","recovery"],"sentence":"You could also try the Tumaz Stretching Strap"},
-  {"name":"Mini Stepper by Sunny Health","asin":"B0016BQFSS","category":"movement","tags":["stepper","exercise","low impact","desk","cardio"],"sentence":"One option that many people like is the Sunny Health Mini Stepper"},
-  {"name":"Tai Chi for Beginners DVD","asin":"B002CJNIRW","category":"movement","tags":["tai chi","beginner","movement","balance","meditation"],"sentence":"A tool that often helps with this is a Tai Chi for Beginners DVD"},
-  {"name":"Blackout Curtains","asin":"B01F9G106E","category":"sleep","tags":["blackout","curtains","sleep","dark","bedroom"],"sentence":"For those looking for a simple solution, Blackout Curtains make a real difference"},
-  {"name":"White Noise Fan by Vornado","asin":"B0025WUNZ8","category":"sleep","tags":["fan","white noise","sleep","air","cooling"],"sentence":"Something worth considering might be a Vornado White Noise Fan"},
-  {"name":"Sleep Headphones Headband","asin":"B07SHBQY7Z","category":"sleep","tags":["sleep headphones","headband","bluetooth","comfortable","music"],"sentence":"One option that many people like is a Sleep Headphones Headband"},
-  {"name":"Gravity Weighted Blanket","asin":"B073429DV2","category":"sleep","tags":["weighted blanket","anxiety","sleep","deep pressure","calm"],"sentence":"A popular choice for situations like this is the Gravity Weighted Blanket"},
-  {"name":"Aromatherapy Shower Steamers","asin":"B07PLKD5TH","category":"aromatherapy","tags":["shower","aromatherapy","eucalyptus","relaxation","steam"],"sentence":"You could also try Aromatherapy Shower Steamers"},
-  {"name":"Beeswax Ear Candles","asin":"B07NQHZWLH","category":"aromatherapy","tags":["ear candles","beeswax","relaxation","ritual"],"sentence":"Something worth considering might be Beeswax Ear Candles for a calming ritual"},
-  {"name":"Noise Meter App Compatible Decibel Reader","asin":"B0B6HGKFQK","category":"hearing-protection","tags":["decibel","noise meter","measurement","hearing","protection"],"sentence":"A tool that often helps with this is a portable Decibel Reader"},
-  {"name":"SleepPhones Wireless Headband Headphones","asin":"B0046H8ZHS","category":"sound-therapy","tags":["sleep","headphones","headband","wireless","comfortable"],"sentence":"For those looking for a simple solution, SleepPhones are worth trying"},
-  {"name":"Rain Sound Machine by Big Red Rooster","asin":"B01HPXKJMA","category":"sound-therapy","tags":["rain","sound machine","sleep","nature","affordable"],"sentence":"One option that many people like is the Big Red Rooster Rain Sound Machine"},
-  {"name":"Portable Sound Machine by Yogasleep","asin":"B07GXQMFKR","category":"sound-therapy","tags":["portable","sound machine","travel","white noise","compact"],"sentence":"A popular choice for situations like this is the Yogasleep Portable Sound Machine"},
-  {"name":"Tinnitus Relief Ear Drops by Ring Relief","asin":"B000GG1CC6","category":"supplements","tags":["tinnitus","ear drops","homeopathic","relief"],"sentence":"Something worth considering might be Ring Relief Tinnitus Ear Drops"},
-  {"name":"Lipo-Flavonoid Plus Ear Health","asin":"B000QUNKBQ","category":"supplements","tags":["lipo-flavonoid","ear health","tinnitus","supplement","bioflavonoid"],"sentence":"A tool that often helps with this is Lipo-Flavonoid Plus for ear health"},
-  {"name":"Arches Tinnitus Formula","asin":"B001F0QBYI","category":"supplements","tags":["tinnitus","supplement","ginkgo","zinc","garlic"],"sentence":"For those looking for a targeted approach, Arches Tinnitus Formula is worth considering"},
-  {"name":"Sunbeam Heating Pad","asin":"B000FGDDI0","category":"body-tools","tags":["heating pad","pain relief","muscle","tension","warmth"],"sentence":"One option that many people like is the Sunbeam Heating Pad"},
-  {"name":"Ice Roller for Face and Neck","asin":"B07GZFQP7L","category":"body-tools","tags":["ice roller","face","neck","cooling","inflammation"],"sentence":"You could also try an Ice Roller for face and neck tension"},
-  {"name":"Kinesiology Tape by KT Tape","asin":"B003LWIDDO","category":"body-tools","tags":["kinesiology","tape","support","muscle","posture"],"sentence":"A popular choice for situations like this is KT Tape"},
-  {"name":"Standing Desk Converter","asin":"B07GFRBC9V","category":"movement","tags":["standing desk","posture","ergonomic","work","health"],"sentence":"Something worth considering might be a Standing Desk Converter"},
-  {"name":"Wobble Cushion by Gaiam","asin":"B001KPC2DC","category":"movement","tags":["wobble","cushion","balance","core","sitting"],"sentence":"A tool that often helps with this is the Gaiam Wobble Cushion"},
-  {"name":"Mindfulness Coloring Book","asin":"B016CFPWXE","category":"journaling","tags":["coloring","mindfulness","relaxation","creative","stress relief"],"sentence":"For those looking for a simple solution, a Mindfulness Coloring Book works well"},
-  {"name":"Prompt Journal for Self-Discovery","asin":"B0BXNVWG1H","category":"journaling","tags":["journal","prompts","self-discovery","writing","reflection"],"sentence":"One option that many people like is a Prompt Journal for Self-Discovery"},
-  {"name":"Dry Erase Meditation Board","asin":"B0C8JKQHQY","category":"meditation-tech","tags":["meditation","intention","dry erase","visual","daily"],"sentence":"Something worth considering might be a Dry Erase Meditation Board"},
-  {"name":"Tibetan Prayer Flags","asin":"B006OG5UOI","category":"meditation-tech","tags":["prayer flags","Tibetan","meditation","decor","spiritual"],"sentence":"A popular choice for situations like this is a set of Tibetan Prayer Flags"},
-  {"name":"Incense Sticks Variety Pack","asin":"B07MFYHKQB","category":"aromatherapy","tags":["incense","meditation","relaxation","variety","ritual"],"sentence":"You could also try an Incense Sticks Variety Pack"},
-  {"name":"Palo Santo Sticks","asin":"B07BFVFCNH","category":"aromatherapy","tags":["palo santo","cleansing","ritual","meditation","aroma"],"sentence":"A tool that often helps with this is a bundle of Palo Santo Sticks"},
-  {"name":"Sage Smudge Kit","asin":"B07DXBNHFQ","category":"aromatherapy","tags":["sage","smudge","cleansing","ritual","spiritual"],"sentence":"For those looking for a simple solution, a Sage Smudge Kit works well"},
-  {"name":"Noise Isolating Earbuds by Etymotic","asin":"B00G3K9V96","category":"hearing-protection","tags":["earbuds","noise isolating","music","clarity","affordable"],"sentence":"One option that many people like is the Etymotic Noise Isolating Earbuds"},
-  {"name":"Musician Earplugs by Hearos","asin":"B000V9PKZA","category":"hearing-protection","tags":["musician","earplugs","high fidelity","concerts","practice"],"sentence":"Something worth considering might be Hearos Musician Earplugs"}
+  {
+    "name": "Chamomile Tea by Traditional Medicinals",
+    "asin": "B0009F3PM6",
+    "category": "supplements",
+    "tags": [
+      "chamomile",
+      "tea",
+      "sleep",
+      "calm",
+      "herbal"
+    ],
+    "sentence": "A tool that often helps with this is Traditional Medicinals Chamomile Tea"
+  },
+  {
+    "name": "Jarrow Formulas B-Right Complex",
+    "asin": "B0013OQGO6",
+    "category": "supplements",
+    "tags": [
+      "B vitamins",
+      "energy",
+      "nerve health",
+      "stress"
+    ],
+    "sentence": "A tool that often helps with this is Jarrow Formulas B-Right Complex"
+  },
+  {
+    "name": "NOW Supplements NAC 600mg",
+    "asin": "B0013OUQ3S",
+    "category": "supplements",
+    "tags": [
+      "NAC",
+      "antioxidant",
+      "hearing",
+      "cellular health"
+    ],
+    "sentence": "For those looking for a simple solution, NOW NAC supplements are worth considering"
+  },
+  {
+    "name": "Mini Stepper by Sunny Health",
+    "asin": "B0016BQFSS",
+    "category": "movement",
+    "tags": [
+      "stepper",
+      "exercise",
+      "low impact",
+      "desk",
+      "cardio"
+    ],
+    "sentence": "One option that many people like is the Sunny Health Mini Stepper"
+  },
+  {
+    "name": "CoQ10 by Doctor's Best",
+    "asin": "B0019GW3G8",
+    "category": "supplements",
+    "tags": [
+      "CoQ10",
+      "energy",
+      "cellular",
+      "antioxidant",
+      "heart"
+    ],
+    "sentence": "A popular choice for situations like this is Doctor's Best CoQ10"
+  },
+  {
+    "name": "Nordic Naturals Ultimate Omega",
+    "asin": "B002CQU564",
+    "category": "supplements",
+    "tags": [
+      "omega-3",
+      "fish oil",
+      "inflammation",
+      "brain health"
+    ],
+    "sentence": "Something worth considering might be Nordic Naturals Ultimate Omega"
+  },
+  {
+    "name": "SleepPhones Wireless Headband Headphones",
+    "asin": "B0046H8ZHS",
+    "category": "sound-therapy",
+    "tags": [
+      "sleep",
+      "headphones",
+      "headband",
+      "wireless",
+      "comfortable"
+    ],
+    "sentence": "For those looking for a simple solution, SleepPhones are worth trying"
+  },
+  {
+    "name": "Homedics SoundSpa Relaxation Machine",
+    "asin": "B00A2JBMRE",
+    "category": "sound-therapy",
+    "tags": [
+      "relaxation",
+      "sound machine",
+      "affordable",
+      "sleep"
+    ],
+    "sentence": "A popular choice for situations like this is the Homedics SoundSpa"
+  },
+  {
+    "name": "Full Catastrophe Living by Jon Kabat-Zinn",
+    "asin": "B00C4BA3UK",
+    "category": "books",
+    "tags": [
+      "MBSR",
+      "stress reduction",
+      "mindfulness",
+      "chronic conditions"
+    ],
+    "sentence": "For those looking for a deeper approach, Full Catastrophe Living is worth reading"
+  },
+  {
+    "name": "Coop Home Goods Premium Pillow",
+    "asin": "B00EINBSEW",
+    "category": "sleep",
+    "tags": [
+      "pillow",
+      "neck support",
+      "sleep",
+      "adjustable"
+    ],
+    "sentence": "A popular choice for situations like this is the Coop Home Goods Premium Pillow"
+  },
+  {
+    "name": "The Body Keeps the Score by Bessel van der Kolk",
+    "asin": "B00G3L1C2K",
+    "category": "books",
+    "tags": [
+      "trauma",
+      "body",
+      "nervous system",
+      "healing"
+    ],
+    "sentence": "Something worth considering might be The Body Keeps the Score"
+  },
+  {
+    "name": "Waking Up by Sam Harris",
+    "asin": "B00GEEB9YC",
+    "category": "books",
+    "tags": [
+      "meditation",
+      "consciousness",
+      "secular",
+      "awareness"
+    ],
+    "sentence": "One option that many people like is Waking Up by Sam Harris"
+  },
+  {
+    "name": "Yogasleep Dohm Classic White Noise Machine",
+    "asin": "B00HD0ELFK",
+    "category": "sound-therapy",
+    "tags": [
+      "white noise",
+      "sleep",
+      "natural sound",
+      "fan sound"
+    ],
+    "sentence": "A tool that often helps with this is the Yogasleep Dohm Classic"
+  },
+  {
+    "name": "Eargasm High Fidelity Earplugs",
+    "asin": "B019M576XW",
+    "category": "hearing-protection",
+    "tags": [
+      "earplugs",
+      "concerts",
+      "musicians",
+      "high fidelity"
+    ],
+    "sentence": "A tool that often helps with this is the Eargasm High Fidelity Earplugs"
+  },
+  {
+    "name": "Turmeric Curcumin by NatureWise",
+    "asin": "B01BMDAVIY",
+    "category": "supplements",
+    "tags": [
+      "turmeric",
+      "inflammation",
+      "curcumin",
+      "joint",
+      "antioxidant"
+    ],
+    "sentence": "You could also try NatureWise Turmeric Curcumin"
+  },
+  {
+    "name": "L-Theanine 200mg by Sports Research",
+    "asin": "B01GV4O37E",
+    "category": "supplements",
+    "tags": [
+      "l-theanine",
+      "calm",
+      "focus",
+      "relaxation",
+      "tea"
+    ],
+    "sentence": "One option that many people like is Sports Research L-Theanine"
+  },
+  {
+    "name": "Gravity Weighted Blanket",
+    "asin": "B073429DV2",
+    "category": "sleep",
+    "tags": [
+      "weighted blanket",
+      "anxiety",
+      "sleep",
+      "deep pressure",
+      "calm"
+    ],
+    "sentence": "A popular choice for situations like this is the Gravity Weighted Blanket"
+  },
+  {
+    "name": "Thorne Research Melatonin 3mg",
+    "asin": "B0797JCBKR",
+    "category": "supplements",
+    "tags": [
+      "melatonin",
+      "sleep",
+      "circadian",
+      "rest"
+    ],
+    "sentence": "For those looking for a simple solution, Thorne Research Melatonin works well"
+  },
+  {
+    "name": "Shiatsu Neck and Back Massager",
+    "asin": "B07B2LNKMP",
+    "category": "body-tools",
+    "tags": [
+      "shiatsu",
+      "massage",
+      "neck",
+      "back",
+      "heat"
+    ],
+    "sentence": "For those looking for a simple solution, a Shiatsu Neck and Back Massager works well"
+  },
+  {
+    "name": "Palo Santo Sticks",
+    "asin": "B07BFVFCNH",
+    "category": "aromatherapy",
+    "tags": [
+      "palo santo",
+      "cleansing",
+      "ritual",
+      "meditation",
+      "aroma"
+    ],
+    "sentence": "A tool that often helps with this is a bundle of Palo Santo Sticks"
+  },
+  {
+    "name": "Hot Cold Gel Pack for Neck",
+    "asin": "B07BNHWLQP",
+    "category": "body-tools",
+    "tags": [
+      "hot cold",
+      "neck",
+      "therapy",
+      "pain relief",
+      "compress"
+    ],
+    "sentence": "For those looking for a simple solution, a Hot Cold Gel Pack works well"
+  },
+  {
+    "name": "Stress Ball Set",
+    "asin": "B07BQCZ5YD",
+    "category": "body-tools",
+    "tags": [
+      "stress",
+      "fidget",
+      "hand exercise",
+      "anxiety",
+      "grip"
+    ],
+    "sentence": "A popular choice for situations like this is a Stress Ball Set"
+  },
+  {
+    "name": "Sleep Headphones Headband",
+    "asin": "B07SHBQY7Z",
+    "category": "sleep",
+    "tags": [
+      "sleep headphones",
+      "headband",
+      "bluetooth",
+      "comfortable",
+      "music"
+    ],
+    "sentence": "One option that many people like is a Sleep Headphones Headband"
+  },
+  {
+    "name": "Kindle Paperwhite",
+    "asin": "B09TMN58KL",
+    "category": "books",
+    "tags": [
+      "reading",
+      "kindle",
+      "books",
+      "portable",
+      "e-reader"
+    ],
+    "sentence": "One option that many people like is the Kindle Paperwhite for reading before bed"
+  },
+  {
+    "name": "Bose QuietComfort Ultra Headphones",
+    "asin": "B0CCZ26B5V",
+    "category": "headphones",
+    "tags": [
+      "noise cancelling",
+      "comfort",
+      "quiet",
+      "immersive"
+    ],
+    "sentence": "For those looking for a simple solution, the Bose QuietComfort Ultra is worth a look"
+  },
+  {
+    "asin": "B07TKD3VNP",
+    "name": "Sound Oasis Bluetooth Tinnitus Sound Therapy System",
+    "category": "sound-therapy",
+    "sentence": "Sound Oasis Bluetooth Tinnitus Sound Therapy System supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0DW961G64",
+    "name": "Sound Oasis Bluetooth Tinnitus Sound Therapy System Alarm",
+    "category": "sound-therapy",
+    "sentence": "Sound Oasis Bluetooth Tinnitus Sound Therapy System Alarm supports your tinnitus management journey"
+  },
+  {
+    "asin": "B00MMPQAM8",
+    "name": "Sound Oasis Bluetooth White Noise Machine",
+    "category": "sound-therapy",
+    "sentence": "Sound Oasis Bluetooth White Noise Machine supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0BSG6DV8J",
+    "name": "Sound Oasis Deluxe Bluetooth Sleep Tinnitus Sound Machine",
+    "category": "sound-therapy",
+    "sentence": "Sound Oasis Deluxe Bluetooth Sleep Tinnitus Sound Machine supports your tinnitus management journey"
+  },
+  {
+    "asin": "B004H5IXUS",
+    "name": "Sound Oasis Pillow Speakers, 2 UltraThin Stereo",
+    "category": "sleep",
+    "sentence": "Sound Oasis Pillow Speakers, 2 UltraThin Stereo supports your tinnitus management journey"
+  },
+  {
+    "asin": "B078QSY2HY",
+    "name": "Sound Oasis Tinnitus Sound Therapy System, 24 Dr",
+    "category": "sound-therapy",
+    "sentence": "Sound Oasis Tinnitus Sound Therapy System, 24 Dr supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0FZ8SWMKJ",
+    "name": "Cancelling Bluetooth Headphones Earphones Sweatproof",
+    "category": "headphones",
+    "sentence": "Cancelling Bluetooth Headphones Earphones Sweatproof supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0GD7J93YY",
+    "name": "2-1 Earplugs Relief Headphones",
+    "category": "headphones",
+    "sentence": "2-1 Earplugs Relief Headphones supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0DXL23JNF",
+    "name": "ELEHEAR-Beyond OTC Hearing Aids, AI Powered Speech Enhancement Tinnitus Connectivity-Bluetooth",
+    "category": "headphones",
+    "sentence": "ELEHEAR-Beyond OTC Hearing Aids, AI Powered Speech Enhancement Tinnitus Connectivity-Bluetooth supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0FHJ81KQB",
+    "name": "Hearivo Rechargeable Bluetooth Hearing Aids, App-Controlled with Noise Cancelling",
+    "category": "headphones",
+    "sentence": "Hearivo Rechargeable Bluetooth Hearing Aids, App-Controlled with Noise Cancelling supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0DBQ5GPX1",
+    "name": "T16 Wireless Bluetooth 5.3 Sleep Earbuds, Noise Cancelling",
+    "category": "headphones",
+    "sentence": "T16 Wireless Bluetooth 5.3 Sleep Earbuds, Noise Cancelling supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0DZ6PNNJD",
+    "name": "FlyHugz HushLoop - Grey Noise Cancelling Ear Plugs for Sleeping Tinnitus",
+    "category": "hearing-protection",
+    "sentence": "FlyHugz HushLoop - Grey Noise Cancelling Ear Plugs for Sleeping Tinnitus supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0D4DFQTMJ",
+    "name": "Loop Experience 2 Ear Plugs – Stylish Certified Hearing Protection",
+    "category": "hearing-protection",
+    "sentence": "Loop Experience 2 Ear Plugs – Stylish Certified Hearing Protection supports your tinnitus management journey"
+  },
+  {
+    "asin": "B08PBQFQH6",
+    "name": "Hearprotek Concert Ear Plugs, 2Pairs Reusable high Fidelity",
+    "category": "hearing-protection",
+    "sentence": "Hearprotek Concert Ear Plugs, 2Pairs Reusable high Fidelity supports your tinnitus management journey"
+  },
+  {
+    "asin": "B08273T5XC",
+    "name": "Quality Foam Earplugs 200 Pair - 32dB Noise Cancelling Soft High",
+    "category": "hearing-protection",
+    "sentence": "Quality Foam Earplugs 200 Pair - 32dB Noise Cancelling Soft High supports your tinnitus management journey"
+  },
+  {
+    "asin": "B076VVP6CX",
+    "name": "EARPEACE Music - Concert Ear Plugs - Earplugs for Noise",
+    "category": "hearing-protection",
+    "sentence": "EARPEACE Music - Concert Ear Plugs - Earplugs for Noise supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0D42DQSK4",
+    "name": "Hoop Ear Plugs for Quiet Noise Reduction",
+    "category": "hearing-protection",
+    "sentence": "Hoop Ear Plugs for Quiet Noise Reduction supports your tinnitus management journey"
+  },
+  {
+    "asin": "B018WPOQSG",
+    "name": "VIBES High Fidelity Concert Ear Plugs – Reusable Noise Reducing",
+    "category": "hearing-protection",
+    "sentence": "VIBES High Fidelity Concert Ear Plugs – Reusable Noise Reducing supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0FMJZMV4K",
+    "name": "GLORYFIRE Shooting Ear Protection Earplugs",
+    "category": "hearing-protection",
+    "sentence": "GLORYFIRE Shooting Ear Protection Earplugs supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0DD7XPWMR",
+    "name": "Shooting Ear Protection for Gun Range, 10 Pairs Ear Plugs for Noise",
+    "category": "hearing-protection",
+    "sentence": "Shooting Ear Protection for Gun Range, 10 Pairs Ear Plugs for Noise supports your tinnitus management journey"
+  },
+  {
+    "asin": "B09TRZFYCV",
+    "name": "Research Verified Tinnitus Aid - 3 Month Supply - Vegan",
+    "category": "supplements",
+    "sentence": "Research Verified Tinnitus Aid - 3 Month Supply - Vegan supports your tinnitus management journey"
+  },
+  {
+    "asin": "B09TS1NHM4",
+    "name": "Research Verified Tinnitus Aid - 60 Capsules - Vegan",
+    "category": "supplements",
+    "sentence": "Research Verified Tinnitus Aid - 60 Capsules - Vegan supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0F8C1F1B7",
+    "name": "Vital Peak® Hearing Peak - Tinnitus Supplements - Ear Health",
+    "category": "supplements",
+    "sentence": "Vital Peak® Hearing Peak - Tinnitus Supplements - Ear Health supports your tinnitus management journey"
+  },
+  {
+    "asin": "B09TRZXRN7",
+    "name": "Research Verified Tinnitus Aid - 6 Month Supply - Vegan",
+    "category": "supplements",
+    "sentence": "Research Verified Tinnitus Aid - 6 Month Supply - Vegan supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0CDJFD8LP",
+    "name": "BY CARIOLA Zen Ear – Ear Wellness & Daily Support Supplement",
+    "category": "supplements",
+    "sentence": "BY CARIOLA Zen Ear – Ear Wellness & Daily Support Supplement supports your tinnitus management journey"
+  },
+  {
+    "asin": "B08W9WGMMV",
+    "name": "Audio Calm - Tinnitus Relief for Ringing Ears",
+    "category": "supplements",
+    "sentence": "Audio Calm - Tinnitus Relief for Ringing Ears supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0F19FN6F4",
+    "name": "Tinnitus Relief for Ringing Ears Supplement: Natural Hearing Health",
+    "category": "supplements",
+    "sentence": "Tinnitus Relief for Ringing Ears Supplement: Natural Hearing Health supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0FF1T75MW",
+    "name": "Tinnitus Relief Supplement for Ringing Ears - Tinnitus Relief Capsules with Magnesium, Zinc & Ginkgo Biloba Support Buzzing, Ringing & Ear Discomfort, Calm",
+    "category": "supplements",
+    "sentence": "Tinnitus Relief Supplement for Ringing Ears - Tinnitus Relief Capsules with Magnesium, Zinc & Ginkgo Biloba Support Buzzing, Ringing & Ear Discomfort, Calm supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0C9S3H772",
+    "name": "The Tinnitus Book: Understanding Tinnitus and How to Find Relief",
+    "category": "books",
+    "sentence": "The Tinnitus Book: Understanding Tinnitus and How to Find Relief supports your tinnitus management journey"
+  },
+  {
+    "asin": "1472147421",
+    "name": "Living Well with Tinnitus: A self-help guide using cognitive ...",
+    "category": "books",
+    "sentence": "Living Well with Tinnitus: A self-help guide using cognitive ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "1684201713",
+    "name": "Tinnitus Treatment: Clinical Protocols",
+    "category": "books",
+    "sentence": "Tinnitus Treatment: Clinical Protocols supports your tinnitus management journey"
+  },
+  {
+    "asin": "1540483185",
+    "name": "Rewiring Tinnitus: How I Finally Found Relief From The Ringing In ...",
+    "category": "books",
+    "sentence": "Rewiring Tinnitus: How I Finally Found Relief From The Ringing In ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "1934266035",
+    "name": "Tinnitus: Turning the Volume Down",
+    "category": "books",
+    "sentence": "Tinnitus: Turning the Volume Down supports your tinnitus management journey"
+  },
+  {
+    "asin": "B00WSQASO2",
+    "name": "TINNITUS: Relief Treatment Cure Remedy Management Prevention",
+    "category": "books",
+    "sentence": "TINNITUS: Relief Treatment Cure Remedy Management Prevention supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0DCBX2YN6",
+    "name": "Your Path to a Tinnitus-Free Life: Follow My Four-Step Formula to ...",
+    "category": "books",
+    "sentence": "Your Path to a Tinnitus-Free Life: Follow My Four-Step Formula to ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "1036964973",
+    "name": "Beyond The Noise: A Practical Guide to Tinnitus Relief",
+    "category": "books",
+    "sentence": "Beyond The Noise: A Practical Guide to Tinnitus Relief supports your tinnitus management journey"
+  },
+  {
+    "asin": "0966182677",
+    "name": "The Consumer Handbook on Tinnitus",
+    "category": "books",
+    "sentence": "The Consumer Handbook on Tinnitus supports your tinnitus management journey"
+  },
+  {
+    "asin": "1887053069",
+    "name": "The Tinnitus Handbook : A Self Help Guide",
+    "category": "books",
+    "sentence": "The Tinnitus Handbook : A Self Help Guide supports your tinnitus management journey"
+  },
+  {
+    "asin": "B077P4336Y",
+    "name": "Mindful & Modern Large Meditation Cushion for Zafu Yoga",
+    "category": "meditation-tech",
+    "sentence": "Mindful & Modern Large Meditation Cushion for Zafu Yoga supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0FBQY1LDK",
+    "name": "Zafu & Zabuton Meditation Cushion Set - Buckwheat Hull & Memory ...",
+    "category": "meditation-tech",
+    "sentence": "Zafu & Zabuton Meditation Cushion Set - Buckwheat Hull & Memory ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0C7ZGRHHM",
+    "name": "ZenBless Zafu and Zabuton Meditation Cushion Set ...",
+    "category": "meditation-tech",
+    "sentence": "ZenBless Zafu and Zabuton Meditation Cushion Set ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B000GM5EMQ",
+    "name": "Kapok Zafu, Zabuton and Support Meditation Cushion Set (3pc)",
+    "category": "meditation-tech",
+    "sentence": "Kapok Zafu, Zabuton and Support Meditation Cushion Set (3pc) supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0FYZJ3QR8",
+    "name": "Brocoliano Meditation Cushion – Ergonomic Zafu ...",
+    "category": "meditation-tech",
+    "sentence": "Brocoliano Meditation Cushion – Ergonomic Zafu ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B00IT2V8Y8",
+    "name": "Bean Products Zafu Meditation Pillows for Sitting on Floor, Yoga ...",
+    "category": "meditation-tech",
+    "sentence": "Bean Products Zafu Meditation Pillows for Sitting on Floor, Yoga ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0FZZJB86Y",
+    "name": "Zafu Meditation Cushion Japan Made | Authentic Zen ...",
+    "category": "meditation-tech",
+    "sentence": "Zafu Meditation Cushion Japan Made | Authentic Zen ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0FBR7PFPR",
+    "name": "Zafu & Zabuton Meditation Cushion Set - Buckwheat ...",
+    "category": "meditation-tech",
+    "sentence": "Zafu & Zabuton Meditation Cushion Set - Buckwheat ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B08F598PSB",
+    "name": "Mindful Modern Meditation Cushion & Zabuton Meditation Mat Bundle",
+    "category": "meditation-tech",
+    "sentence": "Mindful Modern Meditation Cushion & Zabuton Meditation Mat Bundle supports your tinnitus management journey"
+  },
+  {
+    "asin": "B07QSFJ8S2",
+    "name": "RESTCLOUD Neck and Shoulder Relaxer, Cervical Traction Device for TMJ Pain Relief and Cervical Spine Alignment, Chiropractic Pillow, Neck Stretcher",
+    "category": "body-tools",
+    "sentence": "RESTCLOUD Neck and Shoulder Relaxer, Cervical Traction Device for TMJ Pain Relief and Cervical Spine Alignment, Chiropractic Pillow, Neck Stretcher supports your tinnitus management journey"
+  },
+  {
+    "asin": "B094MQVXMB",
+    "name": "RESTCLOUD Neck and Shoulder Relaxer, Cervical Traction Device for TMJ Pain Relief and Cervical Spine Alignment, Chiropractic Pillow Neck Stretcher",
+    "category": "body-tools",
+    "sentence": "RESTCLOUD Neck and Shoulder Relaxer, Cervical Traction Device for TMJ Pain Relief and Cervical Spine Alignment, Chiropractic Pillow Neck Stretcher supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0C141Q82D",
+    "name": "Neck Stretcher for Pain Relief, Neck and Shoulder Relaxer Cervical...",
+    "category": "body-tools",
+    "sentence": "Neck Stretcher for Pain Relief, Neck and Shoulder Relaxer Cervical... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B082XYR2P2",
+    "name": "RESTCLOUD Neck and Shoulder Relaxer, Cervical Traction Device...",
+    "category": "body-tools",
+    "sentence": "RESTCLOUD Neck and Shoulder Relaxer, Cervical Traction Device... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0F7Y9K27N",
+    "name": "Neck Massager 2026 Portable Neck Traction Device,Cervical with ...",
+    "category": "body-tools",
+    "sentence": "Neck Massager 2026 Portable Neck Traction Device,Cervical with ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B09Y1Q63TV",
+    "name": "Back Rescue Trigger Point Neck Massager for Neck Pain Relief ...",
+    "category": "body-tools",
+    "sentence": "Back Rescue Trigger Point Neck Massager for Neck Pain Relief ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0BJ2J4J2H",
+    "name": "Heated Neck Stretcher with Red Light Therapy, Wireless Cervical Traction Device for TMJ Pain Relief and Shoulder Relaxer, Neck Traction Massager Pillow for ...",
+    "category": "body-tools",
+    "sentence": "Heated Neck Stretcher with Red Light Therapy, Wireless Cervical Traction Device for TMJ Pain Relief and Shoulder Relaxer, Neck Traction Massager Pillow for ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0CH1B2V3L",
+    "name": "Neck Stretcher and Cervical Traction Device, Relaxer for TMJ Pain and Shoulder Pain Relief, Cervical Traction Device Pillow, Spine and Neck Corrector(Blue).",
+    "category": "body-tools",
+    "sentence": "Neck Stretcher and Cervical Traction Device, Relaxer for TMJ Pain and Shoulder Pain Relief, Cervical Traction Device Pillow, Spine and Neck Corrector(Blue). supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0GJQDL8S5",
+    "name": "Sleep Sound Machine Pillow Speaker, White Noise & Nature Sounds, Hi-Fi Bedside Speaker with Gentle Volume, Memory Function, Long Battery Life for Home",
+    "category": "sleep",
+    "sentence": "Sleep Sound Machine Pillow Speaker, White Noise & Nature Sounds, Hi-Fi Bedside Speaker with Gentle Volume, Memory Function, Long Battery Life for Home supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0GJS126M6",
+    "name": "Ultra-Thin Pillow Speaker White Noise Machine",
+    "category": "sleep",
+    "sentence": "Ultra-Thin Pillow Speaker White Noise Machine supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0GHW6W7LH",
+    "name": "Under Pillow Sleep Speaker with White Noise, Ultra Slim Blue-Tooth",
+    "category": "sleep",
+    "sentence": "Under Pillow Sleep Speaker with White Noise, Ultra Slim Blue-Tooth supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0C8GBQ7BW",
+    "name": "Bluetooth Pillow Speaker for Sleeping, Bone Conduction Stereo",
+    "category": "sleep",
+    "sentence": "Bluetooth Pillow Speaker for Sleeping, Bone Conduction Stereo supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0C746Z8WZ",
+    "name": "Avantree Slumber - Pillow Speaker for Sleeping, Private Audio with",
+    "category": "sleep",
+    "sentence": "Avantree Slumber - Pillow Speaker for Sleeping, Private Audio with supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0DWX3GNTV",
+    "name": "Jabees Peace Bluetooth Pillow Speaker for Sleeping",
+    "category": "sleep",
+    "sentence": "Jabees Peace Bluetooth Pillow Speaker for Sleeping supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0FH6HQJR2",
+    "name": "Hesond Pillow Speaker Bone Conduction Stereo Bluetooth Wireless",
+    "category": "sleep",
+    "sentence": "Hesond Pillow Speaker Bone Conduction Stereo Bluetooth Wireless supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0GFDGKK32",
+    "name": "STEHEALTH Under-Pillow Speaker for Sleeping",
+    "category": "sleep",
+    "sentence": "STEHEALTH Under-Pillow Speaker for Sleeping supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0GKN74GVK",
+    "name": "Kinglucky Pillow Speaker for Sleeping, Mini Bluetooth",
+    "category": "sleep",
+    "sentence": "Kinglucky Pillow Speaker for Sleeping, Mini Bluetooth supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0BGMD7ZSB",
+    "name": "Bluetooth Pillow Speaker for Sleeping, Soft Whispering Sound",
+    "category": "sleep",
+    "sentence": "Bluetooth Pillow Speaker for Sleeping, Soft Whispering Sound supports your tinnitus management journey"
+  },
+  {
+    "asin": "B01MR4Y0CZ",
+    "name": "ASAKUKI Essential Oil Diffuser for Home, 500ML",
+    "category": "aromatherapy",
+    "sentence": "ASAKUKI Essential Oil Diffuser for Home, 500ML supports your tinnitus management journey"
+  },
+  {
+    "asin": "B07JD2GDKN",
+    "name": "Ultimate Aromatherapy Diffuser & Essential Oil Set",
+    "category": "aromatherapy",
+    "sentence": "Ultimate Aromatherapy Diffuser & Essential Oil Set supports your tinnitus management journey"
+  },
+  {
+    "asin": "B06XRLR9RQ",
+    "name": "Lagunamoon Essential Oils Aromatherapy Set - 6 Oils for Diffusers",
+    "category": "aromatherapy",
+    "sentence": "Lagunamoon Essential Oils Aromatherapy Set - 6 Oils for Diffusers supports your tinnitus management journey"
+  },
+  {
+    "asin": "B09332HLN1",
+    "name": "300ML Essential Oil Diffuser, Remote Control Ultrasonic",
+    "category": "aromatherapy",
+    "sentence": "300ML Essential Oil Diffuser, Remote Control Ultrasonic supports your tinnitus management journey"
+  },
+  {
+    "asin": "B01NBH66QV",
+    "name": "Homeweeks Diffusers, 100ml Colorful Essential Oil",
+    "category": "aromatherapy",
+    "sentence": "Homeweeks Diffusers, 100ml Colorful Essential Oil supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0F6T9G79J",
+    "name": "Waterless Diffuser for Home Essential Oil Diffuser, Aromatherapy",
+    "category": "aromatherapy",
+    "sentence": "Waterless Diffuser for Home Essential Oil Diffuser, Aromatherapy supports your tinnitus management journey"
+  },
+  {
+    "asin": "B09NLPW71Z",
+    "name": "Essential Oils Diffuser,Aromatherapy Diffuser,Birthday for Women",
+    "category": "aromatherapy",
+    "sentence": "Essential Oils Diffuser,Aromatherapy Diffuser,Birthday for Women supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0FPRCB5LP",
+    "name": "Waterless Essential Oil Diffuser, Rechargeable Scent",
+    "category": "aromatherapy",
+    "sentence": "Waterless Essential Oil Diffuser, Rechargeable Scent supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0CWRJK78S",
+    "name": "FITVII Health & Fitness Tracker (Answer/Make Calls), Smart Watch",
+    "category": "wearables",
+    "sentence": "FITVII Health & Fitness Tracker (Answer/Make Calls), Smart Watch supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0FRV41PHY",
+    "name": "MorePro Health Fitness Tracker with 24/7 Heart Rate/Blood",
+    "category": "wearables",
+    "sentence": "MorePro Health Fitness Tracker with 24/7 Heart Rate/Blood supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0D7VMBBYZ",
+    "name": "Fitness Tracker Smart Watch, 1.47\" Full Touch Health",
+    "category": "wearables",
+    "sentence": "Fitness Tracker Smart Watch, 1.47\" Full Touch Health supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0FPX2FH55",
+    "name": "Fitness Tracker, Smart Watches for Women Men with Heart Rate",
+    "category": "wearables",
+    "sentence": "Fitness Tracker, Smart Watches for Women Men with Heart Rate supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0G2GWX7PW",
+    "name": "Fitness Tracker Activity Tracker Smart Watch 1.10''AMOLED Touch",
+    "category": "wearables",
+    "sentence": "Fitness Tracker Activity Tracker Smart Watch 1.10''AMOLED Touch supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0CC9DXVPF",
+    "name": "LIVIKEY Fitness Tracker Watch with Heart Rate Monitor, Activity",
+    "category": "wearables",
+    "sentence": "LIVIKEY Fitness Tracker Watch with Heart Rate Monitor, Activity supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0F7ZFP3KH",
+    "name": "FKGZJF Smart Watch, Health Fitness Tracker Watch with 24/7 Heart",
+    "category": "wearables",
+    "sentence": "FKGZJF Smart Watch, Health Fitness Tracker Watch with 24/7 Heart supports your tinnitus management journey"
+  },
+  {
+    "asin": "B09X1Y2345",
+    "name": "Amazfit Band 5 Activity Fitness Tracker",
+    "category": "wearables",
+    "sentence": "Amazfit Band 5 Activity Fitness Tracker supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0GFX5SR6L",
+    "name": "EYVZPQKXR Thick Two-Color TPE Yoga Mat Movement Fitness",
+    "category": "movement",
+    "sentence": "EYVZPQKXR Thick Two-Color TPE Yoga Mat Movement Fitness supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0DY7DNHZ9",
+    "name": "QXCIVR Thick Two-Color, Non-Slippery TPE Yoga mat, Movement",
+    "category": "movement",
+    "sentence": "QXCIVR Thick Two-Color, Non-Slippery TPE Yoga mat, Movement supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0G2K82RT1",
+    "name": "Thick Two-color, Non-slippery TPE Yoga Mat",
+    "category": "movement",
+    "sentence": "Thick Two-color, Non-slippery TPE Yoga Mat supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0FPTG8PJT",
+    "name": "BalanceFrom Yoga Mat, 1 Inch Extra Thick High Density Exercise",
+    "category": "movement",
+    "sentence": "BalanceFrom Yoga Mat, 1 Inch Extra Thick High Density Exercise supports your tinnitus management journey"
+  },
+  {
+    "asin": "B086PQXNC6",
+    "name": "Gratitude Journal Notebook: Daily Gratitude Self-Care Affirmations",
+    "category": "journaling",
+    "sentence": "Gratitude Journal Notebook: Daily Gratitude Self-Care Affirmations supports your tinnitus management journey"
+  },
+  {
+    "asin": "B01F2K3FLI",
+    "name": "Patchwork Red Fox Spiral Daily Gratitude Journal with Blank Pages for Him Her",
+    "category": "journaling",
+    "sentence": "Patchwork Red Fox Spiral Daily Gratitude Journal with Blank Pages for Him Her supports your tinnitus management journey"
+  },
+  {
+    "asin": "1947209493",
+    "name": "The Simple Gratitude Journal: A Notebook for Men & Teen Boys",
+    "category": "journaling",
+    "sentence": "The Simple Gratitude Journal: A Notebook for Men & Teen Boys supports your tinnitus management journey"
+  },
+  {
+    "asin": "B099WQZ6RB",
+    "name": "GRATITUDE Journal Notebook: Journaling Inspiration for writing",
+    "category": "journaling",
+    "sentence": "GRATITUDE Journal Notebook: Journaling Inspiration for writing supports your tinnitus management journey"
+  },
+  {
+    "asin": "B086PRM25L",
+    "name": "Daily Gratitude Journal,Notebook for writing spaces for your positive every day note important",
+    "category": "journaling",
+    "sentence": "Daily Gratitude Journal,Notebook for writing spaces for your positive every day note important supports your tinnitus management journey"
+  },
+  {
+    "asin": "1723706027",
+    "name": "Gratitude Journal: Thankful Notebook Diary with 5 Minute Daily Writing",
+    "category": "journaling",
+    "sentence": "Gratitude Journal: Thankful Notebook Diary with 5 Minute Daily Writing supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0B14D2H3B",
+    "name": "Gratitude Journal: Minimalist Blank Lined Notebook to Write In for Women, Men, Students, Work and Teen of All Ages",
+    "category": "journaling",
+    "sentence": "Gratitude Journal: Minimalist Blank Lined Notebook to Write In for Women, Men, Students, Work and Teen of All Ages supports your tinnitus management journey"
+  },
+  {
+    "asin": "1798259893",
+    "name": "Gratitude Journal: Notebook To Write In For Women Daily Reflections of Thankfulness",
+    "category": "journaling",
+    "sentence": "Gratitude Journal: Notebook To Write In For Women Daily Reflections of Thankfulness supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0D9NT3KRG",
+    "name": "Personal Sound Hearing Amplifiers",
+    "category": "wearables",
+    "sentence": "Personal Sound Hearing Amplifiers supports your tinnitus management journey"
+  },
+  {
+    "asin": "B08RGFG7WG",
+    "name": "The Tweak Digital Hearing Amplifier to Aid Personal Sound",
+    "category": "wearables",
+    "sentence": "The Tweak Digital Hearing Amplifier to Aid Personal Sound supports your tinnitus management journey"
+  },
+  {
+    "asin": "B083ZJWBH4",
+    "name": "Ear Basics Personal Sound Amplifier | FSA or HSA Approved",
+    "category": "wearables",
+    "sentence": "Ear Basics Personal Sound Amplifier | FSA or HSA Approved supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0GJ6YLPM5",
+    "name": "Personal Audio Amplifier Device and Voice Enhancer",
+    "category": "wearables",
+    "sentence": "Personal Audio Amplifier Device and Voice Enhancer supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0DJX4FMP1",
+    "name": "Hearing Aids for Seniors, Invisible Hearing Amplifier Mini Sound",
+    "category": "wearables",
+    "sentence": "Hearing Aids for Seniors, Invisible Hearing Amplifier Mini Sound supports your tinnitus management journey"
+  },
+  {
+    "asin": "B019EDGWGO",
+    "name": "Reizen Mighty Loud Ear 120dB Personal Sound Hearing Amplifier",
+    "category": "wearables",
+    "sentence": "Reizen Mighty Loud Ear 120dB Personal Sound Hearing Amplifier supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0DCBLS581",
+    "name": "Personal Sound Hearing Amplifiers Black",
+    "category": "wearables",
+    "sentence": "Personal Sound Hearing Amplifiers Black supports your tinnitus management journey"
+  },
+  {
+    "asin": "B07LD5BDLS",
+    "name": "Ortist Weighted Blanket",
+    "category": "sleep",
+    "sentence": "Ortist Weighted Blanket supports your tinnitus management journey"
+  },
+  {
+    "asin": "B07BR5X6R4",
+    "name": "Leniio Weighted Blanket",
+    "category": "sleep",
+    "sentence": "Leniio Weighted Blanket supports your tinnitus management journey"
+  },
+  {
+    "asin": "B073451HTY",
+    "name": "YnM Weighted Blanket",
+    "category": "sleep",
+    "sentence": "YnM Weighted Blanket supports your tinnitus management journey"
+  },
+  {
+    "asin": "B07D44GNVT",
+    "name": "Dreamfea Weighted Blanket",
+    "category": "sleep",
+    "sentence": "Dreamfea Weighted Blanket supports your tinnitus management journey"
+  },
+  {
+    "asin": "B08CS22G7Z",
+    "name": "Gravity Weighted Blankets for Adults, 15lbs Grey (48\" x 72\", Twin/Single) - Heavy Comfort Cotton Blanket with Glass Beads - Utra-Soft Premium Breathable Microfiber Duvet Cover - Machine Washable",
+    "category": "sleep",
+    "sentence": "Gravity Weighted Blankets for Adults, 15lbs Grey (48\" x 72\", Twin/Single) - Heavy Comfort Cotton Blanket with Glass Beads - Utra-Soft Premium Breathable Microfiber Duvet Cover - Machine Washable supports your tinnitus management journey"
+  },
+  {
+    "asin": "B07H8PTK1V",
+    "name": "LUXOME Full Size Weighted Blanket | Integrated Cooling & Plush Cover | 15 lbs | 54\"x72\" |Grey",
+    "category": "sleep",
+    "sentence": "LUXOME Full Size Weighted Blanket | Integrated Cooling & Plush Cover | 15 lbs | 54\"x72\" |Grey supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0CRGR2TS5",
+    "name": "Soundcore Sleep A20 by Anker Sleep Earbuds",
+    "category": "headphones",
+    "sentence": "Soundcore Sleep A20 by Anker Sleep Earbuds supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0DBQ7443X",
+    "name": "Quidnuran Sleep Headphones Noise Cancelling Earbuds for Sleep",
+    "category": "headphones",
+    "sentence": "Quidnuran Sleep Headphones Noise Cancelling Earbuds for Sleep supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0DF7QFDG9",
+    "name": "Bluripp Sleepals Micro Sleep Earbuds for Side",
+    "category": "headphones",
+    "sentence": "Bluripp Sleepals Micro Sleep Earbuds for Side supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0CYP33TCW",
+    "name": "Sleeping Ear Buds Sleep Earbuds for Side Sleepers, Noise",
+    "category": "headphones",
+    "sentence": "Sleeping Ear Buds Sleep Earbuds for Side Sleepers, Noise supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0819MP1D6",
+    "name": "Sleep Soundproof Earbuds Headphones, Noise Isolating Soft",
+    "category": "headphones",
+    "sentence": "Sleep Soundproof Earbuds Headphones, Noise Isolating Soft supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0CFY61N75",
+    "name": "Pink Active Noise Canceling Earbuds Wireless Bluetooth Sleeping",
+    "category": "headphones",
+    "sentence": "Pink Active Noise Canceling Earbuds Wireless Bluetooth Sleeping supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0CG1QWCTN",
+    "name": "Xmenha Black Sleeping Active Noise Canceling Earbuds",
+    "category": "headphones",
+    "sentence": "Xmenha Black Sleeping Active Noise Canceling Earbuds supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0DB8GB6NP",
+    "name": "Sleep Headphones Sleep Earbuds Noise Cancelling Bluetooth 5.3",
+    "category": "headphones",
+    "sentence": "Sleep Headphones Sleep Earbuds Noise Cancelling Bluetooth 5.3 supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0D9XZ44HF",
+    "name": "Tuning Forks for Healing Set – Includes 128Hz, 136Hz, 256Hz ...",
+    "category": "meditation-tech",
+    "sentence": "Tuning Forks for Healing Set – Includes 128Hz, 136Hz, 256Hz ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B005CCO8RC",
+    "name": "Amazon.com: Otto 128 Weighted Tuning Fork for Healing, Made in ...",
+    "category": "meditation-tech",
+    "sentence": "Amazon.com: Otto 128 Weighted Tuning Fork for Healing, Made in ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0CLD6QDJ7",
+    "name": "Tuning Forks for Sound Therapy (128Hz, 256Hz, 512Hz) for Yoga ...",
+    "category": "meditation-tech",
+    "sentence": "Tuning Forks for Sound Therapy (128Hz, 256Hz, 512Hz) for Yoga ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0D5CGW1MS",
+    "name": "Amazon.com: Tuning Forks for Soubd Healing Set 128HZ, 136.1HZ ...",
+    "category": "meditation-tech",
+    "sentence": "Amazon.com: Tuning Forks for Soubd Healing Set 128HZ, 136.1HZ ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0DS5CVRLQ",
+    "name": "Tuning Forks for Healing Set, Including Four Frequency 128Hz, 136.1Hz, 174Hz, 528Hz Yoga and Meditation Accessories, Chakra Sound Therapy Instruments with ...",
+    "category": "meditation-tech",
+    "sentence": "Tuning Forks for Healing Set, Including Four Frequency 128Hz, 136.1Hz, 174Hz, 528Hz Yoga and Meditation Accessories, Chakra Sound Therapy Instruments with ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0D92TN36F",
+    "name": "Tuning Forks for Healing (128Hz, 256Hz, 512Hz) Chakra Balancing ...",
+    "category": "meditation-tech",
+    "sentence": "Tuning Forks for Healing (128Hz, 256Hz, 512Hz) Chakra Balancing ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B08ZWDPGRP",
+    "name": "Amazon.com: Tuning Forks for Healing Set (128Hz, 256Hz, 512Hz)",
+    "category": "meditation-tech",
+    "sentence": "Amazon.com: Tuning Forks for Healing Set (128Hz, 256Hz, 512Hz) supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0F3NFG6RH",
+    "name": "Tuning Forks for Healing Set (128Hz, 136.1Hz, 256Hz, 384Hz) with ...",
+    "category": "meditation-tech",
+    "sentence": "Tuning Forks for Healing Set (128Hz, 136.1Hz, 256Hz, 384Hz) with ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B09CPY8LK2",
+    "name": "4Pcs Tuning Fork Medical Sound Healing Set(128Hz, OM 136.1Hz ...",
+    "category": "meditation-tech",
+    "sentence": "4Pcs Tuning Fork Medical Sound Healing Set(128Hz, OM 136.1Hz ... supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0G4VN3MHH",
+    "name": "Sakerplus Multifunction Elastic Yoga Resistance Band",
+    "category": "movement",
+    "sentence": "Sakerplus Multifunction Elastic Yoga Resistance Band supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0GJ5326HN",
+    "name": "Yoga Sports Crunches Elastic Pull Rope, Pedal Resistance",
+    "category": "movement",
+    "sentence": "Yoga Sports Crunches Elastic Pull Rope, Pedal Resistance supports your tinnitus management journey"
+  },
+  {
+    "asin": "B07SXFLPGP",
+    "name": "Yoga Elastic Fitness Exercise Pull Rope Exercise Resistance Bands",
+    "category": "movement",
+    "sentence": "Yoga Elastic Fitness Exercise Pull Rope Exercise Resistance Bands supports your tinnitus management journey"
+  },
+  {
+    "asin": "B006O09M4K",
+    "name": "Bodylastics Stackable Tube Resistance Bands",
+    "category": "movement",
+    "sentence": "Bodylastics Stackable Tube Resistance Bands supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0GH6J1TS2",
+    "name": "ASWRTYJO Yoga Resistance Bands",
+    "category": "movement",
+    "sentence": "ASWRTYJO Yoga Resistance Bands supports your tinnitus management journey"
+  },
+  {
+    "asin": "B07P5K7DQP",
+    "name": "Pure Encapsulations Magnesium (Glycinate)",
+    "category": "supplements",
+    "sentence": "Pure Encapsulations Magnesium (Glycinate) supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0C88BJYX2",
+    "name": "Naturebell Pure Magnesium Glycinate 500mg, 240 Veggie Capsules",
+    "category": "supplements",
+    "sentence": "Naturebell Pure Magnesium Glycinate 500mg, 240 Veggie Capsules supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0B6CTYD6S",
+    "name": "Magnesium Glycinate 400mg | 180 Capsules",
+    "category": "supplements",
+    "sentence": "Magnesium Glycinate 400mg | 180 Capsules supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0DYQ741XT",
+    "name": "Magnesium Glycinate Small Capsules – Easy-to-Swallow Small Pills",
+    "category": "supplements",
+    "sentence": "Magnesium Glycinate Small Capsules – Easy-to-Swallow Small Pills supports your tinnitus management journey"
+  },
+  {
+    "asin": "B000BD0RT0",
+    "name": "Doctor's Best High Absorption Magnesium Glycinate Lysinate",
+    "category": "supplements",
+    "sentence": "Doctor's Best High Absorption Magnesium Glycinate Lysinate supports your tinnitus management journey"
+  },
+  {
+    "asin": "B000FGWBK6",
+    "name": "Designs for Health Magnesium Glycinate Complex",
+    "category": "supplements",
+    "sentence": "Designs for Health Magnesium Glycinate Complex supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0DL6JVD1Z",
+    "name": "Dr. Berg Magnesium Glycinate 150ct – 4-in-1 Chelated for Muscle",
+    "category": "supplements",
+    "sentence": "Dr. Berg Magnesium Glycinate 150ct – 4-in-1 Chelated for Muscle supports your tinnitus management journey"
+  },
+  {
+    "asin": "B07NWMVMT1",
+    "name": "NOW Foods Supplements, Magnesium Glycinate 100 mg, Highly",
+    "category": "supplements",
+    "sentence": "NOW Foods Supplements, Magnesium Glycinate 100 mg, Highly supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0B1CHKM4S",
+    "name": "Luma Nutrition Magnesium Glycinate 1000mg",
+    "category": "supplements",
+    "sentence": "Luma Nutrition Magnesium Glycinate 1000mg supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0B4PRL1SK",
+    "name": "tnvitamins Magnesium Glycinate 300mg, 90 Capsules",
+    "category": "supplements",
+    "sentence": "tnvitamins Magnesium Glycinate 300mg, 90 Capsules supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0G4QV444X",
+    "name": "EARHOPE High Fidelity Concert Earplugs, 2 Pairs High Fidelity Earplugs with Musicians Filter for Music-30dB",
+    "category": "hearing-protection",
+    "sentence": "EARHOPE High Fidelity Concert Earplugs, 2 Pairs High Fidelity Earplugs with Musicians Filter for Music-30dB supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0CMTFNZXG",
+    "name": "High Fidelity Concert Earplugs, Reusable Musicians Ear Plugs, Advanced Filter Technology Ear Protection for Music Festivals",
+    "category": "hearing-protection",
+    "sentence": "High Fidelity Concert Earplugs, Reusable Musicians Ear Plugs, Advanced Filter Technology Ear Protection for Music Festivals supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0CG9F5W3Q",
+    "name": "Reure High Fidelity Concert Ear Plugs, Noise Cancelling Silicone Ear Plugs 2 Pairs Great for Concerts Loud Music, Musicians, Motorcycles, Airplanes, Raves, Hearing Protection -23 dB",
+    "category": "hearing-protection",
+    "sentence": "Reure High Fidelity Concert Ear Plugs, Noise Cancelling Silicone Ear Plugs 2 Pairs Great for Concerts Loud Music, Musicians, Motorcycles, Airplanes, Raves, Hearing Protection -23 dB supports your tinnitus management journey"
+  },
+  {
+    "asin": "B07P6TYRJL",
+    "name": "High Fidelity Concert Earplugs, Reusable Musicians Ear Plugs, Advanced Filter Technology Ear Protection for Music Festivals",
+    "category": "hearing-protection",
+    "sentence": "High Fidelity Concert Earplugs, Reusable Musicians Ear Plugs, Advanced Filter Technology Ear Protection for Music Festivals supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0D47QY3W3",
+    "name": "Westone TRU Music Earplugs – Reusable High-Fidelity 10 dB Noise Reduction for Music",
+    "category": "hearing-protection",
+    "sentence": "Westone TRU Music Earplugs – Reusable High-Fidelity 10 dB Noise Reduction for Music supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0C3GWZ3C7",
+    "name": "Loop Experience Earplugs for Concerts – High Fidelity Hearing Protection for Noise Reduction, Motorcycles, Work & Noise Sensitivity – 8 Ear Tips in XS, S, M, L – 18dB Noise Cancelling - Black",
+    "category": "hearing-protection",
+    "sentence": "Loop Experience Earplugs for Concerts – High Fidelity Hearing Protection for Noise Reduction, Motorcycles, Work & Noise Sensitivity – 8 Ear Tips in XS, S, M, L – 18dB Noise Cancelling - Black supports your tinnitus management journey"
+  },
+  {
+    "asin": "B09JBCSC7H",
+    "name": "Elefor Massage Gun Deep Tissue,Percussion Back",
+    "category": "body-tools",
+    "sentence": "Elefor Massage Gun Deep Tissue,Percussion Back supports your tinnitus management journey"
+  },
+  {
+    "asin": "B08YJK1XH3",
+    "name": "Deep Tissue Percussion Massage Gun for Muscle Pain Relief",
+    "category": "body-tools",
+    "sentence": "Deep Tissue Percussion Massage Gun for Muscle Pain Relief supports your tinnitus management journey"
+  },
+  {
+    "asin": "B08CKWVYMF",
+    "name": "BOB AND BRAD C2 Massage Gun, FSA Eligible & HSA Approved",
+    "category": "body-tools",
+    "sentence": "BOB AND BRAD C2 Massage Gun, FSA Eligible & HSA Approved supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0CD8V6MM6",
+    "name": "Sharper Image Deep Tissue Percussion Massage Gun, Powerboost",
+    "category": "body-tools",
+    "sentence": "Sharper Image Deep Tissue Percussion Massage Gun, Powerboost supports your tinnitus management journey"
+  },
+  {
+    "asin": "B083L8RNJR",
+    "name": "TOLOCO Massage Gun, Deep Tissue Back Massage for Athletes for",
+    "category": "body-tools",
+    "sentence": "TOLOCO Massage Gun, Deep Tissue Back Massage for Athletes for supports your tinnitus management journey"
+  },
+  {
+    "asin": "B09P1DV7D8",
+    "name": "APHERMA Massage Gun, Muscle Massage Gun for Athletes",
+    "category": "body-tools",
+    "sentence": "APHERMA Massage Gun, Muscle Massage Gun for Athletes supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0F87P6WM6",
+    "name": "VTT 16 head massage gun deep tissue, Percussion Muscle",
+    "category": "body-tools",
+    "sentence": "VTT 16 head massage gun deep tissue, Percussion Muscle supports your tinnitus management journey"
+  },
+  {
+    "asin": "B07TWFK7JW",
+    "name": "Opove M3 Pro 2 Massage Gun Deep Tissue Percussion Muscle",
+    "category": "body-tools",
+    "sentence": "Opove M3 Pro 2 Massage Gun Deep Tissue Percussion Muscle supports your tinnitus management journey"
+  },
+  {
+    "asin": "B0BJDL4HJN",
+    "name": "OLsky Massage Gun Deep Tissue, Handheld Electric Muscle",
+    "category": "body-tools",
+    "sentence": "OLsky Massage Gun Deep Tissue, Handheld Electric Muscle supports your tinnitus management journey"
+  },
+  {
+    "asin": "B09SSL96WL",
+    "name": "PayLessHere Massage Gun, Muscle Therapy Gun Handheld Deep",
+    "category": "body-tools",
+    "sentence": "PayLessHere Massage Gun, Muscle Therapy Gun Handheld Deep supports your tinnitus management journey"
+  }
 ]
