@@ -63,7 +63,9 @@ async function main() {
         body: JSON.stringify({
           model: 'claude-sonnet-4-20250514',
           max_tokens: 4096,
-          system: `Rewrite this tinnitus article in Kalesh's voice. 1200-1800 words. Long unfolding sentences (18-28 words avg). Cross-traditional. Intellectual warmth. NEVER use em dash, profound, transformative, holistic, nuanced, multifaceted, manifest, lean into, showing up for, authentic self, safe space, hold space, sacred container, raise your vibration. Include 2 conversational interjections. Include 1-2 first-person lived experience sentences. Embed these phrases as <blockquote>: ${phrases.join(' | ')}. HTML only: <h2>, <p>, <blockquote>. Return HTML body only.`,
+          system: `Rewrite this tinnitus article in Kalesh's voice. 1200-1800 words. Long unfolding sentences (18-28 words avg). Cross-traditional. Intellectual warmth. NEVER use em dash, profound, transformative, holistic, nuanced, multifaceted, manifest, lean into, showing up for, authentic self, safe space, hold space, sacred container, raise your vibration. Include 2 conversational interjections. Include 1-2 first-person lived experience sentences. Embed these phrases as <blockquote>: ${phrases.join(' | ')}. HTML only: <h2>, <p>, <blockquote>.
+
+MANDATORY: Include AT LEAST 3 Amazon product links woven naturally into the body paragraphs. Link format: <a href="https://www.amazon.com/dp/ASIN?tag=${AMAZON_TAG}" target="_blank" rel="nofollow noopener">Product Name</a> (paid link). Also include a "Your Healing Journey" section with 2-3 more product links. Pick real tinnitus-related products (sound machines, supplements, headphones, books, sleep aids). Return HTML body only.`,
           messages: [{
             role: 'user',
             content: `Rewrite this article: "${article.title}" (category: ${article.categoryName})\n\nCurrent body (first 500 chars): ${(article.body || '').substring(0, 500)}\n\nReturn ONLY the HTML body.`
@@ -76,13 +78,33 @@ async function main() {
         let body = data.content[0].text;
         body = body.replace(/```html\n?/g, '').replace(/```\n?/g, '').trim();
         body = body.replace(/\u2014/g, ' - ').replace(/\u2013/g, ' - ');
+
+        // ENFORCE: minimum 3 Amazon links
+        const amazonCount = (body.match(/amazon\.com\/dp\//g) || []).length;
+        if (amazonCount < 3) {
+          console.log(`[deep-refresh] Only ${amazonCount} Amazon links in article ${article.id}, injecting more...`);
+          const catalog = JSON.parse(readFileSync(join(ROOT, 'content/product-catalog.json'), 'utf8'));
+          const shuffled = shuffle(catalog).slice(0, 3 - amazonCount);
+          const pTags = [...body.matchAll(/<\/p>/g)];
+          for (let pi = 0; pi < shuffled.length; pi++) {
+            const ep = shuffled[pi];
+            const allP = [...body.matchAll(/<\/p>/g)];
+            const insertIdx = Math.floor(allP.length * (0.25 + pi * 0.2));
+            if (allP[insertIdx]) {
+              const pos = allP[insertIdx].index + 4;
+              const link = `<a href="https://www.amazon.com/dp/${ep.asin}?tag=${AMAZON_TAG}" target="_blank" rel="nofollow noopener">${ep.name}</a> (paid link)`;
+              body = body.slice(0, pos) + `\n<p>${ep.sentence}. Many readers have found the ${link} genuinely useful for this.</p>` + body.slice(pos);
+            }
+          }
+        }
         
         const idx = articles.findIndex(a => a.id === article.id);
         if (idx >= 0) {
           articles[idx].body = body;
           articles[idx].lastDeepRefresh = new Date().toISOString().split('T')[0];
         }
-        console.log(`[deep-refresh] Rewrote article ${article.id}: ${article.title}`);
+        const finalCount = (body.match(/amazon\.com\/dp\//g) || []).length;
+        console.log(`[deep-refresh] Rewrote article ${article.id}: ${article.title} (${finalCount} Amazon links)`);
       }
     } catch (e) {
       console.error(`[deep-refresh] Error on article ${article.id}: ${e.message}`);

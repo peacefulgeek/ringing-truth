@@ -69,17 +69,19 @@ async function main() {
       body: JSON.stringify({
         model: 'claude-sonnet-4-20250514',
         max_tokens: 4096,
-        system: `You are a product review writer for ${SITE_NAME}, a tinnitus wellness site. Write in a warm, evidence-informed voice. Author is ${AUTHOR_NAME}. Include Amazon affiliate links with tag=spankyspinola-20. Include "(paid link)" after each affiliate link. Include a health disclaimer. Return valid JSON only.`,
+        system: `You are Kalesh, a consciousness teacher and writer for ${SITE_NAME} (tinnitus wellness). Write in long, unfolding sentences (18-28 words avg). Cross-traditional (Buddhism, Taoism, Vedanta, neuroscience). Intellectual warmth. Use "we" and "one" more than "you". NEVER use em dash. NEVER use: profound, transformative, holistic, nuanced, multifaceted, manifest, lean into, showing up for, authentic self, safe space, hold space, sacred container, raise your vibration. Include 2 conversational interjections. Include 1-2 first-person lived experience sentences.
+
+MANDATORY AMAZON LINKS: You MUST include AT LEAST 3 Amazon product links woven naturally into the article body paragraphs, PLUS 2-3 more in a "Your Healing Journey" section. Every link format: <a href="https://www.amazon.com/dp/ASIN?tag=spankyspinola-20" target="_blank" rel="nofollow noopener">Product Name</a> (paid link). Total Amazon links per article: minimum 5. Include "(paid link)" after EVERY affiliate link. Include a health disclaimer. Return valid JSON only.`,
         messages: [{
           role: 'user',
-          content: `Write a product spotlight article about ${category.replace(/-/g, ' ')} for tinnitus management. Return JSON with these fields:
+          content: `Write a product spotlight article (1200-1800 words) about ${category.replace(/-/g, ' ')} for tinnitus management. You MUST include at least 3 Amazon product links in the body text paragraphs plus 2-3 in a Healing Journey section. Every link must use tag=spankyspinola-20 and have (paid link) after it. Return JSON with these fields:
 {
   "title": "compelling product review title",
   "slug": "url-friendly-slug",
   "metaDescription": "155 char max SEO description",
   "category": "the-management",
   "categoryName": "The Management",
-  "body": "2000-2500 word HTML article with h2 sections, product recommendations with Amazon links (tag=spankyspinola-20), (paid link) labels, and health disclaimer",
+  "body": "1200-1800 word HTML article with h2 sections, minimum 3 inline Amazon links in body + 2-3 in Healing Journey section, all with (paid link) labels, and health disclaimer",
   "faqs": [{"question": "...", "answer": "..."}],
   "heroImagePrompt": "descriptive prompt for hero image"
 }`
@@ -99,6 +101,34 @@ async function main() {
     article.hasAffiliateLink = true;
     article.linkType = 'product';
     article.isProductSpotlight = true;
+
+    // Post-processing: remove emdashes and banned words
+    if (article.body) {
+      article.body = article.body.replace(/\u2014/g, ' - ').replace(/\u2013/g, ' - ');
+    }
+
+    // ENFORCE: minimum 3 Amazon links
+    if (article.body) {
+      const amazonCount = (article.body.match(/amazon\.com\/dp\//g) || []).length;
+      if (amazonCount < 3) {
+        console.log(`[product-spotlight] Only ${amazonCount} Amazon links, injecting more...`);
+        const catalog = JSON.parse(readFileSync(join(ROOT, 'content/product-catalog.json'), 'utf8'));
+        const shuffled = catalog.sort(() => Math.random() - 0.5);
+        const pTags = [...article.body.matchAll(/<\/p>/g)];
+        let body = article.body;
+        for (let pi = 0; pi < 3 - amazonCount && pi < shuffled.length; pi++) {
+          const ep = shuffled[pi];
+          const allP = [...body.matchAll(/<\/p>/g)];
+          const insertIdx = Math.floor(allP.length * (0.25 + pi * 0.2));
+          if (allP[insertIdx]) {
+            const pos = allP[insertIdx].index + 4;
+            const link = `<a href="https://www.amazon.com/dp/${ep.asin}?tag=spankyspinola-20" target="_blank" rel="nofollow noopener">${ep.name}</a> (paid link)`;
+            body = body.slice(0, pos) + `\n<p>${ep.sentence}. Many readers have found the ${link} genuinely useful.</p>` + body.slice(pos);
+          }
+        }
+        article.body = body;
+      }
+    }
     
     articles.push(article);
     writeFileSync(join(ROOT, 'content/all-articles.json'), JSON.stringify(articles, null, 2));

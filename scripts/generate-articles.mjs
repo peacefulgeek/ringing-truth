@@ -171,7 +171,7 @@ async function main() {
   const selectedInterjections = shuffle(INTERJECTIONS).slice(0, 2);
   const nicheRef = shuffle(NICHE_RESEARCHERS).slice(0, 2);
   const spiritRef = shuffle(SPIRITUAL_RESEARCHERS).slice(0, 1);
-  const selectedProducts = shuffle(products).slice(0, 3);
+  const selectedProducts = shuffle(products).slice(0, 5);
 
   const productContext = selectedProducts.map(p =>
     `${p.name} (ASIN: ${p.asin}, sentence: "${p.sentence}")`
@@ -216,11 +216,17 @@ STRUCTURE:
 - Conclusion type: ${conclusionType} (challenge = provocation/uncomfortable question, tender = earned warmth)
 - Include a "Your Healing Journey" section before FAQs with 2-3 Amazon product recommendations
 
-AMAZON PRODUCTS (use tag=${AMAZON_TAG}):
+MANDATORY AMAZON PRODUCT LINKS (MINIMUM 3 in body text + Healing Journey section):
 ${productContext}
-Format: <a href="https://www.amazon.com/dp/ASIN?tag=${AMAZON_TAG}" target="_blank" rel="nofollow noopener">Product Name</a> (paid link)
+Link format: <a href="https://www.amazon.com/dp/ASIN?tag=${AMAZON_TAG}" target="_blank" rel="nofollow noopener">Product Name</a> (paid link)
 
-Also inject 1-2 inline product mentions naturally in the body.
+RULES FOR AMAZON LINKS:
+1. You MUST include AT LEAST 3 Amazon product links woven naturally into the article body paragraphs (not just in the Healing Journey section)
+2. Each inline link should recommend a product that genuinely relates to the paragraph topic
+3. Use natural phrasing like "Many people find the [Product Link] (paid link) helpful for this" or "Something like the [Product Link] (paid link) can make a real difference here"
+4. THEN also include a "Your Healing Journey: Tools Worth Exploring" section near the end with 2-3 more product links
+5. Total Amazon links per article should be 5-7 (3+ inline + 2-3 in Healing Journey)
+6. Every single link MUST include ?tag=${AMAZON_TAG} and the text "(paid link)" after it
 
 Output valid JSON: {title, slug, body (HTML), metaDescription (155 chars), heroImagePrompt (2-3 sentence scene description), faqCount, faqs [{question, answer}]}`,
       messages: [{
@@ -251,6 +257,33 @@ Output valid JSON: {title, slug, body (HTML), metaDescription (155 chars), heroI
   if (article.body) {
     article.body = article.body.replace(/\u2014/g, ' - ');
     article.body = article.body.replace(/\u2013/g, ' - ');
+  }
+
+  // ENFORCE: minimum 3 Amazon links in body
+  if (article.body) {
+    const amazonLinkCount = (article.body.match(/amazon\.com\/dp\//g) || []).length;
+    if (amazonLinkCount < 3 && products.length >= 3) {
+      console.log(`[generate] Only ${amazonLinkCount} Amazon links found, injecting more...`);
+      const extraProducts = shuffle(products).slice(0, 3 - amazonLinkCount);
+      const pTags = [...article.body.matchAll(/<\/p>/g)];
+      let body = article.body;
+      if (pTags.length >= 4) {
+        for (let pi = 0; pi < extraProducts.length; pi++) {
+          const ep = extraProducts[pi];
+          const insertPos = Math.floor(pTags.length * (0.25 + pi * 0.25));
+          const allP = [...body.matchAll(/<\/p>/g)];
+          if (allP[insertPos]) {
+            const idx = allP[insertPos].index + 4;
+            const link = `<a href="https://www.amazon.com/dp/${ep.asin}?tag=${AMAZON_TAG}" target="_blank" rel="nofollow noopener">${ep.name}</a> (paid link)`;
+            const injection = `\n<p>${ep.sentence}. Many readers have found the ${link} genuinely useful for this.</p>`;
+            body = body.slice(0, idx) + injection + body.slice(idx);
+          }
+        }
+        article.body = body;
+      }
+      const finalCount = (article.body.match(/amazon\.com\/dp\//g) || []).length;
+      console.log(`[generate] Amazon links after enforcement: ${finalCount}`);
+    }
   }
 
   // Set metadata
