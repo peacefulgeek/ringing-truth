@@ -48,8 +48,16 @@ cron.schedule('0 4 1 1,4,7,10 *', () => {
   runScript('90-day-deep-refresh', join(__dirname, 'content-deep-refresh.mjs'));
 }, { timezone: 'UTC' });
 
+// Schedule 5: Sunday at 05:00 UTC (11:00 PM MDT Sat) - weekly product catalog refresh
+// Checks all Amazon ASINs for availability, updates product titles,
+// removes discontinued products, replaces broken links in articles
+cron.schedule('0 5 * * 0', () => {
+  runScript('product-refresh', join(__dirname, 'product-refresh.mjs'));
+}, { timezone: 'UTC' });
+
 // Support --run-now flag for testing
 if (process.argv.includes('--run-now')) {
-  console.log('[cron] --run-now flag detected, running immediately...');
-  runScript('test-run', join(__dirname, 'generate-articles.mjs'));
+  const target = process.argv[process.argv.indexOf('--run-now') + 1] || 'generate-articles.mjs';
+  console.log(`[cron] --run-now flag detected, running ${target} immediately...`);
+  runScript('test-run', join(__dirname, target));
 }
