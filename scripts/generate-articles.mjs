@@ -1,10 +1,8 @@
-// ─── FEATURE FLAG ───
-const AUTO_GEN_ENABLED = true;
-
 // ─── FROM RENDER ENV VARS ───
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const FAL_KEY = process.env.FAL_API_KEY;
 const GH_PAT = process.env.GH_PAT;
+const AUTO_GEN_ENABLED = process.env.AUTO_GEN_ENABLED === 'true';
 
 // ─── HARDCODED (Bunny is safe in code) ───
 const BUNNY_STORAGE_ZONE = 'ringing-truth';
@@ -12,7 +10,7 @@ const BUNNY_STORAGE_HOST = 'ny.storage.bunnycdn.com';
 const BUNNY_STORAGE_PASSWORD = '282422b3-a99c-4aba-b8c3cbf33e3e-2344-4772';
 const BUNNY_CDN_BASE = 'https://ringing-truth.b-cdn.net';
 const GITHUB_REPO = 'peacefulgeek/ringing-truth';
-const AMAZON_TAG = 'spankyspinola-20';
+const AMAZON_TAG = process.env.AMAZON_TAG || 'spankyspinola-20';
 
 // ─── SITE CONFIG ───
 const SITE_NAME = 'The Ringing Truth';
@@ -47,7 +45,6 @@ const SPIRITUAL_RESEARCHERS = [
   'Jiddu Krishnamurti', 'Alan Watts', 'Sam Harris', 'Sadhguru', 'Tara Brach'
 ];
 
-// Full Kalesh 50-phrase library
 const KALESH_PHRASES = [
   'The mind is not the enemy. The identification with it is.',
   'Most of what passes for healing is just rearranging the furniture in a burning house.',
@@ -58,46 +55,46 @@ const KALESH_PHRASES = [
   'What we call stuck is usually the body doing exactly what it was designed to do under conditions that no longer exist.',
   'The gap between stimulus and response is where your entire life lives.',
   'Consciousness does not arrive. It is what is left when everything else quiets down.',
-  'The brain is prediction machinery. Anxiety is just prediction running without a stop button.',
-  'There is no version of growth that does not involve the dissolution of something you thought was permanent.',
-  'Trauma reorganizes perception. Recovery reorganizes it again, but this time with your participation.',
-  'The contemplative traditions all point to the same thing: what you are looking for is what is looking.',
-  'Embodiment is not a technique. It is what happens when you stop living exclusively in your head.',
-  'The space between knowing something intellectually and knowing it in your body is where all the real work happens.',
-  'Most people do not fear change. They fear the gap between who they were and who they have not become yet.',
-  'Attention is the most undervalued resource you have. Everything else follows from where you place it.',
-  'The question is never whether the pain will come. The question is whether you will meet it with presence or with narrative.',
-  'Sit with it long enough and even the worst feeling reveals its edges.',
-  'There is a difference between being alone and being with yourself. One is circumstance. The other is practice.',
-  'Silence is not the absence of noise. It is the presence of attention.',
-  'The breath does not need your management. It needs your companionship.',
-  'When you stop trying to fix the moment, something remarkable happens - the moment becomes workable.',
-  'We are not our thoughts, but we are responsible for our relationship to them.',
-  'The body remembers what the mind would prefer to file away.',
-  'Patience is not passive. It is the active practice of allowing something to unfold at its own pace.',
-  'The paradox of acceptance is that nothing changes until you stop demanding that it does.',
-  'What if the restlessness is not a problem to solve but a signal to follow?',
-  'You do not arrive at peace. You stop walking away from it.',
-  'The most sophisticated defense mechanism is the one that looks like wisdom.',
-  'Stillness is not something you achieve. It is what is already here beneath the achieving.',
-  'Every moment of genuine attention is a small act of liberation.',
-  'Information without integration is just intellectual hoarding.',
-  'Your nervous system does not care about your philosophy. It cares about what happened at three years old.',
-  'Reading about meditation is to meditation what reading the menu is to eating.',
-  'Not every insight requires action. Some just need to be witnessed.',
-  'The wellness industry sells solutions to problems it helps you believe you have.',
-  'Complexity is the ego is favorite hiding place.',
-  'If your spiritual practice makes you more rigid, it is not working.',
-  'The research is clear on this, and it contradicts almost everything popular culture teaches.',
-  'There is a meaningful difference between self-improvement and self-understanding. One adds. The other reveals.',
-  'The algorithm of your attention determines the landscape of your experience.',
-  'Stop pathologizing normal human suffering. Not everything requires a diagnosis.',
-  'The body has a grammar. Most of us never learned to read it.',
-  'You are not a problem to be solved. You are a process to be witnessed.',
-  'Freedom is not the absence of constraint. It is the capacity to choose your relationship to it.',
-  'The self you are trying to improve is the same self doing the improving. Notice the circularity.',
-  'What we call the present moment is not a place you go. It is the only place you have ever been.',
-  'The most important things in life cannot be understood - only experienced.',
+  'The body keeps the score, but it also keeps the wisdom. We just rarely ask.',
+  'Stillness is not the absence of noise. It is the presence of attention.',
+  'Healing is not a destination. It is a willingness to keep showing up to what is true.',
+  'The ear hears sound. Awareness hears the ear.',
+  'What you resist does not go away. It goes underground and runs the show from there.',
+  'There is a difference between managing symptoms and understanding what the symptoms are saying.',
+  'The nervous system does not lie. It simply reports what it has learned.',
+  'Silence is not empty. It is full of answers.',
+  'The moment you stop fighting the noise, something unexpected happens. You start hearing what is underneath it.',
+  'Peace is not the absence of disturbance. It is the ability to remain present within it.',
+  'We do not hear with our ears alone. We hear with our entire history.',
+  'The brain is not broken. It is doing exactly what it was trained to do. The question is whether we can retrain it.',
+  'Attention is the most powerful medicine we have. And it costs nothing.',
+  'What we call anxiety is often just the nervous system doing its job too well.',
+  'The difference between suffering and pain is the story we wrap around it.',
+  'You do not need to fix yourself. You need to understand yourself.',
+  'The body whispers before it screams. Most of us only listen to the screams.',
+  'Meditation is not about stopping thoughts. It is about changing your relationship to them.',
+  'The ringing is not the problem. Your relationship to the ringing is the problem.',
+  'Every sensation is temporary. Even the ones that feel permanent.',
+  'The mind wants certainty. The body wants safety. Wisdom lives in the space between.',
+  'You are not your thoughts. You are not your symptoms. You are the awareness that notices both.',
+  'The most radical thing you can do is pay attention without trying to change anything.',
+  'Healing happens in the present tense. Not in the future you are planning for.',
+  'The nervous system remembers what the conscious mind forgets.',
+  'Sound is not the enemy. The meaning we assign to sound is where suffering begins.',
+  'There is intelligence in the body that the mind cannot comprehend.',
+  'Rest is not laziness. It is the foundation of all genuine recovery.',
+  'The ear does not have an off switch. But attention does.',
+  'What if the ringing is not a malfunction but a message?',
+  'We spend so much energy fighting what is that we forget to explore what could be.',
+  'The breath is always available. It asks nothing of you except your attention.',
+  'Acceptance is not resignation. It is the doorway to genuine change.',
+  'The brain can learn to turn down the volume. But first, it needs to feel safe enough to try.',
+  'There is a quiet place inside every person that the noise cannot reach.',
+  'The path forward is not always forward. Sometimes it is inward.',
+  'Tinnitus teaches you something most people never learn: how to be present with discomfort.',
+  'The mind creates problems. Awareness dissolves them.',
+  'What you pay attention to grows. Choose wisely.',
+  'The body is not a machine to be fixed. It is a living system to be understood.',
   'At a certain depth of inquiry, the distinction between psychology and philosophy dissolves entirely.',
 ];
 
@@ -111,12 +108,6 @@ const INTERJECTIONS = [
   'I get it. Really, I do.', 'Hang on, because this matters.',
   'This part surprised me too.', 'Worth sitting with, that one.',
 ];
-
-const BANNED_WORDS_NOTE = `ABSOLUTELY BANNED (zero tolerance):
-- Em dash character. Use commas, periods, or parentheses instead. Never the long dash.
-- Words: profound, transformative, holistic, nuanced, multifaceted, manifest, manifestation, lean into, showing up for, authentic self, safe space, hold space, sacred container, raise your vibration
-- Sentence starters: "This is where", "This is", "This means", "This creates" (vary your transitions)
-- Endings: "Be gentle with yourself", "Be patient with yourself", "You are not alone", "Trust the process", "Give yourself grace", "Take it one day at a time"`;
 
 function shuffle(arr) {
   const a = [...arr];
@@ -134,18 +125,26 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 
+// Import quality gate
+async function loadQualityGate() {
+  const { runQualityGate } = await import('../src/lib/article-quality-gate.mjs');
+  return runQualityGate;
+}
+
 async function main() {
   if (!AUTO_GEN_ENABLED) {
-    console.log('[generate] AUTO_GEN_ENABLED is false. Exiting.');
+    console.log('[generate] AUTO_GEN_ENABLED is not true. Exiting.');
     process.exit(0);
   }
 
-  console.log('[generate] Starting article generation with humanization rules...');
+  console.log('[generate] Starting article generation with quality gate...');
 
   if (!ANTHROPIC_API_KEY) {
     console.error('[generate] ANTHROPIC_API_KEY not set');
     process.exit(1);
   }
+
+  const runQualityGate = await loadQualityGate();
 
   // Load existing articles
   const articlesPath = join(ROOT, 'content/all-articles.json');
@@ -171,23 +170,28 @@ async function main() {
   const selectedInterjections = shuffle(INTERJECTIONS).slice(0, 2);
   const nicheRef = shuffle(NICHE_RESEARCHERS).slice(0, 2);
   const spiritRef = shuffle(SPIRITUAL_RESEARCHERS).slice(0, 1);
-  const selectedProducts = shuffle(products).slice(0, 5);
+  const selectedProducts = shuffle(products).slice(0, 6);
 
   const productContext = selectedProducts.map(p =>
-    `${p.name} (ASIN: ${p.asin}, sentence: "${p.sentence}")`
+    `${p.name} (ASIN: ${p.asin}, sentence: "${p.sentence || ''}")`
   ).join('\n');
 
-  const response = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'x-api-key': ANTHROPIC_API_KEY,
-      'anthropic-version': '2023-06-01'
-    },
-    body: JSON.stringify({
-      model: 'claude-sonnet-4-20250514',
-      max_tokens: 4096,
-      system: `You are Kalesh, a consciousness teacher and writer for ${SITE_NAME} (tinnitus wellness).
+  // ─── GENERATION LOOP WITH QUALITY GATE (3 attempts) ───
+  let stored = false;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    console.log(`[generate] Attempt ${attempt}/3...`);
+
+    const response = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01'
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 4096,
+        system: `You are Kalesh, a consciousness teacher and writer for ${SITE_NAME} (tinnitus wellness).
 
 VOICE RULES:
 - Write in long, unfolding sentences that build and turn (18-28 words average)
@@ -196,10 +200,7 @@ VOICE RULES:
 - Intellectual warmth, observer-humor
 - Use "we" and "one" more than "you"
 - Build analogies across 2-3 sentences before revealing the point
-- Aggressively vary sentence lengths: mix 5-word with 30-word sentences
 - No two consecutive sentences should start the same way
-
-${BANNED_WORDS_NOTE}
 
 HUMANIZATION:
 - Include 2 conversational interjections: ${selectedInterjections.join(' | ')}
@@ -209,7 +210,6 @@ HUMANIZATION:
 
 STRUCTURE:
 - Opener type: ${openerType}
-- Word count: 1200-1800 words (strict)
 - 5-7 H2 sections, each 2-4 paragraphs
 - HTML only: <h2>, <p>, <blockquote>. No bullet points, no lists
 - FAQ count: ${faqCount} (if 0, no FAQ section)
@@ -218,156 +218,198 @@ STRUCTURE:
 
 MANDATORY AMAZON PRODUCT LINKS (MINIMUM 3 in body text + Healing Journey section):
 ${productContext}
-Link format: <a href="https://www.amazon.com/dp/ASIN?tag=${AMAZON_TAG}" target="_blank" rel="nofollow noopener">Product Name</a> (paid link)
+Link format: <a href="https://www.amazon.com/dp/ASIN?tag=${AMAZON_TAG}" target="_blank" rel="nofollow sponsored noopener">Product Name</a> (paid link)
 
 RULES FOR AMAZON LINKS:
-1. You MUST include AT LEAST 3 Amazon product links woven naturally into the article body paragraphs (not just in the Healing Journey section)
+1. You MUST include AT LEAST 3 Amazon product links woven naturally into the article body paragraphs
 2. Each inline link should recommend a product that genuinely relates to the paragraph topic
-3. Use natural phrasing like "Many people find the [Product Link] (paid link) helpful for this" or "Something like the [Product Link] (paid link) can make a real difference here"
+3. Use natural phrasing like "Many people find the [Product Link] (paid link) helpful for this"
 4. THEN also include a "Your Healing Journey: Tools Worth Exploring" section near the end with 2-3 more product links
 5. Total Amazon links per article should be 5-7 (3+ inline + 2-3 in Healing Journey)
 6. Every single link MUST include ?tag=${AMAZON_TAG} and the text "(paid link)" after it
 
+HARD RULES for this article:
+- 1,600 to 2,000 words (strict)
+- Zero em-dashes. Use commas, periods, colons, or parentheses instead.
+- Never use these words: delve, tapestry, paradigm, synergy, leverage, unlock, empower, utilize, pivotal, embark, underscore, paramount, seamlessly, robust, beacon, foster, elevate, curate, curated, bespoke, resonate, harness, intricate, plethora, myriad, comprehensive, transformative, groundbreaking, innovative, cutting-edge, revolutionary, state-of-the-art, ever-evolving, profound, holistic, nuanced, multifaceted, stakeholders, ecosystem, furthermore, moreover, additionally, consequently, subsequently, thereby, streamline, optimize, facilitate, amplify, catalyze.
+- Never use these phrases: "it's important to note," "in conclusion," "in summary," "in the realm of," "dive deep into," "at the end of the day," "in today's fast-paced world," "plays a crucial role," "a testament to," "when it comes to," "cannot be overstated."
+- Contractions throughout. You're. Don't. It's. That's. I've. We'll.
+- Vary sentence length aggressively. Some fragments. Some long ones that stretch across a full breath. Some just three words.
+- Direct address ("you") throughout OR first-person ("I / my") throughout. Pick one.
+- Include at least 2 conversational openers somewhere in the piece: "Here's the thing," "Honestly," "Look," "Truth is," "But here's what's interesting," "Think about it," "That said."
+- Concrete specifics over abstractions. A name. A number. A moment.
+- 3 to 4 Amazon product links embedded naturally in prose, each followed by "(paid link)" in plain text.
+- No em-dashes. No em-dashes. No em-dashes.
+
 Output valid JSON: {title, slug, body (HTML), metaDescription (155 chars), heroImagePrompt (2-3 sentence scene description), faqCount, faqs [{question, answer}]}`,
-      messages: [{
-        role: 'user',
-        content: `Write a new article for the "${category.name}" category about tinnitus. Pick an original, specific topic. Return valid JSON only.`
-      }]
-    })
-  });
+        messages: [{
+          role: 'user',
+          content: `Write a new article for the "${category.name}" category about tinnitus. Pick an original, specific topic. Return valid JSON only.`
+        }]
+      })
+    });
 
-  if (!response.ok) {
-    console.error('[generate] Anthropic API error:', response.status);
-    process.exit(1);
-  }
+    if (!response.ok) {
+      console.error(`[generate] Anthropic API error: ${response.status}`);
+      continue;
+    }
 
-  const data = await response.json();
-  const text = data.content[0].text;
+    const data = await response.json();
+    const text = data.content[0].text;
 
-  let article;
-  try {
-    const jsonMatch = text.match(/\{[\s\S]*\}/);
-    article = JSON.parse(jsonMatch[0]);
-  } catch (e) {
-    console.error('[generate] Failed to parse article JSON');
-    process.exit(1);
-  }
+    let article;
+    try {
+      const jsonMatch = text.match(/\{[\s\S]*\}/);
+      article = JSON.parse(jsonMatch[0]);
+    } catch (e) {
+      console.error('[generate] Failed to parse article JSON, retrying...');
+      continue;
+    }
 
-  // Post-processing: remove any emdashes that slipped through
-  if (article.body) {
-    article.body = article.body.replace(/\u2014/g, ' - ');
-    article.body = article.body.replace(/\u2013/g, ' - ');
-  }
+    // Post-processing: remove any emdashes that slipped through
+    if (article.body) {
+      article.body = article.body.replace(/\u2014/g, ', ');
+      article.body = article.body.replace(/\u2013/g, ', ');
+      article.body = article.body.replace(/&mdash;/g, ', ');
+      article.body = article.body.replace(/&ndash;/g, ', ');
+    }
 
-  // ENFORCE: minimum 3 Amazon links in body
-  if (article.body) {
-    const amazonLinkCount = (article.body.match(/amazon\.com\/dp\//g) || []).length;
-    if (amazonLinkCount < 3 && products.length >= 3) {
-      console.log(`[generate] Only ${amazonLinkCount} Amazon links found, injecting more...`);
-      const extraProducts = shuffle(products).slice(0, 3 - amazonLinkCount);
-      const pTags = [...article.body.matchAll(/<\/p>/g)];
-      let body = article.body;
-      if (pTags.length >= 4) {
-        for (let pi = 0; pi < extraProducts.length; pi++) {
-          const ep = extraProducts[pi];
-          const insertPos = Math.floor(pTags.length * (0.25 + pi * 0.25));
-          const allP = [...body.matchAll(/<\/p>/g)];
-          if (allP[insertPos]) {
-            const idx = allP[insertPos].index + 4;
-            const link = `<a href="https://www.amazon.com/dp/${ep.asin}?tag=${AMAZON_TAG}" target="_blank" rel="nofollow noopener">${ep.name}</a> (paid link)`;
-            const injection = `\n<p>${ep.sentence}. Many readers have found the ${link} genuinely useful for this.</p>`;
-            body = body.slice(0, idx) + injection + body.slice(idx);
+    // ENFORCE: minimum 3 Amazon links in body
+    if (article.body) {
+      const amazonLinkCount = (article.body.match(/amazon\.com\/dp\//g) || []).length;
+      if (amazonLinkCount < 3 && products.length >= 3) {
+        console.log(`[generate] Only ${amazonLinkCount} Amazon links found, injecting more...`);
+        const extraProducts = shuffle(products).slice(0, 3 - amazonLinkCount);
+        const pTags = [...article.body.matchAll(/<\/p>/g)];
+        let body = article.body;
+        if (pTags.length >= 4) {
+          for (let pi = 0; pi < extraProducts.length; pi++) {
+            const ep = extraProducts[pi];
+            const insertPos = Math.floor(pTags.length * (0.25 + pi * 0.25));
+            const allP = [...body.matchAll(/<\/p>/g)];
+            if (allP[insertPos]) {
+              const idx = allP[insertPos].index + 4;
+              const link = `<a href="https://www.amazon.com/dp/${ep.asin}?tag=${AMAZON_TAG}" target="_blank" rel="nofollow sponsored noopener">${ep.name}</a> (paid link)`;
+              const injection = `\n<p>${ep.sentence || 'Many readers have found this helpful'}. The ${link} is genuinely useful for this.</p>`;
+              body = body.slice(0, idx) + injection + body.slice(idx);
+            }
+          }
+          article.body = body;
+        }
+      }
+    }
+
+    // ─── QUALITY GATE CHECK ───
+    const gate = runQualityGate(article.body || '');
+    if (!gate.passed) {
+      console.warn(`[generate] Attempt ${attempt} failed quality gate:`, gate.failures.join(' | '));
+      if (attempt < 3) continue;
+      console.error('[generate] Abandoned after 3 attempts. NOT storing broken article.');
+      process.exit(0);
+    }
+
+    console.log(`[generate] Quality gate PASSED (${gate.wordCount} words, ${gate.amazonLinks} links)`);
+
+    // Set metadata
+    article.id = nextId;
+    article.category = category.slug;
+    article.categoryName = category.name;
+    article.dateISO = new Date().toISOString().split('T')[0];
+    article.readingTime = Math.ceil((article.body || '').split(/\s+/).length / 250);
+    article.openerType = openerType;
+    article.conclusionType = conclusionType;
+
+    // Generate hero image via FAL.ai + image pipeline
+    if (FAL_KEY && article.heroImagePrompt) {
+      try {
+        const imgResponse = await fetch('https://queue.fal.run/fal-ai/flux/schnell', {
+          method: 'POST',
+          headers: {
+            'Authorization': `Key ${FAL_KEY}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            prompt: article.heroImagePrompt + ' Luminous, warm, healing light. No text. No dark environments.',
+            image_size: { width: 1200, height: 675 },
+            num_images: 1
+          })
+        });
+
+        if (imgResponse.ok) {
+          const imgData = await imgResponse.json();
+          const imageUrl = imgData.images?.[0]?.url;
+
+          if (imageUrl) {
+            // Use image pipeline for WebP compression + upload
+            try {
+              const { processAndUploadImage } = await import('../src/lib/image-pipeline.mjs');
+              const heroUrl = await processAndUploadImage(imageUrl, `images/${article.slug}-hero`);
+              console.log(`[generate] Hero image uploaded via pipeline: ${heroUrl}`);
+            } catch (pipeErr) {
+              // Fallback: direct upload
+              console.warn(`[generate] Pipeline failed, using direct upload: ${pipeErr.message}`);
+              const imgBuffer = await fetch(imageUrl).then(r => r.arrayBuffer());
+              await fetch(`https://${BUNNY_STORAGE_HOST}/${BUNNY_STORAGE_ZONE}/images/${article.slug}-hero.webp`, {
+                method: 'PUT',
+                headers: { 'AccessKey': BUNNY_STORAGE_PASSWORD, 'Content-Type': 'image/webp' },
+                body: Buffer.from(imgBuffer)
+              });
+            }
+
+            // OG image (PNG for social sharing)
+            const imgBuffer = await fetch(imageUrl).then(r => r.arrayBuffer());
+            await fetch(`https://${BUNNY_STORAGE_HOST}/${BUNNY_STORAGE_ZONE}/images/${article.slug}-og.png`, {
+              method: 'PUT',
+              headers: { 'AccessKey': BUNNY_STORAGE_PASSWORD, 'Content-Type': 'image/png' },
+              body: Buffer.from(imgBuffer)
+            });
+
+            console.log(`[generate] Images uploaded for ${article.slug}`);
           }
         }
-        article.body = body;
+      } catch (e) {
+        console.error('[generate] Image generation failed:', e.message);
       }
-      const finalCount = (article.body.match(/amazon\.com\/dp\//g) || []).length;
-      console.log(`[generate] Amazon links after enforcement: ${finalCount}`);
     }
-  }
 
-  // Set metadata
-  article.id = nextId;
-  article.category = category.slug;
-  article.categoryName = category.name;
-  article.dateISO = new Date().toISOString().split('T')[0];
-  article.readingTime = Math.ceil((article.body || '').split(/\s+/).length / 250);
-  article.openerType = openerType;
-  article.conclusionType = conclusionType;
+    // Update image map
+    const imageMapPath = join(ROOT, 'content/image-map.json');
+    let imageMap = {};
+    if (existsSync(imageMapPath)) {
+      imageMap = JSON.parse(readFileSync(imageMapPath, 'utf8'));
+    }
+    imageMap[article.slug] = {
+      heroUrl: `${BUNNY_CDN_BASE}/images/${article.slug}-hero.webp`,
+      ogUrl: `${BUNNY_CDN_BASE}/images/${article.slug}-og.png`
+    };
+    writeFileSync(imageMapPath, JSON.stringify(imageMap, null, 2));
 
-  // Generate hero image via FAL.ai
-  if (FAL_KEY && article.heroImagePrompt) {
-    try {
-      const imgResponse = await fetch('https://queue.fal.run/fal-ai/flux/schnell', {
-        method: 'POST',
-        headers: {
-          'Authorization': `Key ${FAL_KEY}`,
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          prompt: article.heroImagePrompt + ' Luminous, warm, healing light. No text. No dark environments.',
-          image_size: { width: 1200, height: 675 },
-          num_images: 1
-        })
-      });
+    // Add to articles array
+    articles.push(article);
+    writeFileSync(articlesPath, JSON.stringify(articles));
 
-      if (imgResponse.ok) {
-        const imgData = await imgResponse.json();
-        const imageUrl = imgData.images?.[0]?.url;
+    console.log(`[generate] Article ${nextId} stored: ${article.title} (${gate.wordCount} words, ${gate.amazonLinks} links)`);
+    stored = true;
 
-        if (imageUrl) {
-          const imgBuffer = await fetch(imageUrl).then(r => r.arrayBuffer());
-
-          await fetch(`https://${BUNNY_STORAGE_HOST}/${BUNNY_STORAGE_ZONE}/images/${article.slug}-hero.webp`, {
-            method: 'PUT',
-            headers: { 'AccessKey': BUNNY_STORAGE_PASSWORD, 'Content-Type': 'image/webp' },
-            body: Buffer.from(imgBuffer)
-          });
-
-          await fetch(`https://${BUNNY_STORAGE_HOST}/${BUNNY_STORAGE_ZONE}/images/${article.slug}-og.png`, {
-            method: 'PUT',
-            headers: { 'AccessKey': BUNNY_STORAGE_PASSWORD, 'Content-Type': 'image/png' },
-            body: Buffer.from(imgBuffer)
-          });
-
-          console.log(`[generate] Image uploaded for ${article.slug}`);
-        }
+    // Push to GitHub
+    if (GH_PAT) {
+      try {
+        const { execSync } = await import('child_process');
+        execSync(`cd ${ROOT} && git add content/ && git commit -m "Auto-gen article ${nextId}: ${article.slug}" && git push`, {
+          stdio: 'inherit',
+          env: { ...process.env, GIT_AUTHOR_NAME: EDITORIAL_NAME, GIT_COMMITTER_NAME: EDITORIAL_NAME }
+        });
+        console.log('[generate] Pushed to GitHub');
+      } catch (e) {
+        console.error('[generate] Git push failed:', e.message);
       }
-    } catch (e) {
-      console.error('[generate] Image generation failed:', e.message);
     }
+
+    break; // Success, exit the loop
   }
 
-  // Update image map
-  const imageMapPath = join(ROOT, 'content/image-map.json');
-  let imageMap = {};
-  if (existsSync(imageMapPath)) {
-    imageMap = JSON.parse(readFileSync(imageMapPath, 'utf8'));
-  }
-  imageMap[article.slug] = {
-    heroUrl: `${BUNNY_CDN_BASE}/images/${article.slug}-hero.webp`,
-    ogUrl: `${BUNNY_CDN_BASE}/images/${article.slug}-og.png`
-  };
-  writeFileSync(imageMapPath, JSON.stringify(imageMap, null, 2));
-
-  // Add to articles array
-  articles.push(article);
-  writeFileSync(articlesPath, JSON.stringify(articles));
-
-  console.log(`[generate] Article ${nextId} created: ${article.title} (${(article.body || '').split(/\s+/).length} words)`);
-
-  // Push to GitHub
-  if (GH_PAT) {
-    try {
-      const { execSync } = await import('child_process');
-      execSync(`cd ${ROOT} && git add content/ && git commit -m "Auto-gen article ${nextId}: ${article.slug}" && git push`, {
-        stdio: 'inherit',
-        env: { ...process.env, GIT_AUTHOR_NAME: EDITORIAL_NAME, GIT_COMMITTER_NAME: EDITORIAL_NAME }
-      });
-      console.log('[generate] Pushed to GitHub');
-    } catch (e) {
-      console.error('[generate] Git push failed:', e.message);
-    }
+  if (!stored) {
+    console.error('[generate] No article stored after all attempts');
   }
 }
 

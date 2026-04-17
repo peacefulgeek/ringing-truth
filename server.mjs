@@ -129,13 +129,25 @@ function layout(title, description, content, options = {}) {
     @font-face { font-family: 'Figtree'; src: url('${SITE.cdnBase}/fonts/Figtree-SemiBold.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
     @font-face { font-family: 'Figtree'; src: url('${SITE.cdnBase}/fonts/Figtree-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
 
+    :root {
+      --bg-primary: #FAFAF5;
+      --text-primary: #1E2228;
+      --body-font-size-desktop: 18px;
+      --body-font-size-mobile: 16px;
+      --line-height-body: 1.75;
+      --max-content-width: 720px;
+      --tap-target-min: 44px;
+    }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: 'Figtree', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 18px; line-height: 1.7; color: #1a1a2e; background: #fafaf8; }
-    h1, h2, h3, h4 { font-family: 'Literata', Georgia, serif; line-height: 1.3; color: #1a1a2e; }
+    body { font-family: 'Figtree', -apple-system, BlinkMacSystemFont, sans-serif; font-size: var(--body-font-size-desktop); line-height: var(--line-height-body); color: var(--text-primary); background: var(--bg-primary); }
+    @media (max-width: 768px) { body { font-size: var(--body-font-size-mobile); } }
+    h1, h2, h3, h4 { font-family: 'Literata', Georgia, serif; line-height: 1.3; color: var(--text-primary); }
     a { color: ${SITE.colors.primary}; text-decoration: none; transition: color 0.2s; }
     a:hover { color: ${SITE.colors.accent}; }
-    img { max-width: 100%; height: auto; }
+    img { max-width: 100%; height: auto; display: block; }
+    article p, article li { max-width: 72ch; }
+    button, a.button, .cta { min-height: var(--tap-target-min); min-width: var(--tap-target-min); }
 
     /* Navigation */
     .site-nav { background: #fff; border-bottom: 1px solid #e8e8e0; position: sticky; top: 0; z-index: 100; }
@@ -1838,8 +1850,13 @@ function getAssessments() {
   ];
 }
 
+// ─── HEALTH CHECK ───
+app.get('/health', (req, res) => {
+  res.json({ status: 'ok', articles: articles.length, published: getPublished().length, uptime: process.uptime() });
+});
+
 // ─── START SERVER ───
-app.listen(PORT, () => {
-  console.log(`${SITE.title} running on port ${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`${SITE.title} running on 0.0.0.0:${PORT}`);
   console.log(`Articles: ${articles.length} total, ${getPublished().length} published`);
 });

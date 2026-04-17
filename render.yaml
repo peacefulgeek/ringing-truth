@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: ringing-truth
+    runtime: node
+    plan: starter
+    region: oregon
+    branch: main
+    autoDeploy: true
+    buildCommand: pnpm install && pnpm build
+    startCommand: pnpm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "10000"
+      - key: AMAZON_TAG
+        value: spankyspinola-20
+      - key: AUTO_GEN_ENABLED
+        value: "true"
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: BUNNY_STORAGE_ZONE
+        sync: false
+      - key: BUNNY_API_KEY
+        sync: false
+      - key: BUNNY_PULL_ZONE_URL
+        sync: false
+      - key: GH_PAT
+        sync: false
