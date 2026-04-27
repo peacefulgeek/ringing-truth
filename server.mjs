@@ -8,6 +8,16 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// ─── WWW → NON-WWW 301 REDIRECT ───
+app.use((req, res, next) => {
+  const host = req.hostname || req.headers.host;
+  if (host && host.startsWith('www.')) {
+    const newHost = host.replace(/^www\./, '');
+    return res.redirect(301, `https://${newHost}${req.originalUrl}`);
+  }
+  next();
+});
+
 // ─── COMPRESSION & SECURITY ───
 app.use(compression());
 app.use((req, res, next) => {
