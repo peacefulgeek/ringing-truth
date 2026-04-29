@@ -1,0 +1,342 @@
+[
+  {
+    "id": 524,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "first-person",
+    "faqCount": 0,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Gratitude Journal: Thankful Notebook Diary with 5 Minute Daily Writing",
+        "asin": "1723706027"
+      },
+      {
+        "name": "Brocoliano Meditation Cushion – Ergonomic Zafu ...",
+        "asin": "B0FYZJ3QR8"
+      },
+      {
+        "name": "Under Pillow Sleep Speaker with White Noise, Ultra Slim Blue-Tooth",
+        "asin": "B0GHW6W7LH"
+      },
+      {
+        "name": "Tinnitus Relief for Ringing Ears Supplement: Natural Hearing Health",
+        "asin": "B0F19FN6F4"
+      },
+      {
+        "name": "Jarrow Formulas B-Right Complex",
+        "asin": "B0013OQGO6"
+      },
+      {
+        "name": "Sleep Sound Machine Pillow Speaker, White Noise & Nature Sounds, Hi-Fi Bedside Speaker with Gentle Volume, Memory Function, Long Battery Life for Home",
+        "asin": "B0GJQDL8S5"
+      }
+    ]
+  },
+  {
+    "id": 525,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "question",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Neck Stretcher for Pain Relief, Neck and Shoulder Relaxer Cervical...",
+        "asin": "B0C141Q82D"
+      },
+      {
+        "name": "Amazon.com: Tuning Forks for Soubd Healing Set 128HZ, 136.1HZ ...",
+        "asin": "B0D5CGW1MS"
+      },
+      {
+        "name": "Sound Oasis Tinnitus Sound Therapy System, 24 Dr",
+        "asin": "B078QSY2HY"
+      },
+      {
+        "name": "Lagunamoon Essential Oils Aromatherapy Set - 6 Oils for Diffusers",
+        "asin": "B06XRLR9RQ"
+      },
+      {
+        "name": "Bluetooth Pillow Speaker for Sleeping, Soft Whispering Sound",
+        "asin": "B0BGMD7ZSB"
+      },
+      {
+        "name": "TINNITUS: Relief Treatment Cure Remedy Management Prevention",
+        "asin": "B00WSQASO2"
+      }
+    ]
+  },
+  {
+    "id": 526,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "named-reference",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Chamomile Tea by Traditional Medicinals",
+        "asin": "B0009F3PM6"
+      },
+      {
+        "name": "Pure Encapsulations Magnesium (Glycinate)",
+        "asin": "B07P5K7DQP"
+      },
+      {
+        "name": "ASAKUKI Essential Oil Diffuser for Home, 500ML",
+        "asin": "B01MR4Y0CZ"
+      },
+      {
+        "name": "Ortist Weighted Blanket",
+        "asin": "B07LD5BDLS"
+      },
+      {
+        "name": "Waterless Diffuser for Home Essential Oil Diffuser, Aromatherapy",
+        "asin": "B0F6T9G79J"
+      },
+      {
+        "name": "Patchwork Red Fox Spiral Daily Gratitude Journal with Blank Pages for Him Her",
+        "asin": "B01F2K3FLI"
+      }
+    ]
+  },
+  {
+    "id": 527,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "gut-punch",
+    "faqCount": 2,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Homedics SoundSpa Relaxation Machine",
+        "asin": "B00A2JBMRE"
+      },
+      {
+        "name": "SleepPhones Wireless Headband Headphones",
+        "asin": "B0046H8ZHS"
+      },
+      {
+        "name": "Waterless Essential Oil Diffuser, Rechargeable Scent",
+        "asin": "B0FPRCB5LP"
+      },
+      {
+        "name": "Sleep Soundproof Earbuds Headphones, Noise Isolating Soft",
+        "asin": "B0819MP1D6"
+      },
+      {
+        "name": "Eargasm High Fidelity Earplugs",
+        "asin": "B019M576XW"
+      },
+      {
+        "name": "Quality Foam Earplugs 200 Pair - 32dB Noise Cancelling Soft High",
+        "asin": "B08273T5XC"
+      }
+    ]
+  },
+  {
+    "id": 528,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "scene-setting",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Kindle Paperwhite",
+        "asin": "B09TMN58KL"
+      },
+      {
+        "name": "Beyond The Noise: A Practical Guide to Tinnitus Relief",
+        "asin": "1036964973"
+      },
+      {
+        "name": "ASAKUKI Essential Oil Diffuser for Home, 500ML",
+        "asin": "B01MR4Y0CZ"
+      },
+      {
+        "name": "Tuning Forks for Healing Set – Includes 128Hz, 136Hz, 256Hz ...",
+        "asin": "B0D9XZ44HF"
+      },
+      {
+        "name": "GRATITUDE Journal Notebook: Journaling Inspiration for writing",
+        "asin": "B099WQZ6RB"
+      },
+      {
+        "name": "Tinnitus Relief Supplement for Ringing Ears - Tinnitus Relief Capsules with Magnesium, Zinc & Ginkgo Biloba Support Buzzing, Ringing & Ear Discomfort, Calm",
+        "asin": "B0FF1T75MW"
+      }
+    ]
+  },
+  {
+    "id": 529,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "provocation",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Neck Massager 2026 Portable Neck Traction Device,Cervical with ...",
+        "asin": "B0F7Y9K27N"
+      },
+      {
+        "name": "ASAKUKI Essential Oil Diffuser for Home, 500ML",
+        "asin": "B01MR4Y0CZ"
+      },
+      {
+        "name": "The Body Keeps the Score by Bessel van der Kolk",
+        "asin": "B00G3L1C2K"
+      },
+      {
+        "name": "Living Well with Tinnitus: A self-help guide using cognitive ...",
+        "asin": "1472147421"
+      },
+      {
+        "name": "VTT 16 head massage gun deep tissue, Percussion Muscle",
+        "asin": "B0F87P6WM6"
+      },
+      {
+        "name": "Fitness Tracker Smart Watch, 1.47\" Full Touch Health",
+        "asin": "B0D7VMBBYZ"
+      }
+    ]
+  },
+  {
+    "id": 530,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "first-person",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Sound Oasis Deluxe Bluetooth Sleep Tinnitus Sound Machine",
+        "asin": "B0BSG6DV8J"
+      },
+      {
+        "name": "Stress Ball Set",
+        "asin": "B07BQCZ5YD"
+      },
+      {
+        "name": "EARPEACE Music - Concert Ear Plugs - Earplugs for Noise",
+        "asin": "B076VVP6CX"
+      },
+      {
+        "name": "Amazon.com: Otto 128 Weighted Tuning Fork for Healing, Made in ...",
+        "asin": "B005CCO8RC"
+      },
+      {
+        "name": "ELEHEAR-Beyond OTC Hearing Aids, AI Powered Speech Enhancement Tinnitus Connectivity-Bluetooth",
+        "asin": "B0DXL23JNF"
+      },
+      {
+        "name": "Bose QuietComfort Ultra Headphones",
+        "asin": "B0CCZ26B5V"
+      }
+    ]
+  },
+  {
+    "id": 531,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "question",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Xmenha Black Sleeping Active Noise Canceling Earbuds",
+        "asin": "B0CG1QWCTN"
+      },
+      {
+        "name": "4Pcs Tuning Fork Medical Sound Healing Set(128Hz, OM 136.1Hz ...",
+        "asin": "B09CPY8LK2"
+      },
+      {
+        "name": "BOB AND BRAD C2 Massage Gun, FSA Eligible & HSA Approved",
+        "asin": "B08CKWVYMF"
+      },
+      {
+        "name": "Tuning Forks for Healing Set – Includes 128Hz, 136Hz, 256Hz ...",
+        "asin": "B0D9XZ44HF"
+      },
+      {
+        "name": "Magnesium Glycinate Small Capsules – Easy-to-Swallow Small Pills",
+        "asin": "B0DYQ741XT"
+      },
+      {
+        "name": "Naturebell Pure Magnesium Glycinate 500mg, 240 Veggie Capsules",
+        "asin": "B0C88BJYX2"
+      }
+    ]
+  },
+  {
+    "id": 532,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "named-reference",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "The Tweak Digital Hearing Amplifier to Aid Personal Sound",
+        "asin": "B08RGFG7WG"
+      },
+      {
+        "name": "Kapok Zafu, Zabuton and Support Meditation Cushion Set (3pc)",
+        "asin": "B000GM5EMQ"
+      },
+      {
+        "name": "Beyond The Noise: A Practical Guide to Tinnitus Relief",
+        "asin": "1036964973"
+      },
+      {
+        "name": "Stress Ball Set",
+        "asin": "B07BQCZ5YD"
+      },
+      {
+        "name": "Eargasm High Fidelity Earplugs",
+        "asin": "B019M576XW"
+      },
+      {
+        "name": "VIBES High Fidelity Concert Ear Plugs – Reusable Noise Reducing",
+        "asin": "B018WPOQSG"
+      }
+    ]
+  },
+  {
+    "id": 533,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "gut-punch",
+    "faqCount": 5,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "ASWRTYJO Yoga Resistance Bands",
+        "asin": "B0GH6J1TS2"
+      },
+      {
+        "name": "Loop Experience 2 Ear Plugs – Stylish Certified Hearing Protection",
+        "asin": "B0D4DFQTMJ"
+      },
+      {
+        "name": "Your Path to a Tinnitus-Free Life: Follow My Four-Step Formula to ...",
+        "asin": "B0DCBX2YN6"
+      },
+      {
+        "name": "Sound Oasis Bluetooth Tinnitus Sound Therapy System",
+        "asin": "B07TKD3VNP"
+      },
+      {
+        "name": "Turmeric Curcumin by NatureWise",
+        "asin": "B01BMDAVIY"
+      },
+      {
+        "name": "Hearivo Rechargeable Bluetooth Hearing Aids, App-Controlled with Noise Cancelling",
+        "asin": "B0FHJ81KQB"
+      }
+    ]
+  }
+]

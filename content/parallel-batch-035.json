@@ -1,0 +1,342 @@
+[
+  {
+    "id": 704,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "first-person",
+    "faqCount": 0,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Vital Peak® Hearing Peak - Tinnitus Supplements - Ear Health",
+        "asin": "B0F8C1F1B7"
+      },
+      {
+        "name": "Tuning Forks for Healing Set (128Hz, 136.1Hz, 256Hz, 384Hz) with ...",
+        "asin": "B0F3NFG6RH"
+      },
+      {
+        "name": "Waterless Diffuser for Home Essential Oil Diffuser, Aromatherapy",
+        "asin": "B0F6T9G79J"
+      },
+      {
+        "name": "The Consumer Handbook on Tinnitus",
+        "asin": "0966182677"
+      },
+      {
+        "name": "Research Verified Tinnitus Aid - 3 Month Supply - Vegan",
+        "asin": "B09TRZFYCV"
+      },
+      {
+        "name": "Audio Calm - Tinnitus Relief for Ringing Ears",
+        "asin": "B08W9WGMMV"
+      }
+    ]
+  },
+  {
+    "id": 705,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "question",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Turmeric Curcumin by NatureWise",
+        "asin": "B01BMDAVIY"
+      },
+      {
+        "name": "Hearprotek Concert Ear Plugs, 2Pairs Reusable high Fidelity",
+        "asin": "B08PBQFQH6"
+      },
+      {
+        "name": "Kindle Paperwhite",
+        "asin": "B09TMN58KL"
+      },
+      {
+        "name": "BalanceFrom Yoga Mat, 1 Inch Extra Thick High Density Exercise",
+        "asin": "B0FPTG8PJT"
+      },
+      {
+        "name": "LIVIKEY Fitness Tracker Watch with Heart Rate Monitor, Activity",
+        "asin": "B0CC9DXVPF"
+      },
+      {
+        "name": "Sound Oasis Bluetooth Tinnitus Sound Therapy System Alarm",
+        "asin": "B0DW961G64"
+      }
+    ]
+  },
+  {
+    "id": 706,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "named-reference",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "EYVZPQKXR Thick Two-Color TPE Yoga Mat Movement Fitness",
+        "asin": "B0GFX5SR6L"
+      },
+      {
+        "name": "Coop Home Goods Premium Pillow",
+        "asin": "B00EINBSEW"
+      },
+      {
+        "name": "Research Verified Tinnitus Aid - 6 Month Supply - Vegan",
+        "asin": "B09TRZXRN7"
+      },
+      {
+        "name": "Fitness Tracker, Smart Watches for Women Men with Heart Rate",
+        "asin": "B0FPX2FH55"
+      },
+      {
+        "name": "GRATITUDE Journal Notebook: Journaling Inspiration for writing",
+        "asin": "B099WQZ6RB"
+      },
+      {
+        "name": "Eargasm High Fidelity Earplugs",
+        "asin": "B019M576XW"
+      }
+    ]
+  },
+  {
+    "id": 707,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "gut-punch",
+    "faqCount": 2,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "RESTCLOUD Neck and Shoulder Relaxer, Cervical Traction Device...",
+        "asin": "B082XYR2P2"
+      },
+      {
+        "name": "Thick Two-color, Non-slippery TPE Yoga Mat",
+        "asin": "B0G2K82RT1"
+      },
+      {
+        "name": "FlyHugz HushLoop - Grey Noise Cancelling Ear Plugs for Sleeping Tinnitus",
+        "asin": "B0DZ6PNNJD"
+      },
+      {
+        "name": "High Fidelity Concert Earplugs, Reusable Musicians Ear Plugs, Advanced Filter Technology Ear Protection for Music Festivals",
+        "asin": "B0CMTFNZXG"
+      },
+      {
+        "name": "Waking Up by Sam Harris",
+        "asin": "B00GEEB9YC"
+      },
+      {
+        "name": "Reure High Fidelity Concert Ear Plugs, Noise Cancelling Silicone Ear Plugs 2 Pairs Great for Concerts Loud Music, Musicians, Motorcycles, Airplanes, Raves, Hearing Protection -23 dB",
+        "asin": "B0CG9F5W3Q"
+      }
+    ]
+  },
+  {
+    "id": 708,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "scene-setting",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Thorne Research Melatonin 3mg",
+        "asin": "B0797JCBKR"
+      },
+      {
+        "name": "Fitness Tracker Smart Watch, 1.47\" Full Touch Health",
+        "asin": "B0D7VMBBYZ"
+      },
+      {
+        "name": "Leniio Weighted Blanket",
+        "asin": "B07BR5X6R4"
+      },
+      {
+        "name": "LIVIKEY Fitness Tracker Watch with Heart Rate Monitor, Activity",
+        "asin": "B0CC9DXVPF"
+      },
+      {
+        "name": "Tinnitus Relief for Ringing Ears Supplement: Natural Hearing Health",
+        "asin": "B0F19FN6F4"
+      },
+      {
+        "name": "Zafu Meditation Cushion Japan Made | Authentic Zen ...",
+        "asin": "B0FZZJB86Y"
+      }
+    ]
+  },
+  {
+    "id": 709,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "provocation",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Neck Stretcher for Pain Relief, Neck and Shoulder Relaxer Cervical...",
+        "asin": "B0C141Q82D"
+      },
+      {
+        "name": "LUXOME Full Size Weighted Blanket | Integrated Cooling & Plush Cover | 15 lbs | 54\"x72\" |Grey",
+        "asin": "B07H8PTK1V"
+      },
+      {
+        "name": "Sound Oasis Pillow Speakers, 2 UltraThin Stereo",
+        "asin": "B004H5IXUS"
+      },
+      {
+        "name": "Amazon.com: Tuning Forks for Healing Set (128Hz, 256Hz, 512Hz)",
+        "asin": "B08ZWDPGRP"
+      },
+      {
+        "name": "Fitness Tracker Smart Watch, 1.47\" Full Touch Health",
+        "asin": "B0D7VMBBYZ"
+      },
+      {
+        "name": "Shooting Ear Protection for Gun Range, 10 Pairs Ear Plugs for Noise",
+        "asin": "B0DD7XPWMR"
+      }
+    ]
+  },
+  {
+    "id": 710,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "first-person",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Reure High Fidelity Concert Ear Plugs, Noise Cancelling Silicone Ear Plugs 2 Pairs Great for Concerts Loud Music, Musicians, Motorcycles, Airplanes, Raves, Hearing Protection -23 dB",
+        "asin": "B0CG9F5W3Q"
+      },
+      {
+        "name": "Homeweeks Diffusers, 100ml Colorful Essential Oil",
+        "asin": "B01NBH66QV"
+      },
+      {
+        "name": "Personal Sound Hearing Amplifiers",
+        "asin": "B0D9NT3KRG"
+      },
+      {
+        "name": "Xmenha Black Sleeping Active Noise Canceling Earbuds",
+        "asin": "B0CG1QWCTN"
+      },
+      {
+        "name": "Pink Active Noise Canceling Earbuds Wireless Bluetooth Sleeping",
+        "asin": "B0CFY61N75"
+      },
+      {
+        "name": "Under Pillow Sleep Speaker with White Noise, Ultra Slim Blue-Tooth",
+        "asin": "B0GHW6W7LH"
+      }
+    ]
+  },
+  {
+    "id": 711,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "question",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "NOW Foods Supplements, Magnesium Glycinate 100 mg, Highly",
+        "asin": "B07NWMVMT1"
+      },
+      {
+        "name": "Leniio Weighted Blanket",
+        "asin": "B07BR5X6R4"
+      },
+      {
+        "name": "Sakerplus Multifunction Elastic Yoga Resistance Band",
+        "asin": "B0G4VN3MHH"
+      },
+      {
+        "name": "Pink Active Noise Canceling Earbuds Wireless Bluetooth Sleeping",
+        "asin": "B0CFY61N75"
+      },
+      {
+        "name": "YnM Weighted Blanket",
+        "asin": "B073451HTY"
+      },
+      {
+        "name": "Elefor Massage Gun Deep Tissue,Percussion Back",
+        "asin": "B09JBCSC7H"
+      }
+    ]
+  },
+  {
+    "id": 712,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "named-reference",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Sleep Headphones Sleep Earbuds Noise Cancelling Bluetooth 5.3",
+        "asin": "B0DB8GB6NP"
+      },
+      {
+        "name": "Lagunamoon Essential Oils Aromatherapy Set - 6 Oils for Diffusers",
+        "asin": "B06XRLR9RQ"
+      },
+      {
+        "name": "FKGZJF Smart Watch, Health Fitness Tracker Watch with 24/7 Heart",
+        "asin": "B0F7ZFP3KH"
+      },
+      {
+        "name": "LIVIKEY Fitness Tracker Watch with Heart Rate Monitor, Activity",
+        "asin": "B0CC9DXVPF"
+      },
+      {
+        "name": "Leniio Weighted Blanket",
+        "asin": "B07BR5X6R4"
+      },
+      {
+        "name": "Fitness Tracker Activity Tracker Smart Watch 1.10''AMOLED Touch",
+        "asin": "B0G2GWX7PW"
+      }
+    ]
+  },
+  {
+    "id": 713,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "gut-punch",
+    "faqCount": 5,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Loop Experience 2 Ear Plugs – Stylish Certified Hearing Protection",
+        "asin": "B0D4DFQTMJ"
+      },
+      {
+        "name": "ASWRTYJO Yoga Resistance Bands",
+        "asin": "B0GH6J1TS2"
+      },
+      {
+        "name": "Research Verified Tinnitus Aid - 6 Month Supply - Vegan",
+        "asin": "B09TRZXRN7"
+      },
+      {
+        "name": "Tinnitus Relief for Ringing Ears Supplement: Natural Hearing Health",
+        "asin": "B0F19FN6F4"
+      },
+      {
+        "name": "Ear Basics Personal Sound Amplifier | FSA or HSA Approved",
+        "asin": "B083ZJWBH4"
+      },
+      {
+        "name": "Waterless Essential Oil Diffuser, Rechargeable Scent",
+        "asin": "B0FPRCB5LP"
+      }
+    ]
+  }
+]

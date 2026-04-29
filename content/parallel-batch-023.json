@@ -1,0 +1,342 @@
+[
+  {
+    "id": 584,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "first-person",
+    "faqCount": 0,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Sleep Headphones Headband",
+        "asin": "B07SHBQY7Z"
+      },
+      {
+        "name": "Research Verified Tinnitus Aid - 6 Month Supply - Vegan",
+        "asin": "B09TRZXRN7"
+      },
+      {
+        "name": "Coop Home Goods Premium Pillow",
+        "asin": "B00EINBSEW"
+      },
+      {
+        "name": "Nordic Naturals Ultimate Omega",
+        "asin": "B002CQU564"
+      },
+      {
+        "name": "Waking Up by Sam Harris",
+        "asin": "B00GEEB9YC"
+      },
+      {
+        "name": "CoQ10 by Doctor's Best",
+        "asin": "B0019GW3G8"
+      }
+    ]
+  },
+  {
+    "id": 585,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "question",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Deep Tissue Percussion Massage Gun for Muscle Pain Relief",
+        "asin": "B08YJK1XH3"
+      },
+      {
+        "name": "Gratitude Journal: Notebook To Write In For Women Daily Reflections of Thankfulness",
+        "asin": "1798259893"
+      },
+      {
+        "name": "EYVZPQKXR Thick Two-Color TPE Yoga Mat Movement Fitness",
+        "asin": "B0GFX5SR6L"
+      },
+      {
+        "name": "BalanceFrom Yoga Mat, 1 Inch Extra Thick High Density Exercise",
+        "asin": "B0FPTG8PJT"
+      },
+      {
+        "name": "Dreamfea Weighted Blanket",
+        "asin": "B07D44GNVT"
+      },
+      {
+        "name": "The Simple Gratitude Journal: A Notebook for Men & Teen Boys",
+        "asin": "1947209493"
+      }
+    ]
+  },
+  {
+    "id": 586,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "named-reference",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "TOLOCO Massage Gun, Deep Tissue Back Massage for Athletes for",
+        "asin": "B083L8RNJR"
+      },
+      {
+        "name": "Stress Ball Set",
+        "asin": "B07BQCZ5YD"
+      },
+      {
+        "name": "Homedics SoundSpa Relaxation Machine",
+        "asin": "B00A2JBMRE"
+      },
+      {
+        "name": "Hearivo Rechargeable Bluetooth Hearing Aids, App-Controlled with Noise Cancelling",
+        "asin": "B0FHJ81KQB"
+      },
+      {
+        "name": "Yogasleep Dohm Classic White Noise Machine",
+        "asin": "B00HD0ELFK"
+      },
+      {
+        "name": "Sound Oasis Bluetooth White Noise Machine",
+        "asin": "B00MMPQAM8"
+      }
+    ]
+  },
+  {
+    "id": 587,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "gut-punch",
+    "faqCount": 2,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Leniio Weighted Blanket",
+        "asin": "B07BR5X6R4"
+      },
+      {
+        "name": "Research Verified Tinnitus Aid - 3 Month Supply - Vegan",
+        "asin": "B09TRZFYCV"
+      },
+      {
+        "name": "Living Well with Tinnitus: A self-help guide using cognitive ...",
+        "asin": "1472147421"
+      },
+      {
+        "name": "The Tinnitus Handbook : A Self Help Guide",
+        "asin": "1887053069"
+      },
+      {
+        "name": "Rewiring Tinnitus: How I Finally Found Relief From The Ringing In ...",
+        "asin": "1540483185"
+      },
+      {
+        "name": "The Consumer Handbook on Tinnitus",
+        "asin": "0966182677"
+      }
+    ]
+  },
+  {
+    "id": 588,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "scene-setting",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Amazon.com: Otto 128 Weighted Tuning Fork for Healing, Made in ...",
+        "asin": "B005CCO8RC"
+      },
+      {
+        "name": "Dr. Berg Magnesium Glycinate 150ct – 4-in-1 Chelated for Muscle",
+        "asin": "B0DL6JVD1Z"
+      },
+      {
+        "name": "Yoga Sports Crunches Elastic Pull Rope, Pedal Resistance",
+        "asin": "B0GJ5326HN"
+      },
+      {
+        "name": "Elefor Massage Gun Deep Tissue,Percussion Back",
+        "asin": "B09JBCSC7H"
+      },
+      {
+        "name": "Luma Nutrition Magnesium Glycinate 1000mg",
+        "asin": "B0B1CHKM4S"
+      },
+      {
+        "name": "Opove M3 Pro 2 Massage Gun Deep Tissue Percussion Muscle",
+        "asin": "B07TWFK7JW"
+      }
+    ]
+  },
+  {
+    "id": 589,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "provocation",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Bluripp Sleepals Micro Sleep Earbuds for Side",
+        "asin": "B0DF7QFDG9"
+      },
+      {
+        "name": "Gratitude Journal Notebook: Daily Gratitude Self-Care Affirmations",
+        "asin": "B086PQXNC6"
+      },
+      {
+        "name": "Fitness Tracker Activity Tracker Smart Watch 1.10''AMOLED Touch",
+        "asin": "B0G2GWX7PW"
+      },
+      {
+        "name": "Thick Two-color, Non-slippery TPE Yoga Mat",
+        "asin": "B0G2K82RT1"
+      },
+      {
+        "name": "Dreamfea Weighted Blanket",
+        "asin": "B07D44GNVT"
+      },
+      {
+        "name": "EYVZPQKXR Thick Two-Color TPE Yoga Mat Movement Fitness",
+        "asin": "B0GFX5SR6L"
+      }
+    ]
+  },
+  {
+    "id": 590,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "first-person",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "NOW Supplements NAC 600mg",
+        "asin": "B0013OUQ3S"
+      },
+      {
+        "name": "EYVZPQKXR Thick Two-Color TPE Yoga Mat Movement Fitness",
+        "asin": "B0GFX5SR6L"
+      },
+      {
+        "name": "LIVIKEY Fitness Tracker Watch with Heart Rate Monitor, Activity",
+        "asin": "B0CC9DXVPF"
+      },
+      {
+        "name": "Tinnitus Relief Supplement for Ringing Ears - Tinnitus Relief Capsules with Magnesium, Zinc & Ginkgo Biloba Support Buzzing, Ringing & Ear Discomfort, Calm",
+        "asin": "B0FF1T75MW"
+      },
+      {
+        "name": "Daily Gratitude Journal,Notebook for writing spaces for your positive every day note important",
+        "asin": "B086PRM25L"
+      },
+      {
+        "name": "Sleep Headphones Sleep Earbuds Noise Cancelling Bluetooth 5.3",
+        "asin": "B0DB8GB6NP"
+      }
+    ]
+  },
+  {
+    "id": 591,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "question",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "SleepPhones Wireless Headband Headphones",
+        "asin": "B0046H8ZHS"
+      },
+      {
+        "name": "Tuning Forks for Healing Set, Including Four Frequency 128Hz, 136.1Hz, 174Hz, 528Hz Yoga and Meditation Accessories, Chakra Sound Therapy Instruments with ...",
+        "asin": "B0DS5CVRLQ"
+      },
+      {
+        "name": "L-Theanine 200mg by Sports Research",
+        "asin": "B01GV4O37E"
+      },
+      {
+        "name": "The Body Keeps the Score by Bessel van der Kolk",
+        "asin": "B00G3L1C2K"
+      },
+      {
+        "name": "Hearprotek Concert Ear Plugs, 2Pairs Reusable high Fidelity",
+        "asin": "B08PBQFQH6"
+      },
+      {
+        "name": "Waking Up by Sam Harris",
+        "asin": "B00GEEB9YC"
+      }
+    ]
+  },
+  {
+    "id": 592,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "named-reference",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "LIVIKEY Fitness Tracker Watch with Heart Rate Monitor, Activity",
+        "asin": "B0CC9DXVPF"
+      },
+      {
+        "name": "Chamomile Tea by Traditional Medicinals",
+        "asin": "B0009F3PM6"
+      },
+      {
+        "name": "Zafu & Zabuton Meditation Cushion Set - Buckwheat ...",
+        "asin": "B0FBR7PFPR"
+      },
+      {
+        "name": "Hearprotek Concert Ear Plugs, 2Pairs Reusable high Fidelity",
+        "asin": "B08PBQFQH6"
+      },
+      {
+        "name": "Bean Products Zafu Meditation Pillows for Sitting on Floor, Yoga ...",
+        "asin": "B00IT2V8Y8"
+      },
+      {
+        "name": "Research Verified Tinnitus Aid - 3 Month Supply - Vegan",
+        "asin": "B09TRZFYCV"
+      }
+    ]
+  },
+  {
+    "id": 593,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "gut-punch",
+    "faqCount": 5,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "The Simple Gratitude Journal: A Notebook for Men & Teen Boys",
+        "asin": "1947209493"
+      },
+      {
+        "name": "4Pcs Tuning Fork Medical Sound Healing Set(128Hz, OM 136.1Hz ...",
+        "asin": "B09CPY8LK2"
+      },
+      {
+        "name": "Sharper Image Deep Tissue Percussion Massage Gun, Powerboost",
+        "asin": "B0CD8V6MM6"
+      },
+      {
+        "name": "Dreamfea Weighted Blanket",
+        "asin": "B07D44GNVT"
+      },
+      {
+        "name": "Hearing Aids for Seniors, Invisible Hearing Amplifier Mini Sound",
+        "asin": "B0DJX4FMP1"
+      },
+      {
+        "name": "Yoga Sports Crunches Elastic Pull Rope, Pedal Resistance",
+        "asin": "B0GJ5326HN"
+      }
+    ]
+  }
+]

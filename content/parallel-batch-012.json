@@ -1,0 +1,342 @@
+[
+  {
+    "id": 474,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "scene-setting",
+    "faqCount": 0,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Bose QuietComfort Ultra Headphones",
+        "asin": "B0CCZ26B5V"
+      },
+      {
+        "name": "Patchwork Red Fox Spiral Daily Gratitude Journal with Blank Pages for Him Her",
+        "asin": "B01F2K3FLI"
+      },
+      {
+        "name": "Deep Tissue Percussion Massage Gun for Muscle Pain Relief",
+        "asin": "B08YJK1XH3"
+      },
+      {
+        "name": "Fitness Tracker Activity Tracker Smart Watch 1.10''AMOLED Touch",
+        "asin": "B0G2GWX7PW"
+      },
+      {
+        "name": "Waking Up by Sam Harris",
+        "asin": "B00GEEB9YC"
+      },
+      {
+        "name": "GLORYFIRE Shooting Ear Protection Earplugs",
+        "asin": "B0FMJZMV4K"
+      }
+    ]
+  },
+  {
+    "id": 475,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "provocation",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Hoop Ear Plugs for Quiet Noise Reduction",
+        "asin": "B0D42DQSK4"
+      },
+      {
+        "name": "Neck Stretcher for Pain Relief, Neck and Shoulder Relaxer Cervical...",
+        "asin": "B0C141Q82D"
+      },
+      {
+        "name": "GLORYFIRE Shooting Ear Protection Earplugs",
+        "asin": "B0FMJZMV4K"
+      },
+      {
+        "name": "Waterless Diffuser for Home Essential Oil Diffuser, Aromatherapy",
+        "asin": "B0F6T9G79J"
+      },
+      {
+        "name": "Tinnitus Relief Supplement for Ringing Ears - Tinnitus Relief Capsules with Magnesium, Zinc & Ginkgo Biloba Support Buzzing, Ringing & Ear Discomfort, Calm",
+        "asin": "B0FF1T75MW"
+      },
+      {
+        "name": "Hearivo Rechargeable Bluetooth Hearing Aids, App-Controlled with Noise Cancelling",
+        "asin": "B0FHJ81KQB"
+      }
+    ]
+  },
+  {
+    "id": 476,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "first-person",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Naturebell Pure Magnesium Glycinate 500mg, 240 Veggie Capsules",
+        "asin": "B0C88BJYX2"
+      },
+      {
+        "name": "CoQ10 by Doctor's Best",
+        "asin": "B0019GW3G8"
+      },
+      {
+        "name": "Audio Calm - Tinnitus Relief for Ringing Ears",
+        "asin": "B08W9WGMMV"
+      },
+      {
+        "name": "RESTCLOUD Neck and Shoulder Relaxer, Cervical Traction Device for TMJ Pain Relief and Cervical Spine Alignment, Chiropractic Pillow Neck Stretcher",
+        "asin": "B094MQVXMB"
+      },
+      {
+        "name": "Turmeric Curcumin by NatureWise",
+        "asin": "B01BMDAVIY"
+      },
+      {
+        "name": "RESTCLOUD Neck and Shoulder Relaxer, Cervical Traction Device for TMJ Pain Relief and Cervical Spine Alignment, Chiropractic Pillow, Neck Stretcher",
+        "asin": "B07QSFJ8S2"
+      }
+    ]
+  },
+  {
+    "id": 477,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "question",
+    "faqCount": 2,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "ASAKUKI Essential Oil Diffuser for Home, 500ML",
+        "asin": "B01MR4Y0CZ"
+      },
+      {
+        "name": "Hot Cold Gel Pack for Neck",
+        "asin": "B07BNHWLQP"
+      },
+      {
+        "name": "Yogasleep Dohm Classic White Noise Machine",
+        "asin": "B00HD0ELFK"
+      },
+      {
+        "name": "Audio Calm - Tinnitus Relief for Ringing Ears",
+        "asin": "B08W9WGMMV"
+      },
+      {
+        "name": "The Body Keeps the Score by Bessel van der Kolk",
+        "asin": "B00G3L1C2K"
+      },
+      {
+        "name": "Your Path to a Tinnitus-Free Life: Follow My Four-Step Formula to ...",
+        "asin": "B0DCBX2YN6"
+      }
+    ]
+  },
+  {
+    "id": 478,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "named-reference",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Avantree Slumber - Pillow Speaker for Sleeping, Private Audio with",
+        "asin": "B0C746Z8WZ"
+      },
+      {
+        "name": "VIBES High Fidelity Concert Ear Plugs – Reusable Noise Reducing",
+        "asin": "B018WPOQSG"
+      },
+      {
+        "name": "Loop Experience 2 Ear Plugs – Stylish Certified Hearing Protection",
+        "asin": "B0D4DFQTMJ"
+      },
+      {
+        "name": "Coop Home Goods Premium Pillow",
+        "asin": "B00EINBSEW"
+      },
+      {
+        "name": "Bean Products Zafu Meditation Pillows for Sitting on Floor, Yoga ...",
+        "asin": "B00IT2V8Y8"
+      },
+      {
+        "name": "Personal Sound Hearing Amplifiers",
+        "asin": "B0D9NT3KRG"
+      }
+    ]
+  },
+  {
+    "id": 479,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "gut-punch",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Gratitude Journal: Minimalist Blank Lined Notebook to Write In for Women, Men, Students, Work and Teen of All Ages",
+        "asin": "B0B14D2H3B"
+      },
+      {
+        "name": "Pink Active Noise Canceling Earbuds Wireless Bluetooth Sleeping",
+        "asin": "B0CFY61N75"
+      },
+      {
+        "name": "Gratitude Journal Notebook: Daily Gratitude Self-Care Affirmations",
+        "asin": "B086PQXNC6"
+      },
+      {
+        "name": "Waterless Diffuser for Home Essential Oil Diffuser, Aromatherapy",
+        "asin": "B0F6T9G79J"
+      },
+      {
+        "name": "FITVII Health & Fitness Tracker (Answer/Make Calls), Smart Watch",
+        "asin": "B0CWRJK78S"
+      },
+      {
+        "name": "BalanceFrom Yoga Mat, 1 Inch Extra Thick High Density Exercise",
+        "asin": "B0FPTG8PJT"
+      }
+    ]
+  },
+  {
+    "id": 480,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "scene-setting",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "NOW Foods Supplements, Magnesium Glycinate 100 mg, Highly",
+        "asin": "B07NWMVMT1"
+      },
+      {
+        "name": "SleepPhones Wireless Headband Headphones",
+        "asin": "B0046H8ZHS"
+      },
+      {
+        "name": "Yogasleep Dohm Classic White Noise Machine",
+        "asin": "B00HD0ELFK"
+      },
+      {
+        "name": "Shiatsu Neck and Back Massager",
+        "asin": "B07B2LNKMP"
+      },
+      {
+        "name": "Gravity Weighted Blanket",
+        "asin": "B073429DV2"
+      },
+      {
+        "name": "Brocoliano Meditation Cushion – Ergonomic Zafu ...",
+        "asin": "B0FYZJ3QR8"
+      }
+    ]
+  },
+  {
+    "id": 481,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "provocation",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Dreamfea Weighted Blanket",
+        "asin": "B07D44GNVT"
+      },
+      {
+        "name": "Tuning Forks for Sound Therapy (128Hz, 256Hz, 512Hz) for Yoga ...",
+        "asin": "B0CLD6QDJ7"
+      },
+      {
+        "name": "Tuning Forks for Healing Set – Includes 128Hz, 136Hz, 256Hz ...",
+        "asin": "B0D9XZ44HF"
+      },
+      {
+        "name": "Amazon.com: Tuning Forks for Healing Set (128Hz, 256Hz, 512Hz)",
+        "asin": "B08ZWDPGRP"
+      },
+      {
+        "name": "Homeweeks Diffusers, 100ml Colorful Essential Oil",
+        "asin": "B01NBH66QV"
+      },
+      {
+        "name": "FKGZJF Smart Watch, Health Fitness Tracker Watch with 24/7 Heart",
+        "asin": "B0F7ZFP3KH"
+      }
+    ]
+  },
+  {
+    "id": 482,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "first-person",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "RESTCLOUD Neck and Shoulder Relaxer, Cervical Traction Device for TMJ Pain Relief and Cervical Spine Alignment, Chiropractic Pillow, Neck Stretcher",
+        "asin": "B07QSFJ8S2"
+      },
+      {
+        "name": "Loop Experience Earplugs for Concerts – High Fidelity Hearing Protection for Noise Reduction, Motorcycles, Work & Noise Sensitivity – 8 Ear Tips in XS, S, M, L – 18dB Noise Cancelling - Black",
+        "asin": "B0C3GWZ3C7"
+      },
+      {
+        "name": "Eargasm High Fidelity Earplugs",
+        "asin": "B019M576XW"
+      },
+      {
+        "name": "Kindle Paperwhite",
+        "asin": "B09TMN58KL"
+      },
+      {
+        "name": "VIBES High Fidelity Concert Ear Plugs – Reusable Noise Reducing",
+        "asin": "B018WPOQSG"
+      },
+      {
+        "name": "Sound Oasis Pillow Speakers, 2 UltraThin Stereo",
+        "asin": "B004H5IXUS"
+      }
+    ]
+  },
+  {
+    "id": 483,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "question",
+    "faqCount": 5,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Vital Peak® Hearing Peak - Tinnitus Supplements - Ear Health",
+        "asin": "B0F8C1F1B7"
+      },
+      {
+        "name": "Quidnuran Sleep Headphones Noise Cancelling Earbuds for Sleep",
+        "asin": "B0DBQ7443X"
+      },
+      {
+        "name": "Gratitude Journal: Minimalist Blank Lined Notebook to Write In for Women, Men, Students, Work and Teen of All Ages",
+        "asin": "B0B14D2H3B"
+      },
+      {
+        "name": "Sleep Soundproof Earbuds Headphones, Noise Isolating Soft",
+        "asin": "B0819MP1D6"
+      },
+      {
+        "name": "Essential Oils Diffuser,Aromatherapy Diffuser,Birthday for Women",
+        "asin": "B09NLPW71Z"
+      },
+      {
+        "name": "Westone TRU Music Earplugs – Reusable High-Fidelity 10 dB Noise Reduction for Music",
+        "asin": "B0D47QY3W3"
+      }
+    ]
+  }
+]

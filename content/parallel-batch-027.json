@@ -1,0 +1,342 @@
+[
+  {
+    "id": 624,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "scene-setting",
+    "faqCount": 0,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Ear Basics Personal Sound Amplifier | FSA or HSA Approved",
+        "asin": "B083ZJWBH4"
+      },
+      {
+        "name": "Homeweeks Diffusers, 100ml Colorful Essential Oil",
+        "asin": "B01NBH66QV"
+      },
+      {
+        "name": "Essential Oils Diffuser,Aromatherapy Diffuser,Birthday for Women",
+        "asin": "B09NLPW71Z"
+      },
+      {
+        "name": "Waterless Essential Oil Diffuser, Rechargeable Scent",
+        "asin": "B0FPRCB5LP"
+      },
+      {
+        "name": "Fitness Tracker, Smart Watches for Women Men with Heart Rate",
+        "asin": "B0FPX2FH55"
+      },
+      {
+        "name": "OLsky Massage Gun Deep Tissue, Handheld Electric Muscle",
+        "asin": "B0BJDL4HJN"
+      }
+    ]
+  },
+  {
+    "id": 625,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "provocation",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Sleep Headphones Headband",
+        "asin": "B07SHBQY7Z"
+      },
+      {
+        "name": "Loop Experience 2 Ear Plugs – Stylish Certified Hearing Protection",
+        "asin": "B0D4DFQTMJ"
+      },
+      {
+        "name": "Kindle Paperwhite",
+        "asin": "B09TMN58KL"
+      },
+      {
+        "name": "Turmeric Curcumin by NatureWise",
+        "asin": "B01BMDAVIY"
+      },
+      {
+        "name": "Yogasleep Dohm Classic White Noise Machine",
+        "asin": "B00HD0ELFK"
+      },
+      {
+        "name": "Quality Foam Earplugs 200 Pair - 32dB Noise Cancelling Soft High",
+        "asin": "B08273T5XC"
+      }
+    ]
+  },
+  {
+    "id": 626,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "first-person",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Shooting Ear Protection for Gun Range, 10 Pairs Ear Plugs for Noise",
+        "asin": "B0DD7XPWMR"
+      },
+      {
+        "name": "The Tinnitus Handbook : A Self Help Guide",
+        "asin": "1887053069"
+      },
+      {
+        "name": "Mini Stepper by Sunny Health",
+        "asin": "B0016BQFSS"
+      },
+      {
+        "name": "Hesond Pillow Speaker Bone Conduction Stereo Bluetooth Wireless",
+        "asin": "B0FH6HQJR2"
+      },
+      {
+        "name": "Sound Oasis Bluetooth White Noise Machine",
+        "asin": "B00MMPQAM8"
+      },
+      {
+        "name": "Nordic Naturals Ultimate Omega",
+        "asin": "B002CQU564"
+      }
+    ]
+  },
+  {
+    "id": 627,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "question",
+    "faqCount": 2,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Fitness Tracker, Smart Watches for Women Men with Heart Rate",
+        "asin": "B0FPX2FH55"
+      },
+      {
+        "name": "Homeweeks Diffusers, 100ml Colorful Essential Oil",
+        "asin": "B01NBH66QV"
+      },
+      {
+        "name": "Fitness Tracker Smart Watch, 1.47\" Full Touch Health",
+        "asin": "B0D7VMBBYZ"
+      },
+      {
+        "name": "Hearing Aids for Seniors, Invisible Hearing Amplifier Mini Sound",
+        "asin": "B0DJX4FMP1"
+      },
+      {
+        "name": "The Body Keeps the Score by Bessel van der Kolk",
+        "asin": "B00G3L1C2K"
+      },
+      {
+        "name": "Tinnitus Treatment: Clinical Protocols",
+        "asin": "1684201713"
+      }
+    ]
+  },
+  {
+    "id": 628,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "named-reference",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Your Path to a Tinnitus-Free Life: Follow My Four-Step Formula to ...",
+        "asin": "B0DCBX2YN6"
+      },
+      {
+        "name": "GRATITUDE Journal Notebook: Journaling Inspiration for writing",
+        "asin": "B099WQZ6RB"
+      },
+      {
+        "name": "Neck Massager 2026 Portable Neck Traction Device,Cervical with ...",
+        "asin": "B0F7Y9K27N"
+      },
+      {
+        "name": "Chamomile Tea by Traditional Medicinals",
+        "asin": "B0009F3PM6"
+      },
+      {
+        "name": "Under Pillow Sleep Speaker with White Noise, Ultra Slim Blue-Tooth",
+        "asin": "B0GHW6W7LH"
+      },
+      {
+        "name": "Sakerplus Multifunction Elastic Yoga Resistance Band",
+        "asin": "B0G4VN3MHH"
+      }
+    ]
+  },
+  {
+    "id": 629,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "gut-punch",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Bluripp Sleepals Micro Sleep Earbuds for Side",
+        "asin": "B0DF7QFDG9"
+      },
+      {
+        "name": "Jabees Peace Bluetooth Pillow Speaker for Sleeping",
+        "asin": "B0DWX3GNTV"
+      },
+      {
+        "name": "Tuning Forks for Sound Therapy (128Hz, 256Hz, 512Hz) for Yoga ...",
+        "asin": "B0CLD6QDJ7"
+      },
+      {
+        "name": "High Fidelity Concert Earplugs, Reusable Musicians Ear Plugs, Advanced Filter Technology Ear Protection for Music Festivals",
+        "asin": "B07P6TYRJL"
+      },
+      {
+        "name": "Sakerplus Multifunction Elastic Yoga Resistance Band",
+        "asin": "B0G4VN3MHH"
+      },
+      {
+        "name": "Palo Santo Sticks",
+        "asin": "B07BFVFCNH"
+      }
+    ]
+  },
+  {
+    "id": 630,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "scene-setting",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Sleep Headphones Headband",
+        "asin": "B07SHBQY7Z"
+      },
+      {
+        "name": "Sound Oasis Tinnitus Sound Therapy System, 24 Dr",
+        "asin": "B078QSY2HY"
+      },
+      {
+        "name": "2-1 Earplugs Relief Headphones",
+        "asin": "B0GD7J93YY"
+      },
+      {
+        "name": "Research Verified Tinnitus Aid - 3 Month Supply - Vegan",
+        "asin": "B09TRZFYCV"
+      },
+      {
+        "name": "Living Well with Tinnitus: A self-help guide using cognitive ...",
+        "asin": "1472147421"
+      },
+      {
+        "name": "Brocoliano Meditation Cushion – Ergonomic Zafu ...",
+        "asin": "B0FYZJ3QR8"
+      }
+    ]
+  },
+  {
+    "id": 631,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "provocation",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Personal Audio Amplifier Device and Voice Enhancer",
+        "asin": "B0GJ6YLPM5"
+      },
+      {
+        "name": "FITVII Health & Fitness Tracker (Answer/Make Calls), Smart Watch",
+        "asin": "B0CWRJK78S"
+      },
+      {
+        "name": "Sleep Headphones Sleep Earbuds Noise Cancelling Bluetooth 5.3",
+        "asin": "B0DB8GB6NP"
+      },
+      {
+        "name": "APHERMA Massage Gun, Muscle Massage Gun for Athletes",
+        "asin": "B09P1DV7D8"
+      },
+      {
+        "name": "OLsky Massage Gun Deep Tissue, Handheld Electric Muscle",
+        "asin": "B0BJDL4HJN"
+      },
+      {
+        "name": "Doctor's Best High Absorption Magnesium Glycinate Lysinate",
+        "asin": "B000BD0RT0"
+      }
+    ]
+  },
+  {
+    "id": 632,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "first-person",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "EARPEACE Music - Concert Ear Plugs - Earplugs for Noise",
+        "asin": "B076VVP6CX"
+      },
+      {
+        "name": "The Simple Gratitude Journal: A Notebook for Men & Teen Boys",
+        "asin": "1947209493"
+      },
+      {
+        "name": "Thorne Research Melatonin 3mg",
+        "asin": "B0797JCBKR"
+      },
+      {
+        "name": "Neck Stretcher and Cervical Traction Device, Relaxer for TMJ Pain and Shoulder Pain Relief, Cervical Traction Device Pillow, Spine and Neck Corrector(Blue).",
+        "asin": "B0CH1B2V3L"
+      },
+      {
+        "name": "Tuning Forks for Sound Therapy (128Hz, 256Hz, 512Hz) for Yoga ...",
+        "asin": "B0CLD6QDJ7"
+      },
+      {
+        "name": "Personal Sound Hearing Amplifiers",
+        "asin": "B0D9NT3KRG"
+      }
+    ]
+  },
+  {
+    "id": 633,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "question",
+    "faqCount": 5,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "TINNITUS: Relief Treatment Cure Remedy Management Prevention",
+        "asin": "B00WSQASO2"
+      },
+      {
+        "name": "Ultimate Aromatherapy Diffuser & Essential Oil Set",
+        "asin": "B07JD2GDKN"
+      },
+      {
+        "name": "Pink Active Noise Canceling Earbuds Wireless Bluetooth Sleeping",
+        "asin": "B0CFY61N75"
+      },
+      {
+        "name": "Tinnitus Relief Supplement for Ringing Ears - Tinnitus Relief Capsules with Magnesium, Zinc & Ginkgo Biloba Support Buzzing, Ringing & Ear Discomfort, Calm",
+        "asin": "B0FF1T75MW"
+      },
+      {
+        "name": "VTT 16 head massage gun deep tissue, Percussion Muscle",
+        "asin": "B0F87P6WM6"
+      },
+      {
+        "name": "TOLOCO Massage Gun, Deep Tissue Back Massage for Athletes for",
+        "asin": "B083L8RNJR"
+      }
+    ]
+  }
+]

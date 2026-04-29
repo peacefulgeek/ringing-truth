@@ -1,4 +1,5 @@
-// Saturday product spotlight: generates a product-focused article with quality gate
+// Saturday product spotlight: DeepSeek V4-Pro + Bunny CDN library rotation
+// Zero Claude. Zero Fal.ai. Zero GPT.
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
@@ -7,8 +8,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 
 const AUTO_GEN_ENABLED = process.env.AUTO_GEN_ENABLED === 'true';
-const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
-const FAL_KEY = process.env.FAL_API_KEY;
+const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY;
 const GH_PAT = process.env.GH_PAT;
 const AMAZON_TAG = process.env.AMAZON_TAG || 'spankyspinola-20';
 
@@ -41,13 +41,39 @@ function shuffle(arr) {
   return a;
 }
 
+async function assignLibraryImage(slug) {
+  const libraryIndex = Math.floor(Math.random() * 40) + 1;
+  const sourceFile = `library/lib-${String(libraryIndex).padStart(2, '0')}.webp`;
+  const destHero = `images/${slug}-hero.webp`;
+  const destOg = `images/${slug}-og.webp`;
+  try {
+    const imgBuffer = await fetch(`${BUNNY_CDN_BASE}/${sourceFile}`).then(r => {
+      if (!r.ok) throw new Error(`Library image fetch failed: ${r.status}`);
+      return r.arrayBuffer();
+    });
+    await fetch(`https://${BUNNY_STORAGE_HOST}/${BUNNY_STORAGE_ZONE}/${destHero}`, {
+      method: 'PUT', headers: { 'AccessKey': BUNNY_STORAGE_PASSWORD, 'Content-Type': 'image/webp' },
+      body: Buffer.from(imgBuffer)
+    });
+    await fetch(`https://${BUNNY_STORAGE_HOST}/${BUNNY_STORAGE_ZONE}/${destOg}`, {
+      method: 'PUT', headers: { 'AccessKey': BUNNY_STORAGE_PASSWORD, 'Content-Type': 'image/webp' },
+      body: Buffer.from(imgBuffer)
+    });
+    console.log(`[product-spotlight] Images assigned from ${sourceFile} → ${slug}`);
+    return { heroUrl: `${BUNNY_CDN_BASE}/${destHero}`, ogUrl: `${BUNNY_CDN_BASE}/${destOg}` };
+  } catch (e) {
+    console.error(`[product-spotlight] Image assignment failed: ${e.message}`);
+    return { heroUrl: `${BUNNY_CDN_BASE}/images/default-hero.webp`, ogUrl: `${BUNNY_CDN_BASE}/images/default-og.webp` };
+  }
+}
+
 async function main() {
   if (!AUTO_GEN_ENABLED) {
     console.log('[product-spotlight] AUTO_GEN_ENABLED is false. Exiting.');
     process.exit(0);
   }
-  if (!ANTHROPIC_API_KEY) {
-    console.log('[product-spotlight] No ANTHROPIC_API_KEY set. Exiting.');
+  if (!DEEPSEEK_API_KEY) {
+    console.log('[product-spotlight] No DEEPSEEK_API_KEY set. Exiting.');
     process.exit(0);
   }
 
@@ -71,17 +97,19 @@ async function main() {
     console.log(`[product-spotlight] Attempt ${attempt}/3...`);
 
     try {
-      const response = await fetch('https://api.anthropic.com/v1/messages', {
+      const response = await fetch('https://api.deepseek.com/chat/completions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'x-api-key': ANTHROPIC_API_KEY,
-          'anthropic-version': '2023-06-01'
+          'Authorization': `Bearer ${DEEPSEEK_API_KEY}`
         },
         body: JSON.stringify({
-          model: 'claude-sonnet-4-20250514',
+          model: 'deepseek-chat',
           max_tokens: 4096,
-          system: `You are Kalesh, a consciousness teacher and writer for ${SITE_NAME} (tinnitus wellness).
+          messages: [
+            {
+              role: 'system',
+              content: `You are Kalesh, a consciousness teacher and writer for ${SITE_NAME} (tinnitus wellness).
 
 VOICE RULES:
 - Write in long, unfolding sentences that build and turn (18-28 words average)
@@ -89,11 +117,13 @@ VOICE RULES:
 - Cross-traditional references (Buddhism, Taoism, Vedanta, neuroscience)
 - Intellectual warmth, observer-humor
 - Use "we" and "one" more than "you"
+- Conversational markers: "How does that make you feel?", "Right?!", "Know what I mean?"
+- Sit beside the reader in their pain (Tender Guide register)
 
 HARD RULES:
 - 1,600 to 2,000 words (strict)
 - Zero em-dashes. Use commas, periods, colons, or parentheses instead.
-- Never use these words: delve, tapestry, paradigm, synergy, leverage, unlock, empower, utilize, pivotal, embark, underscore, paramount, seamlessly, robust, beacon, foster, elevate, curate, curated, bespoke, resonate, harness, intricate, plethora, myriad, comprehensive, transformative, groundbreaking, innovative, cutting-edge, revolutionary, state-of-the-art, ever-evolving, profound, holistic, nuanced, multifaceted, stakeholders, ecosystem, furthermore, moreover, additionally, consequently, subsequently, thereby, streamline, optimize, facilitate, amplify, catalyze.
+- Never use these words: delve, tapestry, paradigm, synergy, leverage, unlock, empower, utilize, pivotal, embark, underscore, paramount, seamlessly, robust, beacon, foster, elevate, curate, curated, bespoke, resonate, harness, intricate, plethora, myriad, comprehensive, transformative, groundbreaking, innovative, cutting-edge, revolutionary, state-of-the-art, ever-evolving, profound, holistic, nuanced, multifaceted, stakeholders, ecosystem, furthermore, moreover, additionally, consequently, subsequently, thereby, streamline, optimize, facilitate, amplify, catalyze, landscape, framework.
 - Never use these phrases: "it's important to note," "in conclusion," "in summary," "in the realm of," "dive deep into," "at the end of the day," "in today's fast-paced world," "plays a crucial role," "a testament to," "when it comes to," "cannot be overstated."
 - Contractions throughout. You're. Don't. It's. That's. I've. We'll.
 - Vary sentence length aggressively. Some fragments. Some long ones. Some just three words.
@@ -108,11 +138,13 @@ ${productContext}
 Include AT LEAST 3 Amazon links in body text + 2-3 in a "Your Healing Journey" section.
 Link format: <a href="https://www.amazon.com/dp/ASIN?tag=${AMAZON_TAG}" target="_blank" rel="nofollow sponsored noopener">Product Name</a> (paid link)
 
-Output valid JSON: {title, slug, body (HTML), metaDescription (155 chars), heroImagePrompt (2-3 sentence scene description), faqs [{question, answer}]}`,
-          messages: [{
-            role: 'user',
-            content: `Write a product spotlight article about ${category.replace(/-/g, ' ')} for tinnitus management. Return valid JSON only.`
-          }]
+Output valid JSON: {title, slug, body (HTML), metaDescription (155 chars), heroImagePrompt (2-3 sentence scene description), faqs [{question, answer}]}`
+            },
+            {
+              role: 'user',
+              content: `Write a product spotlight article about ${category.replace(/-/g, ' ')} for tinnitus management. Return valid JSON only.`
+            }
+          ]
         })
       });
 
@@ -122,7 +154,7 @@ Output valid JSON: {title, slug, body (HTML), metaDescription (155 chars), heroI
       }
 
       const data = await response.json();
-      const text = data.content[0].text;
+      const text = data.choices[0].message.content;
       const jsonMatch = text.match(/\{[\s\S]*\}/);
       if (!jsonMatch) { console.warn('[product-spotlight] No JSON found'); continue; }
 
@@ -177,47 +209,12 @@ Output valid JSON: {title, slug, body (HTML), metaDescription (155 chars), heroI
       article.openerType = 'scene-setting';
       article.conclusionType = 'tender';
 
-      // Generate hero image
-      if (FAL_KEY && article.heroImagePrompt) {
-        try {
-          const imgResponse = await fetch('https://queue.fal.run/fal-ai/flux/schnell', {
-            method: 'POST',
-            headers: { 'Authorization': `Key ${FAL_KEY}`, 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              prompt: article.heroImagePrompt + ' Luminous, warm, healing light. No text. No dark environments.',
-              image_size: { width: 1200, height: 675 }, num_images: 1
-            })
-          });
-          if (imgResponse.ok) {
-            const imgData = await imgResponse.json();
-            const imageUrl = imgData.images?.[0]?.url;
-            if (imageUrl) {
-              const imgBuffer = await fetch(imageUrl).then(r => r.arrayBuffer());
-              await fetch(`https://${BUNNY_STORAGE_HOST}/${BUNNY_STORAGE_ZONE}/images/${article.slug}-hero.webp`, {
-                method: 'PUT',
-                headers: { 'AccessKey': BUNNY_STORAGE_PASSWORD, 'Content-Type': 'image/webp' },
-                body: Buffer.from(imgBuffer)
-              });
-              await fetch(`https://${BUNNY_STORAGE_HOST}/${BUNNY_STORAGE_ZONE}/images/${article.slug}-og.png`, {
-                method: 'PUT',
-                headers: { 'AccessKey': BUNNY_STORAGE_PASSWORD, 'Content-Type': 'image/png' },
-                body: Buffer.from(imgBuffer)
-              });
-              // Update image map
-              const imageMapPath = join(ROOT, 'content/image-map.json');
-              let imageMap = existsSync(imageMapPath) ? JSON.parse(readFileSync(imageMapPath, 'utf8')) : {};
-              imageMap[article.slug] = {
-                heroUrl: `${BUNNY_CDN_BASE}/images/${article.slug}-hero.webp`,
-                ogUrl: `${BUNNY_CDN_BASE}/images/${article.slug}-og.png`
-              };
-              writeFileSync(imageMapPath, JSON.stringify(imageMap, null, 2));
-              console.log(`[product-spotlight] Images uploaded for ${article.slug}`);
-            }
-          }
-        } catch (e) {
-          console.error('[product-spotlight] Image generation failed:', e.message);
-        }
-      }
+      // Bunny CDN image library rotation
+      const imageUrls = await assignLibraryImage(article.slug);
+      const imageMapPath = join(ROOT, 'content/image-map.json');
+      let imageMap = existsSync(imageMapPath) ? JSON.parse(readFileSync(imageMapPath, 'utf8')) : {};
+      imageMap[article.slug] = imageUrls;
+      writeFileSync(imageMapPath, JSON.stringify(imageMap, null, 2));
 
       articles.push(article);
       writeFileSync(articlesPath, JSON.stringify(articles));

@@ -1,0 +1,342 @@
+[
+  {
+    "id": 394,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "named-reference",
+    "faqCount": 0,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Gravity Weighted Blankets for Adults, 15lbs Grey (48\" x 72\", Twin/Single) - Heavy Comfort Cotton Blanket with Glass Beads - Utra-Soft Premium Breathable Microfiber Duvet Cover - Machine Washable",
+        "asin": "B08CS22G7Z"
+      },
+      {
+        "name": "Essential Oils Diffuser,Aromatherapy Diffuser,Birthday for Women",
+        "asin": "B09NLPW71Z"
+      },
+      {
+        "name": "Bluripp Sleepals Micro Sleep Earbuds for Side",
+        "asin": "B0DF7QFDG9"
+      },
+      {
+        "name": "Homeweeks Diffusers, 100ml Colorful Essential Oil",
+        "asin": "B01NBH66QV"
+      },
+      {
+        "name": "Reizen Mighty Loud Ear 120dB Personal Sound Hearing Amplifier",
+        "asin": "B019EDGWGO"
+      },
+      {
+        "name": "Fitness Tracker Smart Watch, 1.47\" Full Touch Health",
+        "asin": "B0D7VMBBYZ"
+      }
+    ]
+  },
+  {
+    "id": 395,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "gut-punch",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "CoQ10 by Doctor's Best",
+        "asin": "B0019GW3G8"
+      },
+      {
+        "name": "Personal Sound Hearing Amplifiers",
+        "asin": "B0D9NT3KRG"
+      },
+      {
+        "name": "Brocoliano Meditation Cushion – Ergonomic Zafu ...",
+        "asin": "B0FYZJ3QR8"
+      },
+      {
+        "name": "Mini Stepper by Sunny Health",
+        "asin": "B0016BQFSS"
+      },
+      {
+        "name": "Coop Home Goods Premium Pillow",
+        "asin": "B00EINBSEW"
+      },
+      {
+        "name": "FlyHugz HushLoop - Grey Noise Cancelling Ear Plugs for Sleeping Tinnitus",
+        "asin": "B0DZ6PNNJD"
+      }
+    ]
+  },
+  {
+    "id": 396,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "scene-setting",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Waterless Essential Oil Diffuser, Rechargeable Scent",
+        "asin": "B0FPRCB5LP"
+      },
+      {
+        "name": "Gravity Weighted Blanket",
+        "asin": "B073429DV2"
+      },
+      {
+        "name": "NOW Supplements NAC 600mg",
+        "asin": "B0013OUQ3S"
+      },
+      {
+        "name": "Tinnitus Relief for Ringing Ears Supplement: Natural Hearing Health",
+        "asin": "B0F19FN6F4"
+      },
+      {
+        "name": "GLORYFIRE Shooting Ear Protection Earplugs",
+        "asin": "B0FMJZMV4K"
+      },
+      {
+        "name": "Zafu Meditation Cushion Japan Made | Authentic Zen ...",
+        "asin": "B0FZZJB86Y"
+      }
+    ]
+  },
+  {
+    "id": 397,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "provocation",
+    "faqCount": 2,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Loop Experience Earplugs for Concerts – High Fidelity Hearing Protection for Noise Reduction, Motorcycles, Work & Noise Sensitivity – 8 Ear Tips in XS, S, M, L – 18dB Noise Cancelling - Black",
+        "asin": "B0C3GWZ3C7"
+      },
+      {
+        "name": "Bose QuietComfort Ultra Headphones",
+        "asin": "B0CCZ26B5V"
+      },
+      {
+        "name": "Your Path to a Tinnitus-Free Life: Follow My Four-Step Formula to ...",
+        "asin": "B0DCBX2YN6"
+      },
+      {
+        "name": "TINNITUS: Relief Treatment Cure Remedy Management Prevention",
+        "asin": "B00WSQASO2"
+      },
+      {
+        "name": "The Body Keeps the Score by Bessel van der Kolk",
+        "asin": "B00G3L1C2K"
+      },
+      {
+        "name": "RESTCLOUD Neck and Shoulder Relaxer, Cervical Traction Device...",
+        "asin": "B082XYR2P2"
+      }
+    ]
+  },
+  {
+    "id": 398,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "first-person",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "ASWRTYJO Yoga Resistance Bands",
+        "asin": "B0GH6J1TS2"
+      },
+      {
+        "name": "Your Path to a Tinnitus-Free Life: Follow My Four-Step Formula to ...",
+        "asin": "B0DCBX2YN6"
+      },
+      {
+        "name": "Chamomile Tea by Traditional Medicinals",
+        "asin": "B0009F3PM6"
+      },
+      {
+        "name": "Neck Stretcher for Pain Relief, Neck and Shoulder Relaxer Cervical...",
+        "asin": "B0C141Q82D"
+      },
+      {
+        "name": "Ortist Weighted Blanket",
+        "asin": "B07LD5BDLS"
+      },
+      {
+        "name": "Hearivo Rechargeable Bluetooth Hearing Aids, App-Controlled with Noise Cancelling",
+        "asin": "B0FHJ81KQB"
+      }
+    ]
+  },
+  {
+    "id": 399,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "question",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Sound Oasis Pillow Speakers, 2 UltraThin Stereo",
+        "asin": "B004H5IXUS"
+      },
+      {
+        "name": "Your Path to a Tinnitus-Free Life: Follow My Four-Step Formula to ...",
+        "asin": "B0DCBX2YN6"
+      },
+      {
+        "name": "Chamomile Tea by Traditional Medicinals",
+        "asin": "B0009F3PM6"
+      },
+      {
+        "name": "Amazon.com: Tuning Forks for Soubd Healing Set 128HZ, 136.1HZ ...",
+        "asin": "B0D5CGW1MS"
+      },
+      {
+        "name": "Research Verified Tinnitus Aid - 6 Month Supply - Vegan",
+        "asin": "B09TRZXRN7"
+      },
+      {
+        "name": "Reizen Mighty Loud Ear 120dB Personal Sound Hearing Amplifier",
+        "asin": "B019EDGWGO"
+      }
+    ]
+  },
+  {
+    "id": 400,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "named-reference",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Tuning Forks for Healing Set – Includes 128Hz, 136Hz, 256Hz ...",
+        "asin": "B0D9XZ44HF"
+      },
+      {
+        "name": "Homeweeks Diffusers, 100ml Colorful Essential Oil",
+        "asin": "B01NBH66QV"
+      },
+      {
+        "name": "QXCIVR Thick Two-Color, Non-Slippery TPE Yoga mat, Movement",
+        "asin": "B0DY7DNHZ9"
+      },
+      {
+        "name": "Bluripp Sleepals Micro Sleep Earbuds for Side",
+        "asin": "B0DF7QFDG9"
+      },
+      {
+        "name": "Gratitude Journal: Notebook To Write In For Women Daily Reflections of Thankfulness",
+        "asin": "1798259893"
+      },
+      {
+        "name": "Waterless Diffuser for Home Essential Oil Diffuser, Aromatherapy",
+        "asin": "B0F6T9G79J"
+      }
+    ]
+  },
+  {
+    "id": 401,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "gut-punch",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Full Catastrophe Living by Jon Kabat-Zinn",
+        "asin": "B00C4BA3UK"
+      },
+      {
+        "name": "Audio Calm - Tinnitus Relief for Ringing Ears",
+        "asin": "B08W9WGMMV"
+      },
+      {
+        "name": "Neck Stretcher for Pain Relief, Neck and Shoulder Relaxer Cervical...",
+        "asin": "B0C141Q82D"
+      },
+      {
+        "name": "ZenBless Zafu and Zabuton Meditation Cushion Set ...",
+        "asin": "B0C7ZGRHHM"
+      },
+      {
+        "name": "EARPEACE Music - Concert Ear Plugs - Earplugs for Noise",
+        "asin": "B076VVP6CX"
+      },
+      {
+        "name": "Research Verified Tinnitus Aid - 6 Month Supply - Vegan",
+        "asin": "B09TRZXRN7"
+      }
+    ]
+  },
+  {
+    "id": 402,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "scene-setting",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "L-Theanine 200mg by Sports Research",
+        "asin": "B01GV4O37E"
+      },
+      {
+        "name": "Pink Active Noise Canceling Earbuds Wireless Bluetooth Sleeping",
+        "asin": "B0CFY61N75"
+      },
+      {
+        "name": "Dreamfea Weighted Blanket",
+        "asin": "B07D44GNVT"
+      },
+      {
+        "name": "Tuning Forks for Healing (128Hz, 256Hz, 512Hz) Chakra Balancing ...",
+        "asin": "B0D92TN36F"
+      },
+      {
+        "name": "VTT 16 head massage gun deep tissue, Percussion Muscle",
+        "asin": "B0F87P6WM6"
+      },
+      {
+        "name": "Lagunamoon Essential Oils Aromatherapy Set - 6 Oils for Diffusers",
+        "asin": "B06XRLR9RQ"
+      }
+    ]
+  },
+  {
+    "id": 403,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "provocation",
+    "faqCount": 5,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "High Fidelity Concert Earplugs, Reusable Musicians Ear Plugs, Advanced Filter Technology Ear Protection for Music Festivals",
+        "asin": "B07P6TYRJL"
+      },
+      {
+        "name": "Beyond The Noise: A Practical Guide to Tinnitus Relief",
+        "asin": "1036964973"
+      },
+      {
+        "name": "BY CARIOLA Zen Ear – Ear Wellness & Daily Support Supplement",
+        "asin": "B0CDJFD8LP"
+      },
+      {
+        "name": "Bluetooth Pillow Speaker for Sleeping, Bone Conduction Stereo",
+        "asin": "B0C8GBQ7BW"
+      },
+      {
+        "name": "Back Rescue Trigger Point Neck Massager for Neck Pain Relief ...",
+        "asin": "B09Y1Q63TV"
+      },
+      {
+        "name": "Zafu Meditation Cushion Japan Made | Authentic Zen ...",
+        "asin": "B0FZZJB86Y"
+      }
+    ]
+  }
+]

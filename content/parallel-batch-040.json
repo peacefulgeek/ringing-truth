@@ -1,0 +1,342 @@
+[
+  {
+    "id": 754,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "named-reference",
+    "faqCount": 0,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Back Rescue Trigger Point Neck Massager for Neck Pain Relief ...",
+        "asin": "B09Y1Q63TV"
+      },
+      {
+        "name": "Eargasm High Fidelity Earplugs",
+        "asin": "B019M576XW"
+      },
+      {
+        "name": "Dreamfea Weighted Blanket",
+        "asin": "B07D44GNVT"
+      },
+      {
+        "name": "Bose QuietComfort Ultra Headphones",
+        "asin": "B0CCZ26B5V"
+      },
+      {
+        "name": "Nordic Naturals Ultimate Omega",
+        "asin": "B002CQU564"
+      },
+      {
+        "name": "Hesond Pillow Speaker Bone Conduction Stereo Bluetooth Wireless",
+        "asin": "B0FH6HQJR2"
+      }
+    ]
+  },
+  {
+    "id": 755,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "gut-punch",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Beyond The Noise: A Practical Guide to Tinnitus Relief",
+        "asin": "1036964973"
+      },
+      {
+        "name": "Jarrow Formulas B-Right Complex",
+        "asin": "B0013OQGO6"
+      },
+      {
+        "name": "FlyHugz HushLoop - Grey Noise Cancelling Ear Plugs for Sleeping Tinnitus",
+        "asin": "B0DZ6PNNJD"
+      },
+      {
+        "name": "Pure Encapsulations Magnesium (Glycinate)",
+        "asin": "B07P5K7DQP"
+      },
+      {
+        "name": "Tuning Forks for Sound Therapy (128Hz, 256Hz, 512Hz) for Yoga ...",
+        "asin": "B0CLD6QDJ7"
+      },
+      {
+        "name": "Personal Sound Hearing Amplifiers Black",
+        "asin": "B0DCBLS581"
+      }
+    ]
+  },
+  {
+    "id": 756,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "scene-setting",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Brocoliano Meditation Cushion – Ergonomic Zafu ...",
+        "asin": "B0FYZJ3QR8"
+      },
+      {
+        "name": "SleepPhones Wireless Headband Headphones",
+        "asin": "B0046H8ZHS"
+      },
+      {
+        "name": "Sound Oasis Pillow Speakers, 2 UltraThin Stereo",
+        "asin": "B004H5IXUS"
+      },
+      {
+        "name": "Thick Two-color, Non-slippery TPE Yoga Mat",
+        "asin": "B0G2K82RT1"
+      },
+      {
+        "name": "Gravity Weighted Blankets for Adults, 15lbs Grey (48\" x 72\", Twin/Single) - Heavy Comfort Cotton Blanket with Glass Beads - Utra-Soft Premium Breathable Microfiber Duvet Cover - Machine Washable",
+        "asin": "B08CS22G7Z"
+      },
+      {
+        "name": "Patchwork Red Fox Spiral Daily Gratitude Journal with Blank Pages for Him Her",
+        "asin": "B01F2K3FLI"
+      }
+    ]
+  },
+  {
+    "id": 757,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "provocation",
+    "faqCount": 2,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Shooting Ear Protection for Gun Range, 10 Pairs Ear Plugs for Noise",
+        "asin": "B0DD7XPWMR"
+      },
+      {
+        "name": "Full Catastrophe Living by Jon Kabat-Zinn",
+        "asin": "B00C4BA3UK"
+      },
+      {
+        "name": "Back Rescue Trigger Point Neck Massager for Neck Pain Relief ...",
+        "asin": "B09Y1Q63TV"
+      },
+      {
+        "name": "Beyond The Noise: A Practical Guide to Tinnitus Relief",
+        "asin": "1036964973"
+      },
+      {
+        "name": "Research Verified Tinnitus Aid - 6 Month Supply - Vegan",
+        "asin": "B09TRZXRN7"
+      },
+      {
+        "name": "Research Verified Tinnitus Aid - 3 Month Supply - Vegan",
+        "asin": "B09TRZFYCV"
+      }
+    ]
+  },
+  {
+    "id": 758,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "first-person",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Magnesium Glycinate Small Capsules – Easy-to-Swallow Small Pills",
+        "asin": "B0DYQ741XT"
+      },
+      {
+        "name": "Zafu Meditation Cushion Japan Made | Authentic Zen ...",
+        "asin": "B0FZZJB86Y"
+      },
+      {
+        "name": "The Body Keeps the Score by Bessel van der Kolk",
+        "asin": "B00G3L1C2K"
+      },
+      {
+        "name": "Kinglucky Pillow Speaker for Sleeping, Mini Bluetooth",
+        "asin": "B0GKN74GVK"
+      },
+      {
+        "name": "Shooting Ear Protection for Gun Range, 10 Pairs Ear Plugs for Noise",
+        "asin": "B0DD7XPWMR"
+      },
+      {
+        "name": "Zafu & Zabuton Meditation Cushion Set - Buckwheat Hull & Memory ...",
+        "asin": "B0FBQY1LDK"
+      }
+    ]
+  },
+  {
+    "id": 759,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "question",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Zafu Meditation Cushion Japan Made | Authentic Zen ...",
+        "asin": "B0FZZJB86Y"
+      },
+      {
+        "name": "The Consumer Handbook on Tinnitus",
+        "asin": "0966182677"
+      },
+      {
+        "name": "Personal Sound Hearing Amplifiers",
+        "asin": "B0D9NT3KRG"
+      },
+      {
+        "name": "Kindle Paperwhite",
+        "asin": "B09TMN58KL"
+      },
+      {
+        "name": "Coop Home Goods Premium Pillow",
+        "asin": "B00EINBSEW"
+      },
+      {
+        "name": "Eargasm High Fidelity Earplugs",
+        "asin": "B019M576XW"
+      }
+    ]
+  },
+  {
+    "id": 760,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "named-reference",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "MorePro Health Fitness Tracker with 24/7 Heart Rate/Blood",
+        "asin": "B0FRV41PHY"
+      },
+      {
+        "name": "L-Theanine 200mg by Sports Research",
+        "asin": "B01GV4O37E"
+      },
+      {
+        "name": "Homedics SoundSpa Relaxation Machine",
+        "asin": "B00A2JBMRE"
+      },
+      {
+        "name": "ASAKUKI Essential Oil Diffuser for Home, 500ML",
+        "asin": "B01MR4Y0CZ"
+      },
+      {
+        "name": "Personal Sound Hearing Amplifiers",
+        "asin": "B0D9NT3KRG"
+      },
+      {
+        "name": "Kindle Paperwhite",
+        "asin": "B09TMN58KL"
+      }
+    ]
+  },
+  {
+    "id": 761,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "gut-punch",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Sound Oasis Bluetooth Tinnitus Sound Therapy System",
+        "asin": "B07TKD3VNP"
+      },
+      {
+        "name": "The Simple Gratitude Journal: A Notebook for Men & Teen Boys",
+        "asin": "1947209493"
+      },
+      {
+        "name": "Mindful Modern Meditation Cushion & Zabuton Meditation Mat Bundle",
+        "asin": "B08F598PSB"
+      },
+      {
+        "name": "Eargasm High Fidelity Earplugs",
+        "asin": "B019M576XW"
+      },
+      {
+        "name": "Tinnitus: Turning the Volume Down",
+        "asin": "1934266035"
+      },
+      {
+        "name": "TINNITUS: Relief Treatment Cure Remedy Management Prevention",
+        "asin": "B00WSQASO2"
+      }
+    ]
+  },
+  {
+    "id": 762,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "scene-setting",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Lagunamoon Essential Oils Aromatherapy Set - 6 Oils for Diffusers",
+        "asin": "B06XRLR9RQ"
+      },
+      {
+        "name": "The Tinnitus Handbook : A Self Help Guide",
+        "asin": "1887053069"
+      },
+      {
+        "name": "Tinnitus: Turning the Volume Down",
+        "asin": "1934266035"
+      },
+      {
+        "name": "BY CARIOLA Zen Ear – Ear Wellness & Daily Support Supplement",
+        "asin": "B0CDJFD8LP"
+      },
+      {
+        "name": "Jabees Peace Bluetooth Pillow Speaker for Sleeping",
+        "asin": "B0DWX3GNTV"
+      },
+      {
+        "name": "Yogasleep Dohm Classic White Noise Machine",
+        "asin": "B00HD0ELFK"
+      }
+    ]
+  },
+  {
+    "id": 763,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "provocation",
+    "faqCount": 5,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Hearivo Rechargeable Bluetooth Hearing Aids, App-Controlled with Noise Cancelling",
+        "asin": "B0FHJ81KQB"
+      },
+      {
+        "name": "Ultra-Thin Pillow Speaker White Noise Machine",
+        "asin": "B0GJS126M6"
+      },
+      {
+        "name": "FKGZJF Smart Watch, Health Fitness Tracker Watch with 24/7 Heart",
+        "asin": "B0F7ZFP3KH"
+      },
+      {
+        "name": "VIBES High Fidelity Concert Ear Plugs – Reusable Noise Reducing",
+        "asin": "B018WPOQSG"
+      },
+      {
+        "name": "Bluetooth Pillow Speaker for Sleeping, Bone Conduction Stereo",
+        "asin": "B0C8GBQ7BW"
+      },
+      {
+        "name": "Yogasleep Dohm Classic White Noise Machine",
+        "asin": "B00HD0ELFK"
+      }
+    ]
+  }
+]

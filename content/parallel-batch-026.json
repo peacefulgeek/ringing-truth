@@ -1,0 +1,342 @@
+[
+  {
+    "id": 614,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "first-person",
+    "faqCount": 0,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Waking Up by Sam Harris",
+        "asin": "B00GEEB9YC"
+      },
+      {
+        "name": "Amazfit Band 5 Activity Fitness Tracker",
+        "asin": "B09X1Y2345"
+      },
+      {
+        "name": "Hesond Pillow Speaker Bone Conduction Stereo Bluetooth Wireless",
+        "asin": "B0FH6HQJR2"
+      },
+      {
+        "name": "Loop Experience 2 Ear Plugs – Stylish Certified Hearing Protection",
+        "asin": "B0D4DFQTMJ"
+      },
+      {
+        "name": "L-Theanine 200mg by Sports Research",
+        "asin": "B01GV4O37E"
+      },
+      {
+        "name": "TINNITUS: Relief Treatment Cure Remedy Management Prevention",
+        "asin": "B00WSQASO2"
+      }
+    ]
+  },
+  {
+    "id": 615,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "question",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Stress Ball Set",
+        "asin": "B07BQCZ5YD"
+      },
+      {
+        "name": "Doctor's Best High Absorption Magnesium Glycinate Lysinate",
+        "asin": "B000BD0RT0"
+      },
+      {
+        "name": "Hesond Pillow Speaker Bone Conduction Stereo Bluetooth Wireless",
+        "asin": "B0FH6HQJR2"
+      },
+      {
+        "name": "Gratitude Journal: Minimalist Blank Lined Notebook to Write In for Women, Men, Students, Work and Teen of All Ages",
+        "asin": "B0B14D2H3B"
+      },
+      {
+        "name": "Turmeric Curcumin by NatureWise",
+        "asin": "B01BMDAVIY"
+      },
+      {
+        "name": "Personal Audio Amplifier Device and Voice Enhancer",
+        "asin": "B0GJ6YLPM5"
+      }
+    ]
+  },
+  {
+    "id": 616,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "named-reference",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Research Verified Tinnitus Aid - 3 Month Supply - Vegan",
+        "asin": "B09TRZFYCV"
+      },
+      {
+        "name": "Chamomile Tea by Traditional Medicinals",
+        "asin": "B0009F3PM6"
+      },
+      {
+        "name": "Research Verified Tinnitus Aid - 60 Capsules - Vegan",
+        "asin": "B09TS1NHM4"
+      },
+      {
+        "name": "The Consumer Handbook on Tinnitus",
+        "asin": "0966182677"
+      },
+      {
+        "name": "Back Rescue Trigger Point Neck Massager for Neck Pain Relief ...",
+        "asin": "B09Y1Q63TV"
+      },
+      {
+        "name": "The Body Keeps the Score by Bessel van der Kolk",
+        "asin": "B00G3L1C2K"
+      }
+    ]
+  },
+  {
+    "id": 617,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "gut-punch",
+    "faqCount": 2,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Bean Products Zafu Meditation Pillows for Sitting on Floor, Yoga ...",
+        "asin": "B00IT2V8Y8"
+      },
+      {
+        "name": "Research Verified Tinnitus Aid - 60 Capsules - Vegan",
+        "asin": "B09TS1NHM4"
+      },
+      {
+        "name": "Hesond Pillow Speaker Bone Conduction Stereo Bluetooth Wireless",
+        "asin": "B0FH6HQJR2"
+      },
+      {
+        "name": "Vital Peak® Hearing Peak - Tinnitus Supplements - Ear Health",
+        "asin": "B0F8C1F1B7"
+      },
+      {
+        "name": "Magnesium Glycinate 400mg | 180 Capsules",
+        "asin": "B0B6CTYD6S"
+      },
+      {
+        "name": "Yoga Elastic Fitness Exercise Pull Rope Exercise Resistance Bands",
+        "asin": "B07SXFLPGP"
+      }
+    ]
+  },
+  {
+    "id": 618,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "scene-setting",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Ear Basics Personal Sound Amplifier | FSA or HSA Approved",
+        "asin": "B083ZJWBH4"
+      },
+      {
+        "name": "Research Verified Tinnitus Aid - 60 Capsules - Vegan",
+        "asin": "B09TS1NHM4"
+      },
+      {
+        "name": "Neck Massager 2026 Portable Neck Traction Device,Cervical with ...",
+        "asin": "B0F7Y9K27N"
+      },
+      {
+        "name": "Tinnitus Relief Supplement for Ringing Ears - Tinnitus Relief Capsules with Magnesium, Zinc & Ginkgo Biloba Support Buzzing, Ringing & Ear Discomfort, Calm",
+        "asin": "B0FF1T75MW"
+      },
+      {
+        "name": "Bluetooth Pillow Speaker for Sleeping, Bone Conduction Stereo",
+        "asin": "B0C8GBQ7BW"
+      },
+      {
+        "name": "BY CARIOLA Zen Ear – Ear Wellness & Daily Support Supplement",
+        "asin": "B0CDJFD8LP"
+      }
+    ]
+  },
+  {
+    "id": 619,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "provocation",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "The Tinnitus Book: Understanding Tinnitus and How to Find Relief",
+        "asin": "B0C9S3H772"
+      },
+      {
+        "name": "NOW Supplements NAC 600mg",
+        "asin": "B0013OUQ3S"
+      },
+      {
+        "name": "Mini Stepper by Sunny Health",
+        "asin": "B0016BQFSS"
+      },
+      {
+        "name": "Kindle Paperwhite",
+        "asin": "B09TMN58KL"
+      },
+      {
+        "name": "Sleep Headphones Headband",
+        "asin": "B07SHBQY7Z"
+      },
+      {
+        "name": "Full Catastrophe Living by Jon Kabat-Zinn",
+        "asin": "B00C4BA3UK"
+      }
+    ]
+  },
+  {
+    "id": 620,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "first-person",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Daily Gratitude Journal,Notebook for writing spaces for your positive every day note important",
+        "asin": "B086PRM25L"
+      },
+      {
+        "name": "Sleep Headphones Sleep Earbuds Noise Cancelling Bluetooth 5.3",
+        "asin": "B0DB8GB6NP"
+      },
+      {
+        "name": "Leniio Weighted Blanket",
+        "asin": "B07BR5X6R4"
+      },
+      {
+        "name": "FITVII Health & Fitness Tracker (Answer/Make Calls), Smart Watch",
+        "asin": "B0CWRJK78S"
+      },
+      {
+        "name": "LIVIKEY Fitness Tracker Watch with Heart Rate Monitor, Activity",
+        "asin": "B0CC9DXVPF"
+      },
+      {
+        "name": "Sleeping Ear Buds Sleep Earbuds for Side Sleepers, Noise",
+        "asin": "B0CYP33TCW"
+      }
+    ]
+  },
+  {
+    "id": 621,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "question",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Tinnitus: Turning the Volume Down",
+        "asin": "1934266035"
+      },
+      {
+        "name": "ZenBless Zafu and Zabuton Meditation Cushion Set ...",
+        "asin": "B0C7ZGRHHM"
+      },
+      {
+        "name": "The Consumer Handbook on Tinnitus",
+        "asin": "0966182677"
+      },
+      {
+        "name": "Research Verified Tinnitus Aid - 60 Capsules - Vegan",
+        "asin": "B09TS1NHM4"
+      },
+      {
+        "name": "4Pcs Tuning Fork Medical Sound Healing Set(128Hz, OM 136.1Hz ...",
+        "asin": "B09CPY8LK2"
+      },
+      {
+        "name": "Bluetooth Pillow Speaker for Sleeping, Soft Whispering Sound",
+        "asin": "B0BGMD7ZSB"
+      }
+    ]
+  },
+  {
+    "id": 622,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "named-reference",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Personal Sound Hearing Amplifiers",
+        "asin": "B0D9NT3KRG"
+      },
+      {
+        "name": "Neck Massager 2026 Portable Neck Traction Device,Cervical with ...",
+        "asin": "B0F7Y9K27N"
+      },
+      {
+        "name": "ELEHEAR-Beyond OTC Hearing Aids, AI Powered Speech Enhancement Tinnitus Connectivity-Bluetooth",
+        "asin": "B0DXL23JNF"
+      },
+      {
+        "name": "L-Theanine 200mg by Sports Research",
+        "asin": "B01GV4O37E"
+      },
+      {
+        "name": "The Body Keeps the Score by Bessel van der Kolk",
+        "asin": "B00G3L1C2K"
+      },
+      {
+        "name": "Shiatsu Neck and Back Massager",
+        "asin": "B07B2LNKMP"
+      }
+    ]
+  },
+  {
+    "id": 623,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "gut-punch",
+    "faqCount": 5,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Sound Oasis Tinnitus Sound Therapy System, 24 Dr",
+        "asin": "B078QSY2HY"
+      },
+      {
+        "name": "Gratitude Journal: Thankful Notebook Diary with 5 Minute Daily Writing",
+        "asin": "1723706027"
+      },
+      {
+        "name": "CoQ10 by Doctor's Best",
+        "asin": "B0019GW3G8"
+      },
+      {
+        "name": "FlyHugz HushLoop - Grey Noise Cancelling Ear Plugs for Sleeping Tinnitus",
+        "asin": "B0DZ6PNNJD"
+      },
+      {
+        "name": "ASAKUKI Essential Oil Diffuser for Home, 500ML",
+        "asin": "B01MR4Y0CZ"
+      },
+      {
+        "name": "Leniio Weighted Blanket",
+        "asin": "B07BR5X6R4"
+      }
+    ]
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": 494,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "first-person",
+    "faqCount": 0,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "EARHOPE High Fidelity Concert Earplugs, 2 Pairs High Fidelity Earplugs with Musicians Filter for Music-30dB",
+        "asin": "B0G4QV444X"
+      },
+      {
+        "name": "Westone TRU Music Earplugs – Reusable High-Fidelity 10 dB Noise Reduction for Music",
+        "asin": "B0D47QY3W3"
+      },
+      {
+        "name": "Amazon.com: Tuning Forks for Healing Set (128Hz, 256Hz, 512Hz)",
+        "asin": "B08ZWDPGRP"
+      },
+      {
+        "name": "Luma Nutrition Magnesium Glycinate 1000mg",
+        "asin": "B0B1CHKM4S"
+      },
+      {
+        "name": "Amazon.com: Tuning Forks for Soubd Healing Set 128HZ, 136.1HZ ...",
+        "asin": "B0D5CGW1MS"
+      },
+      {
+        "name": "High Fidelity Concert Earplugs, Reusable Musicians Ear Plugs, Advanced Filter Technology Ear Protection for Music Festivals",
+        "asin": "B0CMTFNZXG"
+      }
+    ]
+  },
+  {
+    "id": 495,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "question",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Gravity Weighted Blanket",
+        "asin": "B073429DV2"
+      },
+      {
+        "name": "Xmenha Black Sleeping Active Noise Canceling Earbuds",
+        "asin": "B0CG1QWCTN"
+      },
+      {
+        "name": "The Tinnitus Book: Understanding Tinnitus and How to Find Relief",
+        "asin": "B0C9S3H772"
+      },
+      {
+        "name": "Bean Products Zafu Meditation Pillows for Sitting on Floor, Yoga ...",
+        "asin": "B00IT2V8Y8"
+      },
+      {
+        "name": "Sound Oasis Tinnitus Sound Therapy System, 24 Dr",
+        "asin": "B078QSY2HY"
+      },
+      {
+        "name": "Neck Massager 2026 Portable Neck Traction Device,Cervical with ...",
+        "asin": "B0F7Y9K27N"
+      }
+    ]
+  },
+  {
+    "id": 496,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "named-reference",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Waterless Essential Oil Diffuser, Rechargeable Scent",
+        "asin": "B0FPRCB5LP"
+      },
+      {
+        "name": "EARPEACE Music - Concert Ear Plugs - Earplugs for Noise",
+        "asin": "B076VVP6CX"
+      },
+      {
+        "name": "Sound Oasis Pillow Speakers, 2 UltraThin Stereo",
+        "asin": "B004H5IXUS"
+      },
+      {
+        "name": "SleepPhones Wireless Headband Headphones",
+        "asin": "B0046H8ZHS"
+      },
+      {
+        "name": "Full Catastrophe Living by Jon Kabat-Zinn",
+        "asin": "B00C4BA3UK"
+      },
+      {
+        "name": "Hearivo Rechargeable Bluetooth Hearing Aids, App-Controlled with Noise Cancelling",
+        "asin": "B0FHJ81KQB"
+      }
+    ]
+  },
+  {
+    "id": 497,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "gut-punch",
+    "faqCount": 2,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Beyond The Noise: A Practical Guide to Tinnitus Relief",
+        "asin": "1036964973"
+      },
+      {
+        "name": "Sound Oasis Pillow Speakers, 2 UltraThin Stereo",
+        "asin": "B004H5IXUS"
+      },
+      {
+        "name": "Heated Neck Stretcher with Red Light Therapy, Wireless Cervical Traction Device for TMJ Pain Relief and Shoulder Relaxer, Neck Traction Massager Pillow for ...",
+        "asin": "B0BJ2J4J2H"
+      },
+      {
+        "name": "Kinglucky Pillow Speaker for Sleeping, Mini Bluetooth",
+        "asin": "B0GKN74GVK"
+      },
+      {
+        "name": "Shooting Ear Protection for Gun Range, 10 Pairs Ear Plugs for Noise",
+        "asin": "B0DD7XPWMR"
+      },
+      {
+        "name": "Sleep Headphones Headband",
+        "asin": "B07SHBQY7Z"
+      }
+    ]
+  },
+  {
+    "id": 498,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "scene-setting",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Research Verified Tinnitus Aid - 3 Month Supply - Vegan",
+        "asin": "B09TRZFYCV"
+      },
+      {
+        "name": "Homedics SoundSpa Relaxation Machine",
+        "asin": "B00A2JBMRE"
+      },
+      {
+        "name": "Ultimate Aromatherapy Diffuser & Essential Oil Set",
+        "asin": "B07JD2GDKN"
+      },
+      {
+        "name": "Tuning Forks for Sound Therapy (128Hz, 256Hz, 512Hz) for Yoga ...",
+        "asin": "B0CLD6QDJ7"
+      },
+      {
+        "name": "Thorne Research Melatonin 3mg",
+        "asin": "B0797JCBKR"
+      },
+      {
+        "name": "2-1 Earplugs Relief Headphones",
+        "asin": "B0GD7J93YY"
+      }
+    ]
+  },
+  {
+    "id": 499,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "provocation",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "ASAKUKI Essential Oil Diffuser for Home, 500ML",
+        "asin": "B01MR4Y0CZ"
+      },
+      {
+        "name": "Waking Up by Sam Harris",
+        "asin": "B00GEEB9YC"
+      },
+      {
+        "name": "Stress Ball Set",
+        "asin": "B07BQCZ5YD"
+      },
+      {
+        "name": "Avantree Slumber - Pillow Speaker for Sleeping, Private Audio with",
+        "asin": "B0C746Z8WZ"
+      },
+      {
+        "name": "Coop Home Goods Premium Pillow",
+        "asin": "B00EINBSEW"
+      },
+      {
+        "name": "Tinnitus Relief Supplement for Ringing Ears - Tinnitus Relief Capsules with Magnesium, Zinc & Ginkgo Biloba Support Buzzing, Ringing & Ear Discomfort, Calm",
+        "asin": "B0FF1T75MW"
+      }
+    ]
+  },
+  {
+    "id": 500,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "first-person",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "RESTCLOUD Neck and Shoulder Relaxer, Cervical Traction Device for TMJ Pain Relief and Cervical Spine Alignment, Chiropractic Pillow Neck Stretcher",
+        "asin": "B094MQVXMB"
+      },
+      {
+        "name": "Luma Nutrition Magnesium Glycinate 1000mg",
+        "asin": "B0B1CHKM4S"
+      },
+      {
+        "name": "Chamomile Tea by Traditional Medicinals",
+        "asin": "B0009F3PM6"
+      },
+      {
+        "name": "Kinglucky Pillow Speaker for Sleeping, Mini Bluetooth",
+        "asin": "B0GKN74GVK"
+      },
+      {
+        "name": "Mindful Modern Meditation Cushion & Zabuton Meditation Mat Bundle",
+        "asin": "B08F598PSB"
+      },
+      {
+        "name": "Full Catastrophe Living by Jon Kabat-Zinn",
+        "asin": "B00C4BA3UK"
+      }
+    ]
+  },
+  {
+    "id": 501,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "question",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Doctor's Best High Absorption Magnesium Glycinate Lysinate",
+        "asin": "B000BD0RT0"
+      },
+      {
+        "name": "Yogasleep Dohm Classic White Noise Machine",
+        "asin": "B00HD0ELFK"
+      },
+      {
+        "name": "Zafu & Zabuton Meditation Cushion Set - Buckwheat ...",
+        "asin": "B0FBR7PFPR"
+      },
+      {
+        "name": "Research Verified Tinnitus Aid - 60 Capsules - Vegan",
+        "asin": "B09TS1NHM4"
+      },
+      {
+        "name": "SleepPhones Wireless Headband Headphones",
+        "asin": "B0046H8ZHS"
+      },
+      {
+        "name": "Rewiring Tinnitus: How I Finally Found Relief From The Ringing In ...",
+        "asin": "1540483185"
+      }
+    ]
+  },
+  {
+    "id": 502,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "named-reference",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Gratitude Journal: Thankful Notebook Diary with 5 Minute Daily Writing",
+        "asin": "1723706027"
+      },
+      {
+        "name": "EARPEACE Music - Concert Ear Plugs - Earplugs for Noise",
+        "asin": "B076VVP6CX"
+      },
+      {
+        "name": "Hearprotek Concert Ear Plugs, 2Pairs Reusable high Fidelity",
+        "asin": "B08PBQFQH6"
+      },
+      {
+        "name": "Sound Oasis Tinnitus Sound Therapy System, 24 Dr",
+        "asin": "B078QSY2HY"
+      },
+      {
+        "name": "ZenBless Zafu and Zabuton Meditation Cushion Set ...",
+        "asin": "B0C7ZGRHHM"
+      },
+      {
+        "name": "Stress Ball Set",
+        "asin": "B07BQCZ5YD"
+      }
+    ]
+  },
+  {
+    "id": 503,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "gut-punch",
+    "faqCount": 5,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Sleeping Ear Buds Sleep Earbuds for Side Sleepers, Noise",
+        "asin": "B0CYP33TCW"
+      },
+      {
+        "name": "BalanceFrom Yoga Mat, 1 Inch Extra Thick High Density Exercise",
+        "asin": "B0FPTG8PJT"
+      },
+      {
+        "name": "Lagunamoon Essential Oils Aromatherapy Set - 6 Oils for Diffusers",
+        "asin": "B06XRLR9RQ"
+      },
+      {
+        "name": "Quidnuran Sleep Headphones Noise Cancelling Earbuds for Sleep",
+        "asin": "B0DBQ7443X"
+      },
+      {
+        "name": "Research Verified Tinnitus Aid - 60 Capsules - Vegan",
+        "asin": "B09TS1NHM4"
+      },
+      {
+        "name": "Fitness Tracker, Smart Watches for Women Men with Heart Rate",
+        "asin": "B0FPX2FH55"
+      }
+    ]
+  }
+]

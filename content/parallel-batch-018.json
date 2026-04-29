@@ -1,0 +1,342 @@
+[
+  {
+    "id": 534,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "scene-setting",
+    "faqCount": 0,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Palo Santo Sticks",
+        "asin": "B07BFVFCNH"
+      },
+      {
+        "name": "Shiatsu Neck and Back Massager",
+        "asin": "B07B2LNKMP"
+      },
+      {
+        "name": "Xmenha Black Sleeping Active Noise Canceling Earbuds",
+        "asin": "B0CG1QWCTN"
+      },
+      {
+        "name": "Sleep Soundproof Earbuds Headphones, Noise Isolating Soft",
+        "asin": "B0819MP1D6"
+      },
+      {
+        "name": "Sleep Headphones Sleep Earbuds Noise Cancelling Bluetooth 5.3",
+        "asin": "B0DB8GB6NP"
+      },
+      {
+        "name": "Westone TRU Music Earplugs – Reusable High-Fidelity 10 dB Noise Reduction for Music",
+        "asin": "B0D47QY3W3"
+      }
+    ]
+  },
+  {
+    "id": 535,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "provocation",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "NOW Supplements NAC 600mg",
+        "asin": "B0013OUQ3S"
+      },
+      {
+        "name": "Sleep Headphones Sleep Earbuds Noise Cancelling Bluetooth 5.3",
+        "asin": "B0DB8GB6NP"
+      },
+      {
+        "name": "Mindful Modern Meditation Cushion & Zabuton Meditation Mat Bundle",
+        "asin": "B08F598PSB"
+      },
+      {
+        "name": "Tinnitus Relief for Ringing Ears Supplement: Natural Hearing Health",
+        "asin": "B0F19FN6F4"
+      },
+      {
+        "name": "Palo Santo Sticks",
+        "asin": "B07BFVFCNH"
+      },
+      {
+        "name": "Turmeric Curcumin by NatureWise",
+        "asin": "B01BMDAVIY"
+      }
+    ]
+  },
+  {
+    "id": 536,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "first-person",
+    "faqCount": 2,
+    "conclusionType": "challenge",
+    "products": [
+      {
+        "name": "Personal Audio Amplifier Device and Voice Enhancer",
+        "asin": "B0GJ6YLPM5"
+      },
+      {
+        "name": "Essential Oils Diffuser,Aromatherapy Diffuser,Birthday for Women",
+        "asin": "B09NLPW71Z"
+      },
+      {
+        "name": "Waterless Diffuser for Home Essential Oil Diffuser, Aromatherapy",
+        "asin": "B0F6T9G79J"
+      },
+      {
+        "name": "YnM Weighted Blanket",
+        "asin": "B073451HTY"
+      },
+      {
+        "name": "Amazon.com: Otto 128 Weighted Tuning Fork for Healing, Made in ...",
+        "asin": "B005CCO8RC"
+      },
+      {
+        "name": "Research Verified Tinnitus Aid - 3 Month Supply - Vegan",
+        "asin": "B09TRZFYCV"
+      }
+    ]
+  },
+  {
+    "id": 537,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "question",
+    "faqCount": 2,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Loop Experience 2 Ear Plugs – Stylish Certified Hearing Protection",
+        "asin": "B0D4DFQTMJ"
+      },
+      {
+        "name": "Personal Audio Amplifier Device and Voice Enhancer",
+        "asin": "B0GJ6YLPM5"
+      },
+      {
+        "name": "Sleeping Ear Buds Sleep Earbuds for Side Sleepers, Noise",
+        "asin": "B0CYP33TCW"
+      },
+      {
+        "name": "ASAKUKI Essential Oil Diffuser for Home, 500ML",
+        "asin": "B01MR4Y0CZ"
+      },
+      {
+        "name": "FITVII Health & Fitness Tracker (Answer/Make Calls), Smart Watch",
+        "asin": "B0CWRJK78S"
+      },
+      {
+        "name": "Amazfit Band 5 Activity Fitness Tracker",
+        "asin": "B09X1Y2345"
+      }
+    ]
+  },
+  {
+    "id": 538,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "named-reference",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Chamomile Tea by Traditional Medicinals",
+        "asin": "B0009F3PM6"
+      },
+      {
+        "name": "Fitness Tracker Smart Watch, 1.47\" Full Touch Health",
+        "asin": "B0D7VMBBYZ"
+      },
+      {
+        "name": "Heated Neck Stretcher with Red Light Therapy, Wireless Cervical Traction Device for TMJ Pain Relief and Shoulder Relaxer, Neck Traction Massager Pillow for ...",
+        "asin": "B0BJ2J4J2H"
+      },
+      {
+        "name": "Turmeric Curcumin by NatureWise",
+        "asin": "B01BMDAVIY"
+      },
+      {
+        "name": "The Tinnitus Book: Understanding Tinnitus and How to Find Relief",
+        "asin": "B0C9S3H772"
+      },
+      {
+        "name": "Bluetooth Pillow Speaker for Sleeping, Soft Whispering Sound",
+        "asin": "B0BGMD7ZSB"
+      }
+    ]
+  },
+  {
+    "id": 539,
+    "category": "the-science",
+    "categoryName": "The Science",
+    "openerType": "gut-punch",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Sound Oasis Deluxe Bluetooth Sleep Tinnitus Sound Machine",
+        "asin": "B0BSG6DV8J"
+      },
+      {
+        "name": "BY CARIOLA Zen Ear – Ear Wellness & Daily Support Supplement",
+        "asin": "B0CDJFD8LP"
+      },
+      {
+        "name": "The Consumer Handbook on Tinnitus",
+        "asin": "0966182677"
+      },
+      {
+        "name": "Gravity Weighted Blanket",
+        "asin": "B073429DV2"
+      },
+      {
+        "name": "ZenBless Zafu and Zabuton Meditation Cushion Set ...",
+        "asin": "B0C7ZGRHHM"
+      },
+      {
+        "name": "RESTCLOUD Neck and Shoulder Relaxer, Cervical Traction Device for TMJ Pain Relief and Cervical Spine Alignment, Chiropractic Pillow Neck Stretcher",
+        "asin": "B094MQVXMB"
+      }
+    ]
+  },
+  {
+    "id": 540,
+    "category": "the-management",
+    "categoryName": "The Management",
+    "openerType": "scene-setting",
+    "faqCount": 3,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Dreamfea Weighted Blanket",
+        "asin": "B07D44GNVT"
+      },
+      {
+        "name": "Tuning Forks for Healing Set – Includes 128Hz, 136Hz, 256Hz ...",
+        "asin": "B0D9XZ44HF"
+      },
+      {
+        "name": "LIVIKEY Fitness Tracker Watch with Heart Rate Monitor, Activity",
+        "asin": "B0CC9DXVPF"
+      },
+      {
+        "name": "Sleeping Ear Buds Sleep Earbuds for Side Sleepers, Noise",
+        "asin": "B0CYP33TCW"
+      },
+      {
+        "name": "Soundcore Sleep A20 by Anker Sleep Earbuds",
+        "asin": "B0CRGR2TS5"
+      },
+      {
+        "name": "LUXOME Full Size Weighted Blanket | Integrated Cooling & Plush Cover | 15 lbs | 54\"x72\" |Grey",
+        "asin": "B07H8PTK1V"
+      }
+    ]
+  },
+  {
+    "id": 541,
+    "category": "the-mind",
+    "categoryName": "The Mind",
+    "openerType": "provocation",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Gratitude Journal Notebook: Daily Gratitude Self-Care Affirmations",
+        "asin": "B086PQXNC6"
+      },
+      {
+        "name": "ASAKUKI Essential Oil Diffuser for Home, 500ML",
+        "asin": "B01MR4Y0CZ"
+      },
+      {
+        "name": "Reizen Mighty Loud Ear 120dB Personal Sound Hearing Amplifier",
+        "asin": "B019EDGWGO"
+      },
+      {
+        "name": "Pink Active Noise Canceling Earbuds Wireless Bluetooth Sleeping",
+        "asin": "B0CFY61N75"
+      },
+      {
+        "name": "Patchwork Red Fox Spiral Daily Gratitude Journal with Blank Pages for Him Her",
+        "asin": "B01F2K3FLI"
+      },
+      {
+        "name": "Personal Sound Hearing Amplifiers Black",
+        "asin": "B0DCBLS581"
+      }
+    ]
+  },
+  {
+    "id": 542,
+    "category": "the-body",
+    "categoryName": "The Body",
+    "openerType": "first-person",
+    "faqCount": 4,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "CoQ10 by Doctor's Best",
+        "asin": "B0019GW3G8"
+      },
+      {
+        "name": "GLORYFIRE Shooting Ear Protection Earplugs",
+        "asin": "B0FMJZMV4K"
+      },
+      {
+        "name": "Thick Two-color, Non-slippery TPE Yoga Mat",
+        "asin": "B0G2K82RT1"
+      },
+      {
+        "name": "Pink Active Noise Canceling Earbuds Wireless Bluetooth Sleeping",
+        "asin": "B0CFY61N75"
+      },
+      {
+        "name": "Sleep Soundproof Earbuds Headphones, Noise Isolating Soft",
+        "asin": "B0819MP1D6"
+      },
+      {
+        "name": "Vital Peak® Hearing Peak - Tinnitus Supplements - Ear Health",
+        "asin": "B0F8C1F1B7"
+      }
+    ]
+  },
+  {
+    "id": 543,
+    "category": "the-deeper-listening",
+    "categoryName": "The Deeper Listening",
+    "openerType": "question",
+    "faqCount": 5,
+    "conclusionType": "tender",
+    "products": [
+      {
+        "name": "Rewiring Tinnitus: How I Finally Found Relief From The Ringing In ...",
+        "asin": "1540483185"
+      },
+      {
+        "name": "Lagunamoon Essential Oils Aromatherapy Set - 6 Oils for Diffusers",
+        "asin": "B06XRLR9RQ"
+      },
+      {
+        "name": "Yoga Elastic Fitness Exercise Pull Rope Exercise Resistance Bands",
+        "asin": "B07SXFLPGP"
+      },
+      {
+        "name": "LUXOME Full Size Weighted Blanket | Integrated Cooling & Plush Cover | 15 lbs | 54\"x72\" |Grey",
+        "asin": "B07H8PTK1V"
+      },
+      {
+        "name": "Sound Oasis Bluetooth White Noise Machine",
+        "asin": "B00MMPQAM8"
+      },
+      {
+        "name": "Sound Oasis Bluetooth Tinnitus Sound Therapy System Alarm",
+        "asin": "B0DW961G64"
+      }
+    ]
+  }
+]

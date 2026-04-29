@@ -1,52 +1,72 @@
-import sharp from 'sharp';
+// Image pipeline: Bunny CDN library rotation
+// Zero Fal.ai. Zero external image generation APIs.
+// Uses pre-uploaded library of 40 niche-specific images on Bunny CDN.
 
-const BUNNY_STORAGE_ZONE = process.env.BUNNY_STORAGE_ZONE || 'ringing-truth';
-const BUNNY_API_KEY = process.env.BUNNY_API_KEY || '';
-const BUNNY_PULL_ZONE_URL = process.env.BUNNY_PULL_ZONE_URL || 'https://ringing-truth.b-cdn.net';
+const BUNNY_STORAGE_ZONE = 'ringing-truth';
+const BUNNY_STORAGE_HOST = 'ny.storage.bunnycdn.com';
+const BUNNY_STORAGE_PASSWORD = '282422b3-a99c-4aba-b8c3cbf33e3e-2344-4772';
+const BUNNY_CDN_BASE = 'https://ringing-truth.b-cdn.net';
+const LIBRARY_SIZE = 40;
 
 /**
- * Take a source image URL (from FAL or any source), fetch it, convert to WebP,
- * compress to under 200KB, upload to Bunny, return the CDN URL.
+ * Assign a library image to an article slug.
+ * Copies a random image from /library/ to /images/{slug}-hero.webp and /images/{slug}-og.webp
+ * @param {string} slug - The article slug
+ * @returns {Promise<{heroUrl: string, ogUrl: string}>}
  */
-export async function processAndUploadImage(sourceUrl, filename) {
-  // 1. Fetch source
-  const res = await fetch(sourceUrl);
-  if (!res.ok) throw new Error(`Fetch failed: ${res.status}`);
-  const inputBuffer = Buffer.from(await res.arrayBuffer());
+export async function assignLibraryImage(slug) {
+  const libraryIndex = Math.floor(Math.random() * LIBRARY_SIZE) + 1;
+  const sourceFile = `library/lib-${String(libraryIndex).padStart(2, '0')}.webp`;
+  const destHero = `images/${slug}-hero.webp`;
+  const destOg = `images/${slug}-og.webp`;
 
-  // 2. Convert to WebP, start at quality 82, drop if over 200KB
-  let quality = 82;
-  let outBuffer;
-  while (quality >= 50) {
-    outBuffer = await sharp(inputBuffer)
-      .resize({ width: 1600, withoutEnlargement: true })
-      .webp({ quality })
-      .toBuffer();
-    if (outBuffer.length <= 200 * 1024) break;
-    quality -= 8;
+  try {
+    const sourceUrl = `${BUNNY_CDN_BASE}/${sourceFile}`;
+    const imgBuffer = await fetch(sourceUrl).then(r => {
+      if (!r.ok) throw new Error(`Library image fetch failed: ${r.status}`);
+      return r.arrayBuffer();
+    });
+
+    // Upload as hero
+    await fetch(`https://${BUNNY_STORAGE_HOST}/${BUNNY_STORAGE_ZONE}/${destHero}`, {
+      method: 'PUT',
+      headers: { 'AccessKey': BUNNY_STORAGE_PASSWORD, 'Content-Type': 'image/webp' },
+      body: Buffer.from(imgBuffer)
+    });
+
+    // Upload as OG
+    await fetch(`https://${BUNNY_STORAGE_HOST}/${BUNNY_STORAGE_ZONE}/${destOg}`, {
+      method: 'PUT',
+      headers: { 'AccessKey': BUNNY_STORAGE_PASSWORD, 'Content-Type': 'image/webp' },
+      body: Buffer.from(imgBuffer)
+    });
+
+    console.log(`[image-pipeline] Assigned ${sourceFile} → ${slug}`);
+    return {
+      heroUrl: `${BUNNY_CDN_BASE}/${destHero}`,
+      ogUrl: `${BUNNY_CDN_BASE}/${destOg}`
+    };
+  } catch (e) {
+    console.error(`[image-pipeline] Failed: ${e.message}`);
+    return {
+      heroUrl: `${BUNNY_CDN_BASE}/images/default-hero.webp`,
+      ogUrl: `${BUNNY_CDN_BASE}/images/default-og.webp`
+    };
   }
-  if (outBuffer.length > 200 * 1024) {
-    // Still too big — force smaller width
-    outBuffer = await sharp(inputBuffer)
-      .resize({ width: 1200 })
-      .webp({ quality: 70 })
-      .toBuffer();
-  }
+}
 
-  // 3. Upload to Bunny
-  const safeName = filename.replace(/[^a-z0-9-_.]/gi, '-').toLowerCase();
-  const finalName = safeName.endsWith('.webp') ? safeName : `${safeName}.webp`;
-  const uploadUrl = `https://ny.storage.bunnycdn.com/${BUNNY_STORAGE_ZONE}/${finalName}`;
-
-  const upload = await fetch(uploadUrl, {
+/**
+ * Upload a raw buffer to Bunny CDN storage.
+ * @param {Buffer} buffer - The image buffer
+ * @param {string} destPath - Destination path in storage zone (e.g., "library/lib-01.webp")
+ * @returns {Promise<string>} The CDN URL
+ */
+export async function uploadToBunny(buffer, destPath) {
+  const res = await fetch(`https://${BUNNY_STORAGE_HOST}/${BUNNY_STORAGE_ZONE}/${destPath}`, {
     method: 'PUT',
-    headers: {
-      'AccessKey': BUNNY_API_KEY,
-      'Content-Type': 'image/webp'
-    },
-    body: outBuffer
+    headers: { 'AccessKey': BUNNY_STORAGE_PASSWORD, 'Content-Type': 'image/webp' },
+    body: buffer
   });
-  if (!upload.ok) throw new Error(`Bunny upload failed: ${upload.status} ${await upload.text()}`);
-
-  return `${BUNNY_PULL_ZONE_URL}/${finalName}`;
+  if (!res.ok) throw new Error(`Bunny upload failed: ${res.status}`);
+  return `${BUNNY_CDN_BASE}/${destPath}`;
 }
