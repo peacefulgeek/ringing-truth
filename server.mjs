@@ -81,7 +81,7 @@ loadData();
 
 function filterPublished(arts) {
   const now = new Date();
-  return arts.filter(a => new Date(a.dateISO) <= now);
+  return arts.filter(a => a.status !== 'queued' && a.dateISO && new Date(a.dateISO) <= now);
 }
 
 function getPublished() {
@@ -607,7 +607,8 @@ app.get('/category/:slug', (req, res) => {
 app.get('/articles/:slug', (req, res) => {
   const article = articles.find(a => a.slug === req.params.slug);
   if (!article) return res.status(404).send(render404());
-  if (new Date(article.dateISO) > new Date()) return res.status(404).send(render404());
+  if (article.status === 'queued') return res.status(404).send(render404());
+  if (!article.dateISO || new Date(article.dateISO) > new Date()) return res.status(404).send(render404());
 
   const heroUrl = getImageUrl(article.slug, 'hero');
   const ogUrl = getImageUrl(article.slug, 'og');

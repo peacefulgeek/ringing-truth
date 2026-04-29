@@ -55,9 +55,10 @@ if (articles.length < 300) {
 
 // Check date distribution
 const now = new Date();
-const published = articles.filter(a => new Date(a.dateISO) <= now);
-const gated = articles.filter(a => new Date(a.dateISO) > now);
-console.log(`[build] Published: ${published.length}, Gated: ${gated.length}`);
+const published = articles.filter(a => a.status !== 'queued' && a.dateISO && new Date(a.dateISO) <= now);
+const queued = articles.filter(a => a.status === 'queued');
+const gated = articles.filter(a => a.status !== 'queued' && (!a.dateISO || new Date(a.dateISO) > now));
+console.log(`[build] Published: ${published.length}, Queued: ${queued.length}, Gated: ${gated.length}`);
 
 // Validate image map
 const imageMap = JSON.parse(readFileSync(imageMapPath, 'utf8'));

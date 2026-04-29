@@ -1,4 +1,4 @@
-// ─── CRON WORKER: DeepSeek V4-Pro ───
+// ─── CRON WORKER: Queue-Based Publishing + DeepSeek V4-Pro Fallback ───
 // Zero Claude. Zero Fal.ai. Zero GPT.
 import cron from 'node-cron';
 import { spawn } from 'child_process';
@@ -9,13 +9,28 @@ import fs from 'fs';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const AUTO_GEN = process.env.AUTO_GEN_ENABLED === 'true';
 
-function getPublishedCount() {
+function getQueueStats() {
   try {
-    const articlesPath = join(__dirname, '..', 'content', 'articles-all.json');
+    const articlesPath = join(__dirname, '..', 'content', 'all-articles.json');
     const articles = JSON.parse(fs.readFileSync(articlesPath, 'utf8'));
     const now = new Date();
-    return articles.filter(a => new Date(a.publishDate) <= now).length;
-  } catch { return 0; }
+    const published = articles.filter(a => a.status === 'published' || (a.dateISO && new Date(a.dateISO) <= now));
+    const queued = articles.filter(a => a.status === 'queued');
+    
+    let queueLog = { totalPublishedFromQueue: 0 };
+    const logPath = join(__dirname, '..', 'content', 'queue-log.json');
+    if (fs.existsSync(logPath)) {
+      queueLog = JSON.parse(fs.readFileSync(logPath, 'utf8'));
+    }
+    
+    return {
+      total: articles.length,
+      published: published.length,
+      queued: queued.length,
+      publishedFromQueue: queueLog.totalPublishedFromQueue,
+      phase: queueLog.totalPublishedFromQueue < 60 ? 1 : 2
+    };
+  } catch { return { total: 0, published: 0, queued: 0, publishedFromQueue: 0, phase: 1 }; }
 }
 
 console.log('[cron] Cron worker started');
@@ -40,42 +55,35 @@ if (!AUTO_GEN) {
     });
   }
 
-  // ─── SMART RAMP-UP: COUNT-AWARE ARTICLE GENERATION ───
+  // ─── PUBLISH FROM QUEUE ───
   //
-  // Phase 1 (published < 200): 3 articles/weekday at 08:00, 12:00, 17:00 UTC
-  // Phase 2 (published >= 200): 1 article/weekday at 08:00 UTC
+  // Phase 1 (first 60 from queue): 5/day EVERY DAY including weekends
+  //   → Runs at 08:00 UTC daily. The script handles publishing 5 at once.
+  //   → Takes ~12 days to clear first 60.
   //
-  // All 3 cron slots fire Mon-Fri. The 12:00 and 17:00 slots
-  // check the article count and skip if >= 200.
+  // Phase 2 (remaining ~440+): 1/weekday (Mon-Fri)
+  //   → Same 08:00 UTC cron fires daily, but the script skips weekends
+  //     and only publishes 1 article on weekdays.
+  //   → Takes ~88 weeks (~1.7 years) to clear.
+  //
+  // Queue empty: The publish-from-queue.mjs script automatically falls
+  //   back to generate-articles.mjs (DeepSeek V4-Pro) when nothing is left.
 
-  // Slot 1: 08:00 UTC Mon-Fri — ALWAYS runs (both phases)
-  cron.schedule('0 8 * * 1-5', () => {
-    runScript('article-gen-08', join(__dirname, 'generate-articles.mjs'));
+  // Daily at 08:00 UTC — publish from queue (or generate if empty)
+  cron.schedule('0 8 * * *', () => {
+    const stats = getQueueStats();
+    console.log(`[cron] Queue check: ${stats.queued} queued, ${stats.publishedFromQueue} published from queue, Phase ${stats.phase}`);
+    runScript('publish-from-queue', join(__dirname, 'publish-from-queue.mjs'));
   }, { timezone: 'UTC' });
 
-  // Slot 2: 12:00 UTC Mon-Fri — Phase 1 only (< 200 published)
-  cron.schedule('0 12 * * 1-5', () => {
-    const count = getPublishedCount();
-    if (count < 200) {
-      runScript('article-gen-12', join(__dirname, 'generate-articles.mjs'));
+  // Product spotlight — Saturday 14:00 UTC (only when queue is empty, to avoid flooding)
+  cron.schedule('0 14 * * 6', () => {
+    const stats = getQueueStats();
+    if (stats.queued === 0) {
+      runScript('product-spotlight', join(__dirname, 'generate-product-spotlight.mjs'));
     } else {
-      console.log(`[cron] 12:00 slot skipped - ${count} published (cruise mode)`);
+      console.log(`[cron] Product spotlight skipped — queue still has ${stats.queued} articles`);
     }
-  }, { timezone: 'UTC' });
-
-  // Slot 3: 17:00 UTC Mon-Fri — Phase 1 only (< 200 published)
-  cron.schedule('0 17 * * 1-5', () => {
-    const count = getPublishedCount();
-    if (count < 200) {
-      runScript('article-gen-17', join(__dirname, 'generate-articles.mjs'));
-    } else {
-      console.log(`[cron] 17:00 slot skipped - ${count} published (cruise mode)`);
-    }
-  }, { timezone: 'UTC' });
-
-  // Product spotlight — Saturday 08:00 UTC
-  cron.schedule('0 8 * * 6', () => {
-    runScript('product-spotlight', join(__dirname, 'generate-product-spotlight.mjs'));
   }, { timezone: 'UTC' });
 
   // Monthly content refresh — 1st of month 03:00 UTC
@@ -93,14 +101,16 @@ if (!AUTO_GEN) {
     runScript('product-refresh', join(__dirname, 'product-refresh.mjs'));
   }, { timezone: 'UTC' });
 
-  const pubCount = getPublishedCount();
-  const phase = pubCount < 200 ? 'RAMP-UP (3/day)' : 'CRUISE (1/day)';
-  console.log(`[cron] Published articles: ${pubCount} — Phase: ${phase}`);
-  console.log('[cron] Schedules registered:');
-  console.log('[cron]   Mon-Fri 08:00 UTC — article generation (always)');
-  console.log('[cron]   Mon-Fri 12:00 UTC — article generation (ramp-up only, <200)');
-  console.log('[cron]   Mon-Fri 17:00 UTC — article generation (ramp-up only, <200)');
-  console.log('[cron]   Saturday 08:00 UTC — product spotlight');
+  const stats = getQueueStats();
+  console.log(`[cron] ─── QUEUE STATUS ───`);
+  console.log(`[cron] Total articles: ${stats.total}`);
+  console.log(`[cron] Published: ${stats.published}`);
+  console.log(`[cron] Queued: ${stats.queued}`);
+  console.log(`[cron] Published from queue: ${stats.publishedFromQueue}`);
+  console.log(`[cron] Current phase: ${stats.phase === 1 ? 'PHASE 1 (5/day every day, first 60)' : 'PHASE 2 (1/weekday, remaining queue)'}`);
+  console.log('[cron] ─── SCHEDULES ───');
+  console.log('[cron]   Daily 08:00 UTC — publish from queue (5/day Phase 1, 1/weekday Phase 2, DeepSeek fallback when empty)');
+  console.log('[cron]   Saturday 14:00 UTC — product spotlight (only when queue empty)');
   console.log('[cron]   1st of month 03:00 UTC — 30-day content refresh');
   console.log('[cron]   Quarterly 04:00 UTC — 90-day deep refresh');
   console.log('[cron]   Sunday 05:00 UTC — ASIN health check');
@@ -109,7 +119,7 @@ if (!AUTO_GEN) {
 // Support --run-now flag for testing
 const runNowIdx = process.argv.indexOf('--run-now');
 if (runNowIdx !== -1) {
-  const target = process.argv[runNowIdx + 1] || 'generate-articles.mjs';
+  const target = process.argv[runNowIdx + 1] || 'publish-from-queue.mjs';
   console.log(`[cron] --run-now flag detected, running ${target} immediately...`);
   const child = spawn('node', [join(__dirname, target)], {
     stdio: 'inherit',
