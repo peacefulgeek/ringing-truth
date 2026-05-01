@@ -232,7 +232,7 @@ async function main() {
         'Authorization': `Bearer ${DEEPSEEK_API_KEY}`
       },
       body: JSON.stringify({
-        model: 'deepseek-chat',
+        model: process.env.OPENAI_MODEL || 'deepseek-v4-pro',
         max_tokens: 4096,
         messages: [
           {
